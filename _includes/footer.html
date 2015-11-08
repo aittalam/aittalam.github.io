@@ -1,0 +1,44 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+
+        <ul class="contact-list">
+            <li>
+            <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+                <img src="/assets/rssicon.svg" width="15px">
+            </a>
+            {{ site.title }} 
+            </li>
+        </ul>
+
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Online notes from my experiments. Likely to be updated more often
+            than <a href="http://davide.eynard.it">my blog</a>, but don't 
+            count too much on it.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
