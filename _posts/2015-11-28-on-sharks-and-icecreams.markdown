@@ -14,22 +14,15 @@ For this reason, I usually take some pretty well-known problems and try to expla
 
 Last week I gathered some material to explain that *correlation does not imply causation*. The first thing that struck my interest is that you can find pretty funny visual examples online, amongst which the ones I liked most are XKCD's:
 
-{% include figure.html 
-src="/assets/sharks/xkcd.png" 
-href="http://xkcd.com/552/" %}
+{% include figure.html src="/assets/sharks/xkcd.png" href="http://xkcd.com/552/" %}
 
 and Adam Sandiford's one:
 
-{% include figure.html 
-src="/assets/sharks/asandiford.jpg" 
-href="http://www.asandiford.com/comic/correlation-causation/" %}
+{% include figure.html src="/assets/sharks/asandiford.jpg" href="http://www.asandiford.com/comic/correlation-causation/" %}
 
 Then I googled the pretty popular *sharks and ice creams* example and I was amazed to find a lot of material: [books](https://books.google.it/books?id=9sulCgAAQBAJ&pg=PA126&lpg=PA126&dq=sharks+"ice+creams"+correlation), [news articles](http://news.bbc.co.uk/2/hi/uk_news/magazine/7592579.stm), [sci-fi tales](https://intergalacticwritersinc.wordpress.com/2011/03/28/ice-cream-consumption-linked-to-shark-attacks/), and of course [reddit posts](https://www.reddit.com/r/shittyaskscience/comments/19gv2e/why_exactly_does_increased_sales_in_ice_cream/). And I almost forgot, there also is *Jaws Bar*, one of the top 10 Korean ice cream bars according to [The Korea Blog](http://blog.korea.net/?p=12482): 
 
-{% include figure.html 
-src="/assets/sharks/jawsbar.jpg" 
-href="http://blog.korea.net/?p=12482" 
-%}
+{% include figure.html src="/assets/sharks/jawsbar.jpg" href="http://blog.korea.net/?p=12482" %}
 
 As you might guess, this was not exactly the kind of answer I wanted for my class. Surprisingly (or maybe not so), the most pertinent material I found comes from college-level [AP Statistics](https://en.wikipedia.org/wiki/AP_Statistics) (see e.g. [here](http://frewin.weebly.com/ap-statistics-causation-and-lurking-variables.html)). The most interesting hint I found was in the article [Bundled-Up Babies and Dangerous Ice Cream: Correlation Puzzlers](http://www.jstor.org/stable/10.5951/mathteacher.106.6.0418) (which, of course, I could not download despite working in a university: thank you JSTOR). The idea of encouraging students to think critically about correlation by letting them discover lurking variables was exactly what I wanted to put in practice, and to do that I decided to actually populate a dataset with ice creams, people eating them, and sharks eating them (the people, not the ice creams... Well, actually both in some cases).
 
@@ -60,10 +53,7 @@ icecreamsFit = lm( icecreams ~ people )
 abline(icecreamsFit,col="red")
 {% endhighlight %}
 
-{% include figure.html 
-src="/assets/sharks/ppl-ice-fit.png" 
-alt="people-vs-icecreams plot"
-%}
+{% include figure.html src="/assets/sharks/ppl-ice-fit.png" alt="people-vs-icecreams plot" %}
 
 What you see above here is the plot of ice cream sales as a function of the number of people. The R function [`lm()`](https://stat.ethz.ch/R-manual/R-patched/library/stats/html/lm.html) is used to perform linear regression on the input data (in this case, fitting a linear model which describes `icecreams` as a function of `people`). Finally, [`abline()`](https://stat.ethz.ch/R-manual/R-patched/library/graphics/html/abline.html) plots the fitted function that approximates the linear relationship.
 
@@ -83,10 +73,7 @@ sharksFit = lm( sharks ~ people)
 abline(sharksFit,col="red")
 {% endhighlight %}
 
-{% include figure.html 
-src="/assets/sharks/ppl-sharks-fit.png"
-alt="people-vs-sharks plot"
-%}
+{% include figure.html src="/assets/sharks/ppl-sharks-fit.png" alt="people-vs-sharks plot" %}
 
 Note that, even in the case of sharks, we floor() the number of sightings to always obtain an integer value. Note that, as a consequence of linear regression, during prediction we might end up with non-integer results whose interpretation is not as intuitive. Let us not worry about this for the sake of this example, and focus on the relationship between the variables we have just created. Here are the results of the [`summary()`](https://stat.ethz.ch/R-manual/R-patched/library/base/html/summary.html) command on the two fits:
 
@@ -134,10 +121,7 @@ summary(sharksIceFit)
     icecreams    0.29147    0.02409   12.10   <2e-16 ***
 {% endhighlight %}
 
-{% include figure.html 
-src="/assets/sharks/ice-sharks-fit.png"
-alt="icecreams-vs-sharks plot"
-%}
+{% include figure.html src="/assets/sharks/ice-sharks-fit.png" alt="icecreams-vs-sharks plot" %}
 
 Aaaand here it is: both ice creams and sharks depend on people, but if we take people out of the model it really looks like there is a linear relationship between them! If you just trusted the results of this regression, you would deduce that you can explain an increase in shark sightings with an increase in ice cream sales, basically concluding that ice creams *cause* sharks to approach... But you know this is plain wrong! How can one be more confident on her own conclusions, then? 
 
