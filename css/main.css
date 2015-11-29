@@ -35,16 +35,22 @@ ul, ol, dl, figure,
  */
 img {
   max-width: 100%;
-  vertical-align: middle; }
+  vertical-align: middle; 
+  }
 
 /**
  * Figures
  */
+figure.center {
+  text-align: center; }
+
 figure > img {
-  display: block; }
+  display: block; 
+  margin: auto; }
 
 figcaption {
-  font-size: 14px; }
+  font-size: 12px; }
+
 
 /**
  * Lists
@@ -299,6 +305,7 @@ pre {
       font-size: 36px; } }
 
 .post-content {
+  text-align: justify;
   margin-bottom: 30px; }
   .post-content h2 {
     font-size: 32px; }
