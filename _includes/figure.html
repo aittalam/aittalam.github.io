@@ -1,0 +1,41 @@
+{% comment %}
+A template for inserting (possibly captioned) figures inside an HTML page, 
+using the <figure> and <figcaption> elements.
+
+You can call it as follows:
+
+{% include figure.html src="/path/to/figure.png" 
+   href="http://optional.anchor"
+   alt="optional alt text"
+   caption="optional caption"
+%}
+
+Most of the parameters are optional. If no alt is specified it will be
+filled with caption. If no caption is specified, then alt will be filled
+with href, otherwise it will stay empty.
+{% endcomment %}
+
+{% if include.alt %}
+    {% assign alt = include.alt %}
+{% else %}
+    {% if include.caption %}
+        {% assign alt = include.caption %}
+    {% else %}
+        {% assign alt = include.href %}
+    {% endif %}
+{% endif %}
+
+<figure class="center">
+    {% if include.href %}
+    <a href="{{ include.href }}">
+        <img src="{{ include.src }}" alt="{{ alt }}" {% if include.width %}width="{{include.width}}"{% endif %} {% if include.height %}height="{{include.height}}"{% endif %}>
+    </a>
+    {% else %}
+    <img src="{{ include.src }}" alt="{{ alt }}" {% if include.width %}width="{{include.width}}"{% endif %} {% if include.height %}height="{{include.height}}"{% endif %}>
+    {% endif %}
+{% if include.caption %}
+<figcaption>
+    {{ include.caption }}
+</figcaption>
+{% endif %}
+</figure>
