@@ -187,6 +187,6 @@ summary(allFit)
 {% endhighlight %}
 
 
-At this point, I think the main question you might have is "how can I be sure, then, that I have taken all of the right variables into account?". Well, in many cases you cannot really be sure, but asking yourself this question is already a step in the right direction to avoid misinterpreting your data... Which is why I leave you with the following quote from danah boyd's [Six Provocations for Big Data](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1926431): 
+At this point, I think the main question you might have is "how can I be sure, then, that I have taken all of the right variables into account?". Well, in many cases you cannot really be sure, but asking yourself this question is already a step in the right direction to avoid misinterpreting your data... Which is why I leave you with the following quote from Danah Boyd's [Six Provocations for Big Data](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1926431): 
 
 >Interpretation is at the center of data analysis. Regardless of the size of a data set, it is subject to limitation and bias. Without those biases and limitations being understood and outlined, misinterpretation is the result.
