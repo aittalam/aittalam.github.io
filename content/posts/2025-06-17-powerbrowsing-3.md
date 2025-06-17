@@ -1,6 +1,7 @@
 +++
 title = 'Powerbrowsing 3.0 (or not?)'
 date = 2025-06-17
+draft: true
 +++
 
 [Some time ago](http://davide.eynard.it/malawiki/PowerBrowsing.html) I
