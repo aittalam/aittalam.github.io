@@ -7,6 +7,8 @@ date = 2025-04-13
 
 ![A part of Bilibin's "Vasilisa the beautiful", showing a woman walking in the woods holding a skull-shaped lamp.](/images/atproto_vasilisa.png)
 
+*NOTE: this is the first post of a series, check out Part 2: [Text-to-Feed with BYOTA and Embedding Similarity]({{< ref "2025-07-20-text-to-feed-with-byota.md" >}})*.
+
 Last weekend I was reading Vicki's 
 [You can just hack on ATProto](https://vickiboykis.com/2025/01/23/you-can-just-hack-on-atproto/)
 and decided I wanted to learn how custom feeds work. One of the main reasons is that a friend 
