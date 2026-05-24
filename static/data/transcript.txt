@@ -1,0 +1,2149 @@
+
+[00:00:00.000 --> 00:00:04.540]   you should have security and privacy first and so on.
+[00:00:04.540 --> 00:00:07.940]   So if you read everything into this key,
+[00:00:07.940 --> 00:00:10.540]   you can perfectly understand what the purpose
+[00:00:10.540 --> 00:00:15.540]   of Mozilla AI is and how it differs from Mozilla Firefox
+[00:00:15.540 --> 00:00:18.940]   or Mozilla as a foundation in general.
+[00:00:18.940 --> 00:00:23.380]   On the bottom right here, you will find a QR code
+[00:00:23.380 --> 00:00:25.820]   that brings you directly to our GitHub repository
+[00:00:25.820 --> 00:00:28.620]   where you can see the open source that we are building.
+[00:00:28.620 --> 00:00:33.400]   So this is a short parable.
+[00:00:33.400 --> 00:00:36.120]   It's a little bit of a story about myself
+[00:00:36.120 --> 00:00:37.700]   that starts quite some time ago.
+[00:00:37.700 --> 00:00:42.680]   And the first thing I'm gonna show you is my desktop image.
+[00:00:42.680 --> 00:00:46.520]   This is a picture drawn by David Devoy
+[00:00:46.520 --> 00:00:49.220]   and it's about Ada from Adam Zangeman.
+[00:00:49.220 --> 00:00:52.300]   So this is a story by Matthias Kirchner
+[00:00:52.300 --> 00:00:54.040]   and Sandra Brandtstatter.
+[00:00:54.040 --> 00:00:56.340]   I don't remember which of the two is the illustrator
+[00:00:56.340 --> 00:00:58.200]   and which one is the writer, sorry about that.
+[00:00:58.200 --> 00:00:59.540]   But you can look for it.
+[00:00:59.540 --> 00:01:01.900]   There's a video on YouTube about these
+[00:01:01.900 --> 00:01:04.120]   and it's actually linked in the slides.
+[00:01:04.120 --> 00:01:08.760]   It's a story of a little girl who likes to tinker
+[00:01:08.760 --> 00:01:10.700]   with the hardware and software.
+[00:01:10.700 --> 00:01:15.700]   And there's another guy in the story, a man who's a genius.
+[00:01:15.700 --> 00:01:21.940]   He is a super smart and he can build any kind of tool
+[00:01:21.940 --> 00:01:23.460]   and he builds them for the people.
+[00:01:23.460 --> 00:01:25.580]   And of course it makes them commercial too
+[00:01:25.580 --> 00:01:28.340]   because he has to be sustainable in his job.
+[00:01:28.340 --> 00:01:32.120]   But at the same time, it also applies some of his own twist
+[00:01:32.120 --> 00:01:33.560]   to every single tool.
+[00:01:33.560 --> 00:01:36.000]   And whether it is because he cares about people,
+[00:01:36.000 --> 00:01:39.760]   cares about security, has some biases in making decisions
+[00:01:39.760 --> 00:01:41.720]   or likes or dislikes things.
+[00:01:41.720 --> 00:01:43.240]   All the things that he builds are things
+[00:01:43.240 --> 00:01:45.800]   that cannot be really easily modified.
+[00:01:45.800 --> 00:01:49.300]   And what this girl does is taking parts of these things
+[00:01:49.300 --> 00:01:51.160]   from the dumpster, putting them together
+[00:01:51.160 --> 00:01:54.000]   and building super custom tools.
+[00:01:54.000 --> 00:01:57.980]   So as you might guess, I strongly related with this girl.
+[00:01:57.980 --> 00:02:00.740]   When I was about her age, 10, 11 year old,
+[00:02:00.740 --> 00:02:04.660]   I had my first business car seeing an inventor
+[00:02:04.660 --> 00:02:09.180]   and I very much relate and very much want what we do
+[00:02:09.180 --> 00:02:12.260]   with AI today to be very similar to that.
+[00:02:12.260 --> 00:02:16.460]   Let's fast forward from when I was 10 year old
+[00:02:16.460 --> 00:02:18.820]   to about 20 years later.
+[00:02:18.820 --> 00:02:21.140]   In 2005, which is still 20 years ago
+[00:02:21.140 --> 00:02:22.660]   because I'm not that young,
+[00:02:22.660 --> 00:02:24.780]   I was talking about power browsing.
+[00:02:24.780 --> 00:02:27.600]   The main idea for me was starting from this metaphor,
+[00:02:27.600 --> 00:02:30.460]   like we can look at the reality,
+[00:02:30.460 --> 00:02:33.420]   these very nice flowers in different ways.
+[00:02:33.420 --> 00:02:36.980]   So let's say we have some eye issue,
+[00:02:36.980 --> 00:02:38.600]   we have myopia for instance,
+[00:02:38.600 --> 00:02:40.640]   and what we see is kind of blurred.
+[00:02:40.640 --> 00:02:43.180]   We can correct it with some kind of lenses
+[00:02:43.180 --> 00:02:46.960]   that are built by us after we find
+[00:02:46.960 --> 00:02:49.100]   how the system can be improved
+[00:02:49.100 --> 00:02:51.300]   and we can actually see the reality as it is.
+[00:02:51.300 --> 00:02:53.500]   But we can also improve reality somehow
+[00:02:53.500 --> 00:02:56.780]   if there's too much light, we can put sunglasses
+[00:02:56.780 --> 00:02:58.500]   and we can see things in focus,
+[00:02:58.500 --> 00:03:02.060]   but at the same time, not be blinded by lights.
+[00:03:02.060 --> 00:03:04.900]   And I wanted to try apply the same paradigm
+[00:03:04.900 --> 00:03:08.540]   to some more technological things.
+[00:03:08.540 --> 00:03:11.580]   And at the time, early 2000s,
+[00:03:11.580 --> 00:03:16.420]   websites were completely overwhelmed by pop-ups and ads.
+[00:03:16.420 --> 00:03:20.460]   And I would say we passed to better times.
+[00:03:20.460 --> 00:03:23.580]   Now maybe we have gone back to ads and pop-ups
+[00:03:23.580 --> 00:03:25.780]   and things we would like to block.
+[00:03:25.780 --> 00:03:29.260]   And my metaphor here was the eye
+[00:03:29.260 --> 00:03:30.940]   without a very good eyesight,
+[00:03:30.940 --> 00:03:33.780]   was Internet Explorer at the time.
+[00:03:33.780 --> 00:03:36.780]   And already 20 years ago, I was a Firefox fan.
+[00:03:36.780 --> 00:03:37.940]   And I said, if you install it,
+[00:03:37.940 --> 00:03:40.040]   you can already put some ad blocker
+[00:03:40.040 --> 00:03:42.580]   and reduce part of the content that you're seeing
+[00:03:42.580 --> 00:03:45.740]   to get at least the content you're interested in
+[00:03:45.740 --> 00:03:48.840]   more emphasized inside of the page.
+[00:03:48.840 --> 00:03:52.100]   And the equivalent of the sunglasses in my case
+[00:03:52.100 --> 00:03:54.260]   was having some kind of bot,
+[00:03:54.260 --> 00:03:55.660]   some kind of automatic tool
+[00:03:55.660 --> 00:04:00.440]   which could just crawl a website, extract its contents
+[00:04:00.440 --> 00:04:02.140]   and just make them available
+[00:04:02.140 --> 00:04:05.440]   as just the content that you're interested in.
+[00:04:05.440 --> 00:04:07.660]   And I developed part of these tools.
+[00:04:07.660 --> 00:04:09.120]   If you look for power browsing,
+[00:04:09.120 --> 00:04:11.540]   you're gonna find probably a super old Wiki of mine.
+[00:04:11.540 --> 00:04:13.900]   It's actually 20 years old.
+[00:04:13.900 --> 00:04:17.500]   And some of those tools were built at the time in the Pearl
+[00:04:17.500 --> 00:04:21.260]   and they ran on the laptop you see on the picture here.
+[00:04:21.260 --> 00:04:25.800]   It was an old laptop, I think a Compaq Armada
+[00:04:25.800 --> 00:04:27.900]   that ran inside the drawer
+[00:04:27.900 --> 00:04:31.440]   connected to my, at the time, very slow DSL
+[00:04:31.440 --> 00:04:36.440]   and always on so I could contact it via a Symbian phone
+[00:04:36.440 --> 00:04:39.540]   and just get information that was pre-scraped for me.
+[00:04:39.540 --> 00:04:41.740]   So I didn't have to download too much stuff.
+[00:04:41.740 --> 00:04:44.200]   So this was a nice experiment.
+[00:04:44.200 --> 00:04:47.160]   And I learned a lot while I was tinkering with these things.
+[00:04:47.160 --> 00:04:50.580]   And if you fast forward now 20 more years,
+[00:04:50.580 --> 00:04:52.300]   it's just last year,
+[00:04:52.300 --> 00:04:56.200]   I wanted to retry this power browsing experiment.
+[00:04:56.200 --> 00:04:59.520]   And what I did was trying to use a cloud
+[00:04:59.520 --> 00:05:02.320]   and do some, let's say crossover
+[00:05:02.320 --> 00:05:04.340]   between vibe coding and reversing.
+[00:05:04.340 --> 00:05:07.300]   So I wanted to apply the same techniques
+[00:05:07.300 --> 00:05:10.800]   I used 20 years before using cloud code.
+[00:05:10.800 --> 00:05:12.280]   So the problem was the following.
+[00:05:12.280 --> 00:05:17.280]   There was the Italian railways website called Trenitalia
+[00:05:17.280 --> 00:05:20.700]   that had train time tables.
+[00:05:20.700 --> 00:05:25.700]   And I wanted to be able to read those train time tables
+[00:05:25.700 --> 00:05:27.840]   without having to connect to the website,
+[00:05:27.840 --> 00:05:30.840]   without having to follow all its plethora of menus
+[00:05:30.840 --> 00:05:33.280]   and see potential advertisements.
+[00:05:33.280 --> 00:05:35.040]   And when I did it the first time,
+[00:05:35.040 --> 00:05:36.680]   again, I had to learn the website.
+[00:05:36.680 --> 00:05:38.880]   I had to learn PERM, regular expression,
+[00:05:38.880 --> 00:05:42.500]   how to write the crawler and do all from scratch.
+[00:05:42.500 --> 00:05:45.400]   This time I just open cloud and I said,
+[00:05:45.400 --> 00:05:47.920]   I would like to see how you can help me with that.
+[00:05:47.920 --> 00:05:50.600]   And cloud started searching for information.
+[00:05:50.600 --> 00:05:54.280]   It found a lot of good data sources.
+[00:05:54.280 --> 00:05:56.640]   Actually in these 20 years, you might guess
+[00:05:56.640 --> 00:06:00.120]   a lot of people have learned the same things
+[00:06:00.120 --> 00:06:02.340]   that I learned in time and wrote documents
+[00:06:02.340 --> 00:06:05.960]   and shared how they reverse engineered this API.
+[00:06:05.960 --> 00:06:08.760]   And I just had to share a screenshot
+[00:06:08.760 --> 00:06:13.320]   from the Firefox network browser to,
+[00:06:13.320 --> 00:06:16.700]   and ask which do you think is the JSON file
+[00:06:16.700 --> 00:06:18.760]   across all of these things that I have downloaded?
+[00:06:18.760 --> 00:06:22.240]   Like where do I have to take information from
+[00:06:22.240 --> 00:06:25.220]   to find information about trains?
+[00:06:25.220 --> 00:06:29.720]   And I got everything, all the suggestions, all the tools.
+[00:06:29.720 --> 00:06:33.280]   I actually asked cloud to build a small UI for me
+[00:06:33.280 --> 00:06:36.120]   to automatically see timetables and it worked.
+[00:06:36.120 --> 00:06:38.740]   Basically we're just out of the box.
+[00:06:38.740 --> 00:06:41.440]   So is reverse engineering dead?
+[00:06:41.440 --> 00:06:44.040]   Should we just ask cloud to do things?
+[00:06:44.040 --> 00:06:47.320]   Well, it worked, but I noticed a few things
+[00:06:47.320 --> 00:06:50.960]   which kind of give me also the motivation
+[00:06:50.960 --> 00:06:53.020]   for the class that we're having today.
+[00:06:53.020 --> 00:06:56.720]   So, well, first of all, we need to of course,
+[00:06:56.720 --> 00:06:58.000]   add some caveats.
+[00:06:58.000 --> 00:07:00.600]   This is a task that I had already done in the past.
+[00:07:00.600 --> 00:07:03.920]   So of course I think I added some bias here
+[00:07:03.920 --> 00:07:06.120]   into how to solve the problem, right?
+[00:07:06.120 --> 00:07:08.800]   So I already had slight idea at least
+[00:07:08.800 --> 00:07:11.200]   whether the suggestions that cloud was giving me
+[00:07:11.200 --> 00:07:12.500]   were correct or not.
+[00:07:12.500 --> 00:07:15.680]   So I could tell in advance whether I had to direct it
+[00:07:15.680 --> 00:07:17.480]   in one direction or another.
+[00:07:17.480 --> 00:07:19.040]   So first question is,
+[00:07:19.040 --> 00:07:21.800]   would I have I been able to make sure it worked
+[00:07:21.800 --> 00:07:24.720]   if I hadn't done it already in the past?
+[00:07:24.720 --> 00:07:26.360]   Then the second thing that I realized
+[00:07:26.360 --> 00:07:29.480]   was all the artifacts that were generated by cloud
+[00:07:29.480 --> 00:07:31.120]   were on the platform.
+[00:07:31.120 --> 00:07:33.320]   So yes, I could download them,
+[00:07:33.320 --> 00:07:36.080]   but of course I need to ask cloud to create them first.
+[00:07:36.080 --> 00:07:39.360]   If I had just asked cloud to tell me at what time
+[00:07:39.360 --> 00:07:40.840]   a given train would have left,
+[00:07:40.840 --> 00:07:42.720]   cloud would have been able to do that,
+[00:07:42.720 --> 00:07:46.040]   but then I would have been dependent on cloud
+[00:07:46.040 --> 00:07:48.400]   for all the subsequent questions, right?
+[00:07:48.400 --> 00:07:51.760]   So you need to be explicit in that case
+[00:07:51.760 --> 00:07:54.960]   and ask for some artifact that you can bring home
+[00:07:54.960 --> 00:07:57.700]   and you can use autonomously the following times.
+[00:07:58.760 --> 00:08:01.360]   And then I got very good learning references this time,
+[00:08:01.360 --> 00:08:03.480]   which is something I didn't have the first time.
+[00:08:03.480 --> 00:08:05.720]   I had to look for everything that I needed.
+[00:08:05.720 --> 00:08:09.020]   Well, this time, well, of course I knew them already,
+[00:08:09.020 --> 00:08:12.280]   but if I had been only interested in the quick answer,
+[00:08:12.280 --> 00:08:14.980]   like what time does this train leave,
+[00:08:14.980 --> 00:08:19.000]   I would probably have just skipped these references anyway.
+[00:08:19.000 --> 00:08:20.480]   And last but not least,
+[00:08:20.480 --> 00:08:23.200]   and I think this is probably the most important thing,
+[00:08:23.200 --> 00:08:25.440]   I wrote zero lines of code
+[00:08:25.440 --> 00:08:28.180]   and I learned nothing out of this experience,
+[00:08:28.180 --> 00:08:31.340]   except, well, maybe prompting cloud.
+[00:08:31.340 --> 00:08:33.880]   But if I have to check it out
+[00:08:33.880 --> 00:08:37.240]   from what happened like 20 years ago,
+[00:08:37.240 --> 00:08:39.520]   the main difference is that 20 years ago,
+[00:08:39.520 --> 00:08:42.760]   I learned about HTTP protocol.
+[00:08:42.760 --> 00:08:44.320]   I learned about curl.
+[00:08:44.320 --> 00:08:46.440]   I learned about regular expressions.
+[00:08:46.440 --> 00:08:49.040]   And of course it was not just this single crawler
+[00:08:49.040 --> 00:08:50.800]   that I built, but many of them,
+[00:08:50.800 --> 00:08:53.720]   but all the knowledge I had accumulated in time
+[00:08:53.720 --> 00:08:57.580]   is knowledge that I could reuse all the years after that.
+[00:08:57.580 --> 00:09:01.320]   And make those things into a profession.
+[00:09:01.320 --> 00:09:03.880]   And I could tell you many times
+[00:09:03.880 --> 00:09:07.820]   in which knowing a regular expression helped me afterwards.
+[00:09:07.820 --> 00:09:11.720]   And of course, moving forward to today,
+[00:09:11.720 --> 00:09:13.920]   I think there are some skills that you could learn
+[00:09:13.920 --> 00:09:16.760]   that will be useful in the future.
+[00:09:16.760 --> 00:09:19.920]   And they can be related, of course, to agents and cloud.
+[00:09:19.920 --> 00:09:22.760]   What I believe is it's probably not just prompting
+[00:09:22.760 --> 00:09:24.760]   and part of the contents of this class
+[00:09:24.760 --> 00:09:28.560]   are actually equivalent skills to what 20 years ago
+[00:09:28.560 --> 00:09:31.460]   were regular expressions, HTTP, and so on,
+[00:09:31.460 --> 00:09:35.160]   that I hope you will be able to bring over in the future
+[00:09:35.160 --> 00:09:38.400]   to next things you will want to build with AI.
+[00:09:38.400 --> 00:09:42.300]   Another note was the following one that I got
+[00:09:42.300 --> 00:09:47.080]   when I wrote the blog post about what I did.
+[00:09:47.080 --> 00:09:51.500]   I asked Claude to pretend to be
+[00:09:54.640 --> 00:09:56.620]   very critical about my post.
+[00:09:56.620 --> 00:09:59.640]   And what Claude wrote was you're a technical person
+[00:09:59.640 --> 00:10:03.340]   telling not technical people to make their lives harder
+[00:10:03.340 --> 00:10:06.500]   to solve problems that mostly exist in your head.
+[00:10:06.500 --> 00:10:11.000]   So if it weren't for elements hallucinating
+[00:10:11.000 --> 00:10:13.700]   from time to time and me trying to believe that
+[00:10:13.700 --> 00:10:15.880]   as much as I could just not to be very offended
+[00:10:15.880 --> 00:10:17.200]   about this response,
+[00:10:17.200 --> 00:10:21.100]   I would have at least taken this a bit personally.
+[00:10:21.100 --> 00:10:24.660]   But I want to share some of the concerns I had
+[00:10:24.660 --> 00:10:28.020]   and ask you whether you are also concerned
+[00:10:28.020 --> 00:10:29.720]   about these or not.
+[00:10:29.720 --> 00:10:33.160]   So are these things just in my head or not?
+[00:10:33.160 --> 00:10:35.460]   If I can have thumbs up or thumbs down,
+[00:10:35.460 --> 00:10:38.100]   depending on whether you agree with me or not,
+[00:10:38.100 --> 00:10:40.220]   these are some of the experiences that I had
+[00:10:40.220 --> 00:10:41.660]   in the last, let's say, year,
+[00:10:41.660 --> 00:10:44.260]   playing a bit more with LLMs.
+[00:10:44.260 --> 00:10:47.860]   So are you concerned about user experience
+[00:10:47.860 --> 00:10:49.580]   which changes continuously?
+[00:10:50.840 --> 00:10:52.540]   Inconsistent model performance.
+[00:10:52.540 --> 00:10:54.380]   So you use the same system.
+[00:10:54.380 --> 00:10:55.900]   Sometimes it works greatly.
+[00:10:55.900 --> 00:11:00.900]   And sometimes it has a much worse performance than usual.
+[00:11:00.900 --> 00:11:02.440]   Changes in pricing.
+[00:11:02.440 --> 00:11:05.160]   So something that costed $20 before,
+[00:11:05.160 --> 00:11:09.520]   now you can do unless you pay the next monthly payment.
+[00:11:09.520 --> 00:11:17.740]   So let's say instead of 20, 50 or $100.
+[00:11:17.740 --> 00:11:21.800]   Sustainability, do we always need to use a tool
+[00:11:21.800 --> 00:11:25.040]   that can do everything instead of something
+[00:11:25.040 --> 00:11:28.340]   that just works ad hoc for our specific problem?
+[00:11:28.340 --> 00:11:30.560]   Do we need to contact something
+[00:11:30.560 --> 00:11:34.300]   that runs on a huge data center
+[00:11:34.300 --> 00:11:36.700]   rather than just contacting our own laptop?
+[00:11:36.700 --> 00:11:40.600]   Are you concerned about sharing your personal information
+[00:11:40.600 --> 00:11:43.800]   or the fact that you need to be always alive
+[00:11:43.800 --> 00:11:45.500]   for things to work?
+[00:11:45.500 --> 00:11:47.980]   Are you concerned about ads
+[00:11:47.980 --> 00:11:50.280]   or more generally about having lack of control,
+[00:11:50.280 --> 00:11:53.540]   like not being in full control of what you're running?
+[00:11:53.540 --> 00:11:57.540]   So if you answered yes to at least one
+[00:11:57.540 --> 00:12:02.380]   of these many questions, probably this class is for you.
+[00:12:02.380 --> 00:12:05.820]   To lack of control, I would like to add the fact
+[00:12:05.820 --> 00:12:07.580]   that just yesterday the news came out
+[00:12:07.580 --> 00:12:12.020]   that Elon Musk is offering compute to Anthropic.
+[00:12:12.020 --> 00:12:14.180]   And I see these as one of the examples
+[00:12:14.180 --> 00:12:18.420]   where the dependencies that you have on the technology
+[00:12:18.420 --> 00:12:21.380]   and that one technology has over other technologies
+[00:12:21.380 --> 00:12:24.300]   and people in the world and different companies
+[00:12:24.300 --> 00:12:27.460]   makes these things very unpredictable in the future.
+[00:12:27.460 --> 00:12:29.420]   So you can't really tell whether something
+[00:12:29.420 --> 00:12:31.740]   is always gonna be there for you.
+[00:12:31.740 --> 00:12:34.940]   And once again, I feel much more comfortable knowing
+[00:12:34.940 --> 00:12:38.220]   that at least part of the tasks that I want to accomplish,
+[00:12:38.220 --> 00:12:41.140]   I can do them 100% under my control.
+[00:12:43.900 --> 00:12:45.980]   Short part about philosophy.
+[00:12:45.980 --> 00:12:49.260]   The main reason I introduced that is when I studied AI,
+[00:12:49.260 --> 00:12:53.960]   my AI professor preached, David, I preached.
+[00:12:53.960 --> 00:12:55.060]   Oh, thank you so much.
+[00:12:55.060 --> 00:13:00.960]   Marta Somalvico, the professor who taught me AI first
+[00:13:00.960 --> 00:13:04.340]   was so much into the philosophy of artificial intelligence.
+[00:13:04.340 --> 00:13:07.940]   And while at the time, again, about 20 years ago,
+[00:13:07.940 --> 00:13:12.380]   I was not sure I would have reused those learnings in time.
+[00:13:12.380 --> 00:13:15.060]   I realized some of them are things that I find
+[00:13:15.060 --> 00:13:16.540]   so useful every day.
+[00:13:16.540 --> 00:13:18.660]   I apply them almost on a daily basis.
+[00:13:18.660 --> 00:13:21.700]   And I wanted to share two things with you.
+[00:13:21.700 --> 00:13:23.860]   The first one is one thing he told us,
+[00:13:23.860 --> 00:13:26.880]   he repeated this to us almost every single class
+[00:13:26.880 --> 00:13:31.040]   of the course that we had, that is the machine is a place.
+[00:13:31.040 --> 00:13:34.580]   And what he meant is it's like a physical place
+[00:13:34.580 --> 00:13:39.300]   where you are located and you solve a problem,
+[00:13:39.300 --> 00:13:42.720]   you perform a task inside this machine.
+[00:13:42.720 --> 00:13:45.300]   For us now, it's probably a metaphor.
+[00:13:45.300 --> 00:13:47.460]   At the time of the Mechanical Turk,
+[00:13:47.460 --> 00:13:49.260]   it was not such a metaphor.
+[00:13:49.260 --> 00:13:53.140]   There was actually a person moving this automaton
+[00:13:53.140 --> 00:13:56.060]   and playing chess against other people.
+[00:13:56.060 --> 00:13:57.540]   But you can still think,
+[00:13:57.540 --> 00:14:00.100]   even if just metaphorically right now,
+[00:14:00.100 --> 00:14:04.820]   that when you work, when you create an AI agent,
+[00:14:04.820 --> 00:14:06.740]   when you run an AI tool,
+[00:14:06.740 --> 00:14:09.340]   there always is, if not you, somebody else,
+[00:14:09.340 --> 00:14:11.460]   a person inside the system
+[00:14:11.460 --> 00:14:13.820]   that is doing these things for you.
+[00:14:13.820 --> 00:14:15.980]   They can have more or less autonomy,
+[00:14:15.980 --> 00:14:18.440]   but it's very good to understand this principle
+[00:14:18.440 --> 00:14:20.820]   and try to apply it also in your favor.
+[00:14:20.820 --> 00:14:24.500]   Like, do you want to be the person inside the machine
+[00:14:24.500 --> 00:14:27.880]   or do you want something else or somebody else to be there?
+[00:14:27.880 --> 00:14:31.860]   This is the first concept and very related to this,
+[00:14:31.860 --> 00:14:35.500]   so being enclosed inside some kind of container,
+[00:14:35.500 --> 00:14:38.700]   there is John Searle's Chinese room argument,
+[00:14:38.700 --> 00:14:42.600]   1980 at the time, so it was a bit later,
+[00:14:42.600 --> 00:14:44.780]   but the main idea is the following.
+[00:14:44.780 --> 00:14:46.740]   You have a room.
+[00:14:46.740 --> 00:14:48.340]   Inside this room, there's a person
+[00:14:48.340 --> 00:14:50.580]   who doesn't know the Chinese language,
+[00:14:50.580 --> 00:14:53.360]   but they have an index that kind of maps
+[00:14:53.360 --> 00:14:58.360]   every possible question to every possible answer in Chinese.
+[00:14:58.360 --> 00:15:00.500]   And if they have a very good index
+[00:15:00.500 --> 00:15:04.180]   and if they're very good at finding things in this index,
+[00:15:04.180 --> 00:15:06.500]   what happens is that you could have a person
+[00:15:06.500 --> 00:15:10.020]   outside of this room sending questions in
+[00:15:10.020 --> 00:15:13.380]   and this guy checked the answer very quickly,
+[00:15:13.380 --> 00:15:16.100]   providing you the answer as an output
+[00:15:16.100 --> 00:15:19.880]   and you not realizing whether whatever's inside this room
+[00:15:19.880 --> 00:15:22.740]   actually understands the language or not.
+[00:15:22.740 --> 00:15:27.860]   And this can be interpreted in different ways.
+[00:15:27.860 --> 00:15:30.980]   This can be used to talk about capabilities of a model.
+[00:15:30.980 --> 00:15:32.780]   For instance, I don't really care
+[00:15:32.780 --> 00:15:36.180]   if this thing is intelligent, if we have AGI,
+[00:15:36.180 --> 00:15:40.140]   as long as it does exactly what I need.
+[00:15:40.140 --> 00:15:42.540]   But it is also something that's very interesting
+[00:15:42.540 --> 00:15:45.980]   from the point of view on like what you think
+[00:15:45.980 --> 00:15:48.820]   about what this machine is capable of,
+[00:15:48.820 --> 00:15:53.080]   which means can you be betrayed
+[00:15:53.080 --> 00:15:54.960]   by just the answers that you get?
+[00:15:54.960 --> 00:15:59.960]   Can you be made to think that the machine is better
+[00:15:59.960 --> 00:16:01.820]   than what it is actually?
+[00:16:01.820 --> 00:16:04.940]   And so I think even if you work with a black box,
+[00:16:04.940 --> 00:16:09.640]   having an attitude of like probing this room
+[00:16:09.640 --> 00:16:13.940]   to try and see exactly what the understanding is,
+[00:16:13.940 --> 00:16:17.500]   if there's any understanding and what limitations you have
+[00:16:17.500 --> 00:16:19.340]   is something that could be very useful.
+[00:16:19.340 --> 00:16:23.340]   Otherwise you risk to have an approach like this one,
+[00:16:23.340 --> 00:16:28.180]   Ronald Reagan in 1983 watched the premiere
+[00:16:28.180 --> 00:16:33.180]   of the "War Games" movie and saw these war operation plan
+[00:16:33.180 --> 00:16:36.140]   response, this was the AI of the time,
+[00:16:36.140 --> 00:16:38.780]   the one that was playing tic-tac-toe
+[00:16:38.780 --> 00:16:41.340]   against Matthew Broderick, if I remember well.
+[00:16:41.340 --> 00:16:44.780]   And he was so concerned about the possibility
+[00:16:44.780 --> 00:16:47.540]   of something like this happening of the security
+[00:16:47.540 --> 00:16:52.540]   of military labs being compromised by teenagers
+[00:16:52.540 --> 00:16:57.500]   that he was the first president having some ruling,
+[00:16:57.500 --> 00:17:00.020]   having some laws about computer security
+[00:17:00.020 --> 00:17:01.940]   in the United States.
+[00:17:01.940 --> 00:17:04.660]   So this is also a way for us to interpret
+[00:17:04.660 --> 00:17:09.660]   whatever comes out as a new AI tool.
+[00:17:09.660 --> 00:17:12.960]   For instance, right now, when we talk about comparing
+[00:17:12.960 --> 00:17:17.060]   commercial AI services with open source AI models,
+[00:17:17.060 --> 00:17:19.100]   what happens very often is the following,
+[00:17:19.100 --> 00:17:22.180]   that is you have an LLM, you try to serve it
+[00:17:22.180 --> 00:17:25.700]   with a open source tool, let's say,
+[00:17:25.700 --> 00:17:30.700]   or Llama or LM Studio or LlamaCPT or our own Llama file.
+[00:17:30.700 --> 00:17:34.420]   And what you try to do is you talk with this LLM,
+[00:17:34.420 --> 00:17:37.140]   you open a chat system, you try and ask some questions
+[00:17:37.140 --> 00:17:39.500]   and you see how it performs for you.
+[00:17:39.500 --> 00:17:40.800]   But then you try and compare it
+[00:17:40.800 --> 00:17:42.580]   with a commercial AI service,
+[00:17:42.580 --> 00:17:46.580]   which at least according to this description by Anthropic,
+[00:17:46.580 --> 00:17:49.680]   this is almost two years old already,
+[00:17:49.680 --> 00:17:53.980]   is not limited to just a single language model.
+[00:17:53.980 --> 00:17:56.380]   So you've already seen how to train a language model,
+[00:17:56.380 --> 00:17:59.420]   but what's in these boxes when you chat with them
+[00:17:59.420 --> 00:18:03.000]   as services, as systems that you have available offline.
+[00:18:03.000 --> 00:18:05.520]   There's still your input, there's still your output,
+[00:18:05.520 --> 00:18:09.980]   but you don't just have an LLM, you have a retrieval,
+[00:18:09.980 --> 00:18:13.460]   you have extra tools that are called, you have a memory,
+[00:18:13.460 --> 00:18:16.060]   and you have a plethora of extra engineering
+[00:18:16.060 --> 00:18:19.820]   that makes it a bit unfair to just compare the AI service
+[00:18:19.820 --> 00:18:22.140]   with the single LLM.
+[00:18:22.140 --> 00:18:24.620]   So one of the things that we try to do today
+[00:18:24.620 --> 00:18:28.500]   is take an open source LLM or any kind of LLM,
+[00:18:28.500 --> 00:18:30.800]   because you can actually switch the one you use
+[00:18:30.800 --> 00:18:32.680]   with any system you want,
+[00:18:32.680 --> 00:18:35.940]   and add to it all the different components
+[00:18:35.940 --> 00:18:39.260]   that make it into something that's way more comparable
+[00:18:39.260 --> 00:18:40.560]   to a commercial system.
+[00:18:40.560 --> 00:18:43.680]   So this is it for my introduction.
+[00:18:43.680 --> 00:18:45.300]   Now it's David's turn.
+[00:18:45.300 --> 00:18:48.060]   I'm gonna stop sharing and leave the work to him.
+[00:18:48.060 --> 00:18:49.880]   - Thank you.
+[00:18:49.880 --> 00:18:50.720]   - Okay.
+[00:18:50.720 --> 00:19:04.600]   Can you see the screen?
+[00:19:04.600 --> 00:19:09.080]   Yes, all right.
+[00:19:09.080 --> 00:19:14.080]   So the idea is we want to show
+[00:19:14.080 --> 00:19:16.320]   how you can build your own agent.
+[00:19:18.040 --> 00:19:21.800]   Hopefully you should leave this talk
+[00:19:21.800 --> 00:19:24.400]   with the impression that it's not that complicated.
+[00:19:24.400 --> 00:19:28.440]   All these different tools that you use,
+[00:19:28.440 --> 00:19:32.120]   you understand better what they are doing under the hoods.
+[00:19:32.120 --> 00:19:36.560]   So the idea that I want to share
+[00:19:36.560 --> 00:19:38.760]   is that every agent that you use
+[00:19:38.760 --> 00:19:43.760]   is based on around five core components, five things.
+[00:19:43.760 --> 00:19:47.860]   Even so, if from the outside, they look really different,
+[00:19:47.860 --> 00:19:50.880]   they are all based around these core components.
+[00:19:50.880 --> 00:19:55.700]   Where I come from trying to share this
+[00:19:55.700 --> 00:19:58.080]   is we have been working in Mozilla AI
+[00:19:58.080 --> 00:19:59.920]   on a couple of projects.
+[00:19:59.920 --> 00:20:01.660]   One of them was AnyAgent.
+[00:20:01.660 --> 00:20:04.140]   So trying to build a single interface
+[00:20:04.140 --> 00:20:05.720]   for different agent frameworks
+[00:20:05.720 --> 00:20:07.980]   that were popping up last year.
+[00:20:07.980 --> 00:20:11.000]   There was like OpenAI agent framework.
+[00:20:11.000 --> 00:20:14.020]   There was the Google agent SDK,
+[00:20:14.020 --> 00:20:18.600]   LanChain, Ahno, Llama Index, so a lot of frameworks,
+[00:20:18.600 --> 00:20:20.080]   agentic frameworks were coming up,
+[00:20:20.080 --> 00:20:22.240]   open-source agentic frameworks.
+[00:20:22.240 --> 00:20:24.740]   And we just tried to build an interface on top
+[00:20:24.740 --> 00:20:26.880]   to discover what was common across them
+[00:20:26.880 --> 00:20:28.340]   and what was different.
+[00:20:28.340 --> 00:20:32.080]   Turns out that there was not much difference between them
+[00:20:32.080 --> 00:20:36.200]   to the point that we built a very simple
+[00:20:36.200 --> 00:20:38.780]   Python implementation that was called TinyAgent,
+[00:20:38.780 --> 00:20:42.680]   based on an idea by the Haging phase.
+[00:20:43.840 --> 00:20:47.640]   CTO, I think, he made a side project one weekend
+[00:20:47.640 --> 00:20:49.800]   that was like a TinyAgent, a simple agent
+[00:20:49.800 --> 00:20:54.800]   that was just in TypeScript and just use MCP to call tools.
+[00:20:54.800 --> 00:20:58.560]   And it was like 400 lines of TypeScript.
+[00:20:58.560 --> 00:21:01.440]   So we took that idea, we implemented it in Python,
+[00:21:01.440 --> 00:21:04.560]   and then we started experimenting ourselves in our products.
+[00:21:04.560 --> 00:21:07.760]   And it turned out that something as simple
+[00:21:07.760 --> 00:21:12.300]   as 400 lines of Python was more than enough
+[00:21:12.300 --> 00:21:14.560]   to build an agentic system around it
+[00:21:14.560 --> 00:21:16.680]   if you have the right components.
+[00:21:16.680 --> 00:21:18.860]   Then another project that I did recently
+[00:21:18.860 --> 00:21:22.640]   was like porting this idea to C++.
+[00:21:22.640 --> 00:21:27.640]   This is AgentCPP, it's an even simpler agent loop
+[00:21:27.640 --> 00:21:29.120]   with core components,
+[00:21:29.120 --> 00:21:31.680]   and we will use it later for the example.
+[00:21:31.680 --> 00:21:35.840]   So the thesis is that an agent is a loop.
+[00:21:35.840 --> 00:21:38.560]   This is the most straightforward implementation
+[00:21:38.560 --> 00:21:39.660]   that I can think of.
+[00:21:41.780 --> 00:21:44.800]   You have a first phase where you are sending inputs
+[00:21:44.800 --> 00:21:46.800]   to the model.
+[00:21:46.800 --> 00:21:51.400]   This model is a large language model or a language model.
+[00:21:51.400 --> 00:21:54.200]   It can be small if you run it locally,
+[00:21:54.200 --> 00:21:55.320]   but it works the same.
+[00:21:55.320 --> 00:21:59.840]   You send it a text or potentially other type of inputs,
+[00:21:59.840 --> 00:22:01.320]   and it generates text.
+[00:22:01.320 --> 00:22:03.920]   Based on the response,
+[00:22:03.920 --> 00:22:07.600]   you check whether the agent wants to execute
+[00:22:07.600 --> 00:22:10.480]   any of the tools, and then you need to take control.
+[00:22:10.480 --> 00:22:13.080]   So your program needs to takes control,
+[00:22:13.080 --> 00:22:15.820]   execute the tools, and put the results back
+[00:22:15.820 --> 00:22:18.160]   into the input for the model.
+[00:22:18.160 --> 00:22:22.120]   You just repeat this loop until the model decides
+[00:22:22.120 --> 00:22:26.160]   to not call any tools, so you consider the loop broken.
+[00:22:26.160 --> 00:22:28.560]   And this is when it stops.
+[00:22:28.560 --> 00:22:29.700]   And this is very simple,
+[00:22:29.700 --> 00:22:31.320]   but this is actually what's happening
+[00:22:31.320 --> 00:22:32.820]   when you're using cloud code,
+[00:22:32.820 --> 00:22:37.060]   when you're using any of the agents
+[00:22:37.060 --> 00:22:40.440]   that you might be using for coding or other tasks.
+[00:22:40.440 --> 00:22:44.320]   So the five components are basically the model
+[00:22:44.320 --> 00:22:45.880]   that we already mentioned.
+[00:22:45.880 --> 00:22:47.160]   This is the brain.
+[00:22:47.160 --> 00:22:51.400]   It takes the inputs and it outputs other text
+[00:22:51.400 --> 00:22:54.380]   or responses or potentially tool calls.
+[00:22:54.380 --> 00:22:55.920]   Then there are the tools,
+[00:22:55.920 --> 00:22:59.680]   which is actually the functions that you expose the agent
+[00:22:59.680 --> 00:23:01.880]   so it can perform actions.
+[00:23:01.880 --> 00:23:04.440]   So depending on what tools you give the agent,
+[00:23:04.440 --> 00:23:07.120]   the agent might be able to do different things.
+[00:23:07.120 --> 00:23:10.640]   The instructions that are what defines
+[00:23:10.640 --> 00:23:14.160]   how the agent should behave, how the tools should be used.
+[00:23:14.160 --> 00:23:18.280]   You can complicate each of these components
+[00:23:18.280 --> 00:23:21.040]   as much as you want, as we will see,
+[00:23:21.040 --> 00:23:24.160]   but at the core, they are the same.
+[00:23:24.160 --> 00:23:28.380]   They are just part of the input that you give the agent
+[00:23:28.380 --> 00:23:32.080]   that takes hopefully higher priority
+[00:23:32.080 --> 00:23:33.520]   than the rest of the messages,
+[00:23:33.520 --> 00:23:37.560]   because it's defining how the agent should behave.
+[00:23:37.560 --> 00:23:40.320]   Then there are callbacks, also called hooks,
+[00:23:40.320 --> 00:23:45.320]   which are like, it's a way of inject deterministic code
+[00:23:45.320 --> 00:23:49.080]   at different stages of the loop.
+[00:23:49.080 --> 00:23:51.560]   We will see later what are these different stages,
+[00:23:51.560 --> 00:23:56.120]   but this is just a way of like have a intervention
+[00:23:56.120 --> 00:23:59.120]   in a deterministic way at different stages of the loop.
+[00:23:59.120 --> 00:24:02.380]   And finally, there is the loop itself.
+[00:24:03.380 --> 00:24:07.700]   So a model is like anything that implements a method
+[00:24:07.700 --> 00:24:09.860]   that receives an input,
+[00:24:09.860 --> 00:24:12.620]   which is usually formatted as a list of messages.
+[00:24:12.620 --> 00:24:16.960]   That is like a user message, the assistant message,
+[00:24:16.960 --> 00:24:20.220]   which is the response from the model, the tool results.
+[00:24:20.220 --> 00:24:22.800]   So all of these are usually just a list of things
+[00:24:22.800 --> 00:24:24.720]   that you give to the model.
+[00:24:24.720 --> 00:24:27.100]   The model then needs to take that
+[00:24:27.100 --> 00:24:29.220]   and convert it into tokens.
+[00:24:29.220 --> 00:24:31.360]   Each model does this differently.
+[00:24:31.360 --> 00:24:33.520]   And it doesn't matter whether you're running the model
+[00:24:33.520 --> 00:24:36.660]   locally or whether you're running it through an API,
+[00:24:36.660 --> 00:24:41.180]   like if you are using the OpenAI, Anthropic or Gemini API,
+[00:24:41.180 --> 00:24:43.560]   it's, you can wrap it with the same interface,
+[00:24:43.560 --> 00:24:44.840]   which is the same.
+[00:24:44.840 --> 00:24:49.840]   You receive a list of messages and a list of tools available
+[00:24:49.840 --> 00:24:54.300]   and you give that to the core language model
+[00:24:54.300 --> 00:24:56.540]   and the model decides what to do with those inputs,
+[00:24:56.540 --> 00:24:58.080]   what to generate from that.
+[00:24:58.800 --> 00:25:03.800]   Then the tools themselves basically need to have three things.
+[00:25:03.800 --> 00:25:07.100]   One is the identifier.
+[00:25:07.100 --> 00:25:11.360]   So when the agent says, when the model responds saying,
+[00:25:11.360 --> 00:25:14.000]   I want to call the tool, get weather,
+[00:25:14.000 --> 00:25:17.200]   you need to have a way to identify that this is the tool
+[00:25:17.200 --> 00:25:19.160]   that the agent is calling.
+[00:25:19.160 --> 00:25:21.680]   Then you need a description and a schema.
+[00:25:21.680 --> 00:25:24.280]   So this is something that you provide the agent,
+[00:25:24.280 --> 00:25:28.000]   the model to, in order for the model to understand
+[00:25:28.000 --> 00:25:30.360]   how to use the tool, what the tool can do
+[00:25:30.360 --> 00:25:33.280]   and what are the arguments, what are the expected outputs.
+[00:25:33.280 --> 00:25:35.680]   This is something that you can consider
+[00:25:35.680 --> 00:25:37.500]   part of the instructions.
+[00:25:37.500 --> 00:25:41.060]   And they basically guide the agent on deciding
+[00:25:41.060 --> 00:25:43.820]   when to use the tool and how to use this tool.
+[00:25:43.820 --> 00:25:46.040]   And finally, you need to actually have some code
+[00:25:46.040 --> 00:25:48.480]   that implements the tool itself.
+[00:25:48.480 --> 00:25:52.940]   So the agent says, get weather for Paris.
+[00:25:52.940 --> 00:25:55.600]   And you actually need some code somewhere
+[00:25:55.600 --> 00:25:58.980]   that takes that function call or tool call
+[00:25:58.980 --> 00:26:03.580]   and actually executes, find the results
+[00:26:03.580 --> 00:26:05.880]   and returns it to the model.
+[00:26:05.880 --> 00:26:09.600]   And usually, not usually, almost always,
+[00:26:09.600 --> 00:26:12.680]   this code lives outside the model.
+[00:26:12.680 --> 00:26:14.440]   So it's important to know that the model
+[00:26:14.440 --> 00:26:17.000]   can directly code your code.
+[00:26:17.000 --> 00:26:19.760]   How this usually works is that the model
+[00:26:19.760 --> 00:26:22.280]   emits an special JSON format.
+[00:26:22.280 --> 00:26:24.640]   Each model has their own format.
+[00:26:24.640 --> 00:26:26.400]   Unfortunately, they don't agree.
+[00:26:26.400 --> 00:26:29.080]   They don't use the same chat template.
+[00:26:29.080 --> 00:26:32.560]   But it's basically a JSON where the model says the tool
+[00:26:32.560 --> 00:26:36.000]   identifier, the arguments, and then your code
+[00:26:36.000 --> 00:26:41.040]   needs to take care of receiving that, applying the function,
+[00:26:41.040 --> 00:26:43.800]   calling the function, and then giving the result back
+[00:26:43.800 --> 00:26:45.200]   to the model.
+[00:26:45.200 --> 00:26:46.780]   So that's tools.
+[00:26:46.780 --> 00:26:49.960]   And then we have instructions.
+[00:26:49.960 --> 00:26:51.880]   You can consider kind of the simplest one
+[00:26:51.880 --> 00:26:56.640]   because it's usually what people refer to as system prompt.
+[00:26:56.640 --> 00:26:58.120]   I like instructions.
+[00:26:58.120 --> 00:27:00.360]   It's a simple concept to me.
+[00:27:00.360 --> 00:27:04.920]   It's just you tell the agent how it should behave,
+[00:27:04.920 --> 00:27:06.920]   how it should use the tools.
+[00:27:06.920 --> 00:27:10.700]   And it's usually the very first message
+[00:27:10.700 --> 00:27:14.840]   that the agent receives before any other user messages.
+[00:27:14.840 --> 00:27:17.560]   And this is a very simple primitive.
+[00:27:17.560 --> 00:27:21.120]   But you can complicate it as much as you want
+[00:27:21.120 --> 00:27:27.120]   because there are new paradigms like the skills,
+[00:27:27.120 --> 00:27:29.040]   just these things that keep coming up.
+[00:27:29.040 --> 00:27:31.320]   But essentially, they are just instructions.
+[00:27:31.320 --> 00:27:35.280]   They are just trying to find smarter ways of loading
+[00:27:35.280 --> 00:27:39.200]   these instructions into the agent, into the model context,
+[00:27:39.200 --> 00:27:40.800]   without overwhelming it.
+[00:27:40.800 --> 00:27:43.160]   But at the end of the day, they are instructions.
+[00:27:43.160 --> 00:27:45.960]   There are something-- there are strings
+[00:27:45.960 --> 00:27:51.100]   that help the model decide what to do and how to do it.
+[00:27:51.100 --> 00:27:56.560]   So callbacks-- interesting part of what makes a good agent
+[00:27:56.560 --> 00:27:59.320]   loop or not.
+[00:27:59.320 --> 00:28:02.680]   This is where-- so usually in the loop,
+[00:28:02.680 --> 00:28:07.080]   it's up to the model to decide when to stop
+[00:28:07.080 --> 00:28:09.560]   and when to call a tool.
+[00:28:09.560 --> 00:28:12.820]   But because you own the loop in code,
+[00:28:12.820 --> 00:28:16.320]   you can actually inject callbacks or hooks
+[00:28:16.320 --> 00:28:18.480]   at different points of the loop.
+[00:28:18.480 --> 00:28:22.740]   So you can execute code based on certain conditions.
+[00:28:22.740 --> 00:28:24.580]   So you can always execute some code
+[00:28:24.580 --> 00:28:28.800]   before the agent loop starts, before the model gets actually
+[00:28:28.800 --> 00:28:32.020]   called, after the model gets actually called,
+[00:28:32.020 --> 00:28:35.220]   before a tool gets executed, after a tool gets executed,
+[00:28:35.220 --> 00:28:40.060]   and finally, after the loops is complete.
+[00:28:40.060 --> 00:28:41.220]   Sorry.
+[00:28:41.220 --> 00:28:43.800]   The important part of this is that you
+[00:28:43.800 --> 00:28:49.600]   should be able to mutate, alterate the inputs that
+[00:28:49.600 --> 00:28:56.940]   get flowing that go to the model on the next iteration.
+[00:28:56.940 --> 00:28:59.640]   So later, I'm going to show a couple of examples of what you
+[00:28:59.640 --> 00:29:02.280]   can do with callbacks like here.
+[00:29:02.280 --> 00:29:06.080]   So with this basic primitive-- and this is just six points
+[00:29:06.080 --> 00:29:07.280]   where you can put--
+[00:29:07.280 --> 00:29:09.440]   you can implement basic logging.
+[00:29:09.440 --> 00:29:12.240]   So just logging what the agent is doing.
+[00:29:12.240 --> 00:29:15.880]   You can implement more elaborated telemetry tracing
+[00:29:15.880 --> 00:29:17.200]   with open telemetry.
+[00:29:17.200 --> 00:29:19.640]   For this, you just need to inject a callback
+[00:29:19.640 --> 00:29:23.280]   before and after the tool calls and the model calls
+[00:29:23.280 --> 00:29:26.720]   and just send this to a server in a specific format.
+[00:29:26.720 --> 00:29:29.000]   You can do context engineering.
+[00:29:29.000 --> 00:29:32.520]   You can have some code that checks
+[00:29:32.520 --> 00:29:34.880]   if you are excelling a number of tokens
+[00:29:34.880 --> 00:29:38.080]   or if the history is getting too long.
+[00:29:38.080 --> 00:29:40.200]   And you can summarize it and replace
+[00:29:40.200 --> 00:29:41.920]   the history with your summary.
+[00:29:41.920 --> 00:29:46.200]   You can do this with callbacks.
+[00:29:46.200 --> 00:29:47.920]   You can implement gas rails.
+[00:29:47.920 --> 00:29:51.440]   So for example, checking before any tool call
+[00:29:51.440 --> 00:29:54.880]   if the agent is trying to do something suspicious, something
+[00:29:54.880 --> 00:29:57.040]   that could be dangerous.
+[00:29:57.040 --> 00:29:59.480]   And you can do a deterministic check
+[00:29:59.480 --> 00:30:02.520]   and prevent the agent from executing that tool.
+[00:30:02.520 --> 00:30:05.800]   You can put human in the loop to approve tool calls
+[00:30:05.800 --> 00:30:08.000]   to edit the tool arguments.
+[00:30:08.000 --> 00:30:12.640]   And you can also decide how to recover from a failure
+[00:30:12.640 --> 00:30:14.280]   after a tool execution.
+[00:30:14.280 --> 00:30:17.840]   So all those things, you can do that with callbacks.
+[00:30:17.840 --> 00:30:19.520]   Finally, we have the loop.
+[00:30:19.520 --> 00:30:21.520]   I have here a pseudocode.
+[00:30:21.520 --> 00:30:23.480]   But if you write it in Python, it's
+[00:30:23.480 --> 00:30:26.320]   going to look very much similar to this.
+[00:30:26.320 --> 00:30:30.800]   So it's exactly the same loop as I described before,
+[00:30:30.800 --> 00:30:34.440]   but now kind of like trying to make explicit
+[00:30:34.440 --> 00:30:39.120]   at which points of the loop each callback should be called
+[00:30:39.120 --> 00:30:42.320]   and how you should stop the loop if there are no tool calls.
+[00:30:42.320 --> 00:30:45.760]   And if not, you just execute all the tool calls,
+[00:30:45.760 --> 00:30:49.640]   append the results, and go back to the beginning.
+[00:30:49.640 --> 00:30:51.440]   So that's the loop.
+[00:30:51.440 --> 00:30:56.800]   And the loop can get a little bit more complicated,
+[00:30:56.800 --> 00:31:03.120]   like if today you use copilot or cloth code.
+[00:31:03.120 --> 00:31:06.440]   It's all still using these basic components,
+[00:31:06.440 --> 00:31:09.720]   but there are different ways that you
+[00:31:09.720 --> 00:31:13.200]   can alter the default loop.
+[00:31:13.200 --> 00:31:16.960]   For example, before a tool gets executed,
+[00:31:16.960 --> 00:31:20.120]   the users can approve or reject that.
+[00:31:20.120 --> 00:31:23.240]   And based on how you implement your loop,
+[00:31:23.240 --> 00:31:25.760]   you can decide to completely stop the loop,
+[00:31:25.760 --> 00:31:30.000]   or you can decide to continue and just skip this tool call.
+[00:31:30.000 --> 00:31:33.520]   Also, when a tool execution fails,
+[00:31:33.520 --> 00:31:37.560]   either because the agent passed a wrong argument
+[00:31:37.560 --> 00:31:40.000]   or just there is another error, you
+[00:31:40.000 --> 00:31:42.560]   can also decide I want to stop the loop,
+[00:31:42.560 --> 00:31:45.680]   or maybe I want to give the agent the opportunity
+[00:31:45.680 --> 00:31:46.600]   to recover.
+[00:31:46.600 --> 00:31:50.520]   So I just inject the error as a message,
+[00:31:50.520 --> 00:31:52.680]   and I just initiate a new iteration.
+[00:31:52.680 --> 00:31:55.520]   So hopefully, the agent in the same loop
+[00:31:55.520 --> 00:32:01.080]   can read the error and recover itself from it.
+[00:32:01.080 --> 00:32:08.600]   And this is something that each of the agentic frameworks that
+[00:32:08.600 --> 00:32:11.800]   are there try to do differently.
+[00:32:11.800 --> 00:32:14.680]   I recommend that you try to build your own agent loop
+[00:32:14.680 --> 00:32:18.520]   and play yourself with this.
+[00:32:18.520 --> 00:32:20.360]   It cannot be a better solution than the one
+[00:32:20.360 --> 00:32:22.640]   that you built specifically for yourself.
+[00:32:22.640 --> 00:32:26.840]   So this is an example simplified from agent CPP.
+[00:32:26.840 --> 00:32:29.080]   There are a bunch of examples there.
+[00:32:29.080 --> 00:32:34.400]   And the code, even if it's C++, it should not be that hard.
+[00:32:34.400 --> 00:32:38.120]   But you can directly map these five components very clearly.
+[00:32:38.120 --> 00:32:40.720]   You can see what are instructions, what is a model,
+[00:32:40.720 --> 00:32:42.960]   what are tools, and what are callbacks,
+[00:32:42.960 --> 00:32:47.160]   and how the loop works.
+[00:32:47.160 --> 00:32:50.640]   And you can do that exercise to implement
+[00:32:50.640 --> 00:32:54.160]   you can do that exercise to many different open source
+[00:32:54.160 --> 00:32:56.120]   projects that are out there.
+[00:32:56.120 --> 00:33:02.400]   You can go there and try to find these primitives in their loops.
+[00:33:02.400 --> 00:33:07.280]   So even if you check Watson Agents, a project by Davide,
+[00:33:07.280 --> 00:33:09.680]   which is a very simple loop, it still
+[00:33:09.680 --> 00:33:15.880]   has the same core components as Pi, Hermes, OpenClaw,
+[00:33:15.880 --> 00:33:17.280]   and Cloud Code.
+[00:33:17.280 --> 00:33:20.000]   That was open source only by accident recently.
+[00:33:20.000 --> 00:33:22.960]   But you can verify that it's still the same.
+[00:33:22.960 --> 00:33:26.120]   Still the five core components, they all look the same.
+[00:33:26.120 --> 00:33:29.480]   It just depends how many callbacks they produce,
+[00:33:29.480 --> 00:33:32.960]   they introduce by default, how many tools they expose,
+[00:33:32.960 --> 00:33:34.440]   how those tools work.
+[00:33:34.440 --> 00:33:38.000]   But the core components remain the same.
+[00:33:38.000 --> 00:33:43.640]   And now let me try to share a terminal for a demo.
+[00:33:43.640 --> 00:33:49.000]   You can find the demo in the agent CPP repo.
+[00:33:49.000 --> 00:33:53.320]   I'm going to try to run this one very quickly on my machine
+[00:33:53.320 --> 00:33:56.760]   using a local model just to showcase
+[00:33:56.760 --> 00:33:58.920]   how simple you can start.
+[00:33:58.920 --> 00:34:02.240]   But from that very simple foundations,
+[00:34:02.240 --> 00:34:06.640]   you can evolve to a much larger and complex projects.
+[00:34:06.640 --> 00:34:08.760]   So this is a memory example.
+[00:34:08.760 --> 00:34:12.440]   So a lot of these agentic frameworks
+[00:34:12.440 --> 00:34:14.400]   introduce the concept of memory.
+[00:34:14.400 --> 00:34:17.960]   In practice, memory can be implemented as a tool,
+[00:34:17.960 --> 00:34:20.600]   as a callback, or as both.
+[00:34:20.600 --> 00:34:23.320]   In this example, they are just three tools.
+[00:34:23.320 --> 00:34:25.640]   So we have some very basic instructions
+[00:34:25.640 --> 00:34:29.320]   where we tell the agent or the assistant
+[00:34:29.320 --> 00:34:32.440]   that there is some memory available about the user
+[00:34:32.440 --> 00:34:34.640]   and how it can be used.
+[00:34:34.640 --> 00:34:38.880]   And we expose to the agent three very simple tools.
+[00:34:38.880 --> 00:34:40.320]   They can list memories.
+[00:34:40.320 --> 00:34:44.040]   So check what is currently available in the memory.
+[00:34:44.040 --> 00:34:47.440]   They can read the memory, and they can write to the memory.
+[00:34:47.440 --> 00:34:51.720]   So those are three tools, instructions, no callbacks,
+[00:34:51.720 --> 00:34:52.920]   just the loop.
+[00:34:52.920 --> 00:34:56.080]   And I'm going to try to share now my terminal.
+[00:34:56.080 --> 00:35:08.760]   So I am here at the examples memory inside the agent CPP
+[00:35:08.760 --> 00:35:09.600]   repo.
+[00:35:09.600 --> 00:35:12.760]   I have already compiled this example.
+[00:35:12.760 --> 00:35:15.160]   And if I run it, I am just loading
+[00:35:15.160 --> 00:35:20.040]   a small open-waste model, Granite 4.0.
+[00:35:20.040 --> 00:35:21.960]   This is already a couple of months old,
+[00:35:21.960 --> 00:35:23.800]   so it's not the best model out there.
+[00:35:23.800 --> 00:35:26.760]   But it runs really fast on my laptop.
+[00:35:26.760 --> 00:35:29.440]   So the memory agent is ready.
+[00:35:29.440 --> 00:35:34.800]   I can tell it to just some fact about me.
+[00:35:34.800 --> 00:35:36.640]   So first, I just say hi.
+[00:35:36.640 --> 00:35:39.960]   And you can see here we are logging that immediately
+[00:35:39.960 --> 00:35:43.120]   the agent is checking if there is something
+[00:35:43.120 --> 00:35:45.000]   important in the memory.
+[00:35:45.000 --> 00:35:49.240]   Using the list memory, there is nothing in the memory
+[00:35:49.240 --> 00:35:51.000]   right now.
+[00:35:51.000 --> 00:35:53.440]   You can see the tool result here.
+[00:35:53.440 --> 00:35:56.360]   And the agent just responds hello.
+[00:35:56.360 --> 00:35:58.000]   It looks like I don't have any memories.
+[00:35:58.000 --> 00:36:00.000]   How can I assist you today?
+[00:36:00.000 --> 00:36:05.600]   And I can say I really love Galician cuisine,
+[00:36:05.600 --> 00:36:08.400]   for example, which is where I am from.
+[00:36:08.400 --> 00:36:10.680]   And you can see the agent takes this information.
+[00:36:10.680 --> 00:36:16.080]   And in the loop, it says, OK, let's call the write memory
+[00:36:16.080 --> 00:36:20.600]   tool with the arguments fabric cuisine and Galician.
+[00:36:20.600 --> 00:36:22.800]   So I am storing that information.
+[00:36:22.800 --> 00:36:25.520]   And then the agent responds and breaks the loop.
+[00:36:25.520 --> 00:36:28.280]   So each time I can write, it's because the agent
+[00:36:28.280 --> 00:36:30.880]   broke the loop.
+[00:36:30.880 --> 00:36:34.800]   And the thing about memory is that the idea
+[00:36:34.800 --> 00:36:39.760]   is that I am storing this in an external source.
+[00:36:39.760 --> 00:36:42.800]   In this case, it's just a very simple JSON, right?
+[00:36:42.800 --> 00:36:47.000]   But you can use a database or an external server or whatever.
+[00:36:47.000 --> 00:36:51.000]   But now if I go ahead and start a new conversation,
+[00:36:51.000 --> 00:36:55.120]   so a complete different chat, I come back here tomorrow.
+[00:36:55.120 --> 00:36:58.400]   And I am like, hi, what do you know about me?
+[00:36:58.400 --> 00:37:03.880]   So the agent called the list memory.
+[00:37:03.880 --> 00:37:15.640]   And I think the model is a little bit not super smart
+[00:37:15.640 --> 00:37:20.800]   because it should have decided to read the memory.
+[00:37:20.800 --> 00:37:24.080]   But now I give it a hint.
+[00:37:24.080 --> 00:37:27.920]   So first, it check if there was available memories.
+[00:37:27.920 --> 00:37:30.680]   They were available memories, but it didn't really
+[00:37:30.680 --> 00:37:33.560]   understood that it can use another tool to actually read
+[00:37:33.560 --> 00:37:34.640]   the memory.
+[00:37:34.640 --> 00:37:37.200]   Now it did because I give it a hint.
+[00:37:37.200 --> 00:37:42.160]   And it can retrieve that my favorite cuisine is Galician.
+[00:37:42.160 --> 00:37:45.880]   So this is a very basic example.
+[00:37:45.880 --> 00:37:49.320]   You can check the code here.
+[00:37:49.320 --> 00:37:51.040]   And it's not super crazy.
+[00:37:51.040 --> 00:37:52.280]   It's just the fine tools.
+[00:37:52.280 --> 00:37:55.800]   And maybe it looks a little bit scary because it's C++.
+[00:37:55.800 --> 00:38:02.760]   But you should be able to map and identify the five core
+[00:38:02.760 --> 00:38:05.280]   components that I described before.
+[00:38:05.280 --> 00:38:09.760]   And what I like about building basic examples
+[00:38:09.760 --> 00:38:13.920]   with these core components is that then these more complex
+[00:38:13.920 --> 00:38:17.160]   tools or agents that you are using, like cloud code
+[00:38:17.160 --> 00:38:20.400]   or whatever, you can then start to understand
+[00:38:20.400 --> 00:38:24.680]   how the memory feature is working on cloud code.
+[00:38:24.680 --> 00:38:26.440]   How does it work?
+[00:38:26.440 --> 00:38:29.200]   You can start thinking how you could improve this memory
+[00:38:29.200 --> 00:38:30.360]   implementation.
+[00:38:30.360 --> 00:38:33.360]   Like right now, it's all based on tools.
+[00:38:33.360 --> 00:38:35.400]   But you could maybe have a callback
+[00:38:35.400 --> 00:38:38.440]   that before the agent loop starts,
+[00:38:38.440 --> 00:38:42.080]   it just automatically reads whatever memory is available
+[00:38:42.080 --> 00:38:45.040]   and injects it into the context.
+[00:38:45.040 --> 00:38:49.440]   So you can start exploring how to build your own agent loop
+[00:38:49.440 --> 00:38:54.040]   the way that works the best for you, always around those five
+[00:38:54.040 --> 00:38:55.840]   components.
+[00:38:55.840 --> 00:39:03.800]   And with that, I think it was the final slide from my side.
+[00:39:03.800 --> 00:39:05.840]   And I can go back to David.
+[00:39:05.840 --> 00:39:10.960]   Sure I am.
+[00:39:10.960 --> 00:39:11.920]   I didn't go away.
+[00:39:11.920 --> 00:39:13.920]   Yeah, thanks David.
+[00:39:13.920 --> 00:39:15.560]   First of all, I want to ask you all
+[00:39:15.560 --> 00:39:18.360]   if you have any specific questions to this.
+[00:39:18.360 --> 00:39:20.040]   Otherwise, we can go forward.
+[00:39:20.040 --> 00:39:23.160]   In the meantime, you can add them anytime on Slack
+[00:39:23.160 --> 00:39:24.120]   if you want.
+[00:39:24.120 --> 00:39:27.520]   And David can answer them to you while I continue.
+[00:39:27.520 --> 00:39:29.080]   Don't worry about this.
+[00:39:29.080 --> 00:39:30.960]   I'm going to share my screen again
+[00:39:30.960 --> 00:39:36.600]   and go to the next stage here.
+[00:39:36.600 --> 00:39:37.640]   Know your tools.
+[00:39:37.640 --> 00:39:43.160]   So we have seen one example, one example which was in CPP
+[00:39:43.160 --> 00:39:46.960]   and relied on agent CPP, the tool that David built.
+[00:39:46.960 --> 00:39:50.840]   He also referred to another tool that
+[00:39:50.840 --> 00:39:53.760]   was called Wasm browser agents.
+[00:39:53.760 --> 00:39:57.040]   And I'm going to let you know a little more about that.
+[00:39:57.040 --> 00:39:59.560]   But the thing I want you to stress the most
+[00:39:59.560 --> 00:40:01.520]   is one thing that David said before,
+[00:40:01.520 --> 00:40:04.960]   which I believe is super important, which is it's not
+[00:40:04.960 --> 00:40:08.200]   necessarily important to know how to solve these
+[00:40:08.200 --> 00:40:10.480]   in one language or another.
+[00:40:10.480 --> 00:40:13.360]   I think especially now that you can
+[00:40:13.360 --> 00:40:15.760]   have Cloud Code choose one language or another
+[00:40:15.760 --> 00:40:18.440]   and help you with whatever you're doing right now.
+[00:40:18.440 --> 00:40:20.000]   I think the most important thing is
+[00:40:20.000 --> 00:40:22.320]   to know what are the bricks that allow
+[00:40:22.320 --> 00:40:25.800]   you to build these components.
+[00:40:25.800 --> 00:40:30.000]   So I'm going to move from one tool to the other,
+[00:40:30.000 --> 00:40:32.040]   from one language to another.
+[00:40:32.040 --> 00:40:34.200]   I hope this is not too confusing for you.
+[00:40:34.200 --> 00:40:36.480]   Please stop me anytime if you think there's
+[00:40:36.480 --> 00:40:38.880]   something that is not clear.
+[00:40:38.880 --> 00:40:41.000]   But I'm going to show you something that's been written
+[00:40:41.000 --> 00:40:44.360]   in Python that has some JavaScript that
+[00:40:44.360 --> 00:40:46.200]   runs in browsers.
+[00:40:46.200 --> 00:40:48.280]   I'm also going to show you other code that
+[00:40:48.280 --> 00:40:50.560]   runs directly on the terminal.
+[00:40:50.560 --> 00:40:52.640]   And I'm going to show you one of the tools
+[00:40:52.640 --> 00:40:56.240]   that we referred to before that was Py, which is basically
+[00:40:56.240 --> 00:40:59.080]   an agentic software that just works
+[00:40:59.080 --> 00:41:01.760]   with extensions and plugins.
+[00:41:01.760 --> 00:41:05.480]   All of these to try and find the same components
+[00:41:05.480 --> 00:41:09.200]   that David has talked about before.
+[00:41:09.200 --> 00:41:14.480]   So the first thing, even before knowing the tools per se,
+[00:41:14.480 --> 00:41:19.920]   is getting an experience with one agent that runs.
+[00:41:19.920 --> 00:41:25.480]   And this one is called Wasma Agents.
+[00:41:25.480 --> 00:41:27.200]   It's a blueprint by Mozilla.
+[00:41:27.200 --> 00:41:29.160]   The URL is over here.
+[00:41:29.160 --> 00:41:34.560]   Let me just copy that and put it in here in Slack.
+[00:41:34.560 --> 00:41:40.560]   So the reason why I built this tool in the first place,
+[00:41:40.560 --> 00:41:43.320]   it was about one year ago, or one year and a couple of months
+[00:41:43.320 --> 00:41:44.000]   ago, I guess.
+[00:41:44.000 --> 00:41:47.280]   And the idea was I would like to have something
+[00:41:47.280 --> 00:41:50.240]   that runs everywhere.
+[00:41:50.240 --> 00:41:52.080]   And by everywhere, it means everywhere there
+[00:41:52.080 --> 00:41:54.560]   is a browser that supports it.
+[00:41:54.560 --> 00:42:00.680]   And that relies on JavaScript and Wasma WebAssembly
+[00:42:00.680 --> 00:42:03.080]   to run things without having the need
+[00:42:03.080 --> 00:42:05.520]   to install anything specific.
+[00:42:05.520 --> 00:42:07.000]   So at the time, I kind of failed,
+[00:42:07.000 --> 00:42:11.080]   meaning there was no good support for models directly
+[00:42:11.080 --> 00:42:13.160]   running in the web browser.
+[00:42:13.160 --> 00:42:18.280]   But if you go and look for WebGPU on Hiking Face,
+[00:42:18.280 --> 00:42:22.000]   you're going to find some excellent examples of Wasm
+[00:42:22.000 --> 00:42:26.520]   and WebGPU used together to run models locally
+[00:42:26.520 --> 00:42:28.240]   inside your browser without having
+[00:42:28.240 --> 00:42:29.720]   to install any application.
+[00:42:29.720 --> 00:42:32.520]   And I don't recall the link right now.
+[00:42:32.520 --> 00:42:34.760]   I'm going to check for it later and send that
+[00:42:34.760 --> 00:42:36.440]   to you in the Slack channel.
+[00:42:36.440 --> 00:42:38.920]   I think it's going to be useful for you.
+[00:42:38.920 --> 00:42:41.360]   So this is super simple code.
+[00:42:41.360 --> 00:42:44.880]   There are many demos source files.
+[00:42:44.880 --> 00:42:46.720]   This one is called local model.
+[00:42:46.720 --> 00:42:51.200]   And you're going to find it in the Blueprint repository.
+[00:42:51.200 --> 00:42:53.280]   And it has a few tools.
+[00:42:53.280 --> 00:42:56.000]   One of them is count character or currencies,
+[00:42:56.000 --> 00:43:00.000]   which is a super simple few lines Python code that
+[00:43:00.000 --> 00:43:03.080]   counts the currencies of a given character inside the word.
+[00:43:03.080 --> 00:43:08.840]   And if you have ever read about how many Rs are in strawberry,
+[00:43:08.840 --> 00:43:12.880]   you know exactly why this thing has been built for.
+[00:43:12.880 --> 00:43:16.880]   The second one is a tool that is called Visit Webpage.
+[00:43:16.880 --> 00:43:21.080]   And the idea is it allows you to basically visit the web page,
+[00:43:21.080 --> 00:43:24.520]   download it as Markdown, converting it to Markdown,
+[00:43:24.520 --> 00:43:27.160]   and feeding it to the LLM.
+[00:43:27.160 --> 00:43:30.680]   The final one relies on a service called Tabili.
+[00:43:30.680 --> 00:43:32.480]   It's a paid API.
+[00:43:32.480 --> 00:43:36.800]   It has, I think, a relatively large,
+[00:43:36.800 --> 00:43:39.560]   I would say, just for the simple experiments,
+[00:43:39.560 --> 00:43:42.000]   a number of calls that you can do without having
+[00:43:42.000 --> 00:43:42.880]   to pay anything.
+[00:43:42.880 --> 00:43:46.600]   It still asks you for your credit card just to unlock it.
+[00:43:46.600 --> 00:43:51.240]   So I'm going to show you a few examples that use this.
+[00:43:51.240 --> 00:43:54.160]   After you run it the first time, there's
+[00:43:54.160 --> 00:43:56.280]   a possibility of setting up the environment, which
+[00:43:56.280 --> 00:43:58.680]   is all loaded into the browser.
+[00:43:58.680 --> 00:44:02.880]   And then you can configure your local LLM server access.
+[00:44:02.880 --> 00:44:06.120]   So this works out of the box with the Ollama, MM Studio,
+[00:44:06.120 --> 00:44:08.280]   and Summer Camp is kind of a custom configuration
+[00:44:08.280 --> 00:44:10.720]   for a workshop that I did previously.
+[00:44:10.720 --> 00:44:12.960]   But you can also make it work with the LLama file.
+[00:44:12.960 --> 00:44:18.360]   And these are the parameters to connect to your own LLama file.
+[00:44:18.360 --> 00:44:23.440]   So if you don't know what LLama file is, it's LLama file.
+[00:44:23.440 --> 00:44:26.280]   I'm pretty sure, yes, that's in my history
+[00:44:26.280 --> 00:44:29.200]   because I'm working on this every single day of my life
+[00:44:29.200 --> 00:44:30.120]   lately.
+[00:44:30.120 --> 00:44:33.160]   And LLama file is a way to distribute and run
+[00:44:33.160 --> 00:44:34.920]   LLMs with a single file.
+[00:44:34.920 --> 00:44:36.800]   So if you have had a chance already
+[00:44:36.800 --> 00:44:42.480]   to play with LLama CPT or, again, LM Studio or LLama,
+[00:44:42.480 --> 00:44:45.120]   you probably already have an idea about what it means
+[00:44:45.120 --> 00:44:47.760]   to serve a model locally.
+[00:44:47.760 --> 00:44:50.120]   If you have not tried it yet, you
+[00:44:50.120 --> 00:44:53.920]   can either try one of those services or those applications.
+[00:44:53.920 --> 00:44:55.560]   Sorry, they're not services.
+[00:44:55.560 --> 00:44:59.680]   Or you can try LLama file, which is our own interpretation
+[00:44:59.680 --> 00:45:02.200]   of how a local LLM should work.
+[00:45:02.200 --> 00:45:07.400]   And to be fair, this relies 95% on LLama CPT.
+[00:45:07.400 --> 00:45:09.240]   But the main idea is that we wanted
+[00:45:09.240 --> 00:45:12.360]   to have a tool that would work with the lowest
+[00:45:12.360 --> 00:45:14.240]   friction possible for users.
+[00:45:14.240 --> 00:45:16.480]   So this tool is a single file.
+[00:45:16.480 --> 00:45:20.840]   You can download it from Hugging Face, Hugging Face,
+[00:45:20.840 --> 00:45:27.240]   Mozilla AI, LLama file 0.10.0 is the latest URL.
+[00:45:27.240 --> 00:45:30.720]   And I'm going to share the link immediately in case any of you
+[00:45:30.720 --> 00:45:35.480]   wants to try and download this on the fly.
+[00:45:35.480 --> 00:45:39.000]   On the main page, you can find a huge variety
+[00:45:39.000 --> 00:45:41.600]   of LLama files from the smallest one, which
+[00:45:41.600 --> 00:45:46.560]   is a 1.7 billion model with 1-bit quantization, which
+[00:45:46.560 --> 00:45:48.280]   is 292 megabytes.
+[00:45:48.280 --> 00:45:50.200]   It's not going to be great for everything,
+[00:45:50.200 --> 00:45:53.120]   but it's funny to have because it's sunny and runs basically
+[00:45:53.120 --> 00:45:54.240]   everywhere.
+[00:45:54.240 --> 00:46:00.440]   Up to gemma 4, 31 billion, 24 gigabytes file to download.
+[00:46:00.440 --> 00:46:05.000]   And this requires a bit more powerful hardware.
+[00:46:05.000 --> 00:46:07.960]   All of these files are just simple executables
+[00:46:07.960 --> 00:46:11.320]   that you can just download and run on your system.
+[00:46:11.320 --> 00:46:12.960]   If you are on a Unix-like system,
+[00:46:12.960 --> 00:46:17.080]   you need to add the executable attribute to the file
+[00:46:17.080 --> 00:46:18.080]   to start it.
+[00:46:18.080 --> 00:46:21.880]   If you are on Windows, you just add the .exe extension
+[00:46:21.880 --> 00:46:23.960]   and then double click on this.
+[00:46:23.960 --> 00:46:26.880]   These files, regardless of the operating system you are,
+[00:46:26.880 --> 00:46:28.480]   should run out of the box.
+[00:46:28.480 --> 00:46:33.440]   They should, by default, use CPU if you have no GPU,
+[00:46:33.440 --> 00:46:36.160]   or they can use acceleration.
+[00:46:36.160 --> 00:46:38.880]   All of these LLama files are prepackaged
+[00:46:38.880 --> 00:46:41.760]   to work with GPU acceleration on Linux,
+[00:46:41.760 --> 00:46:44.280]   but you can separately download libraries
+[00:46:44.280 --> 00:46:47.760]   to let them run on Windows too.
+[00:46:47.760 --> 00:46:51.160]   And I'm going to run some LLama files in the background
+[00:46:51.160 --> 00:46:53.720]   to show you how things run in real time
+[00:46:53.720 --> 00:46:57.000]   so you can get an idea about how to run these tools.
+[00:46:57.000 --> 00:46:58.440]   So let me go back to this page.
+[00:46:58.440 --> 00:47:01.480]   Let me start the LLama file.
+[00:47:01.480 --> 00:47:05.640]   So here I have a directory with a few of them.
+[00:47:05.640 --> 00:47:13.080]   I'm going to take this model, .3.5.9 billion, and start it.
+[00:47:13.080 --> 00:47:16.280]   I'm going to also use --server so you can see
+[00:47:16.280 --> 00:47:19.120]   what is happening in real time.
+[00:47:19.120 --> 00:47:19.960]   Oh, of course.
+[00:47:19.960 --> 00:47:26.560]   OK, now it's ready.
+[00:47:26.560 --> 00:47:28.280]   And we're going to connect to this,
+[00:47:28.280 --> 00:47:31.520]   and we're going to ask it the simplest question ever.
+[00:47:31.520 --> 00:47:35.520]   How many times does the letter R occur in the word strawberry?
+[00:47:35.520 --> 00:47:39.080]   And please note that here it's not the regular word,
+[00:47:39.080 --> 00:47:41.680]   so we're not expecting the usual answer.
+[00:47:41.680 --> 00:47:45.240]   It's purposely misspelled, so you really
+[00:47:45.240 --> 00:47:48.440]   have to either have a very good tokenizer that
+[00:47:48.440 --> 00:47:51.680]   allows you to get exactly how many Rs are there,
+[00:47:51.680 --> 00:47:53.920]   or to call a tool.
+[00:47:53.920 --> 00:47:55.480]   In particular, the tool that we made
+[00:47:55.480 --> 00:47:58.520]   available, which is the one called
+[00:47:58.520 --> 00:48:01.200]   count character occurrences.
+[00:48:01.200 --> 00:48:04.080]   So below here, you already see that I called the tool
+[00:48:04.080 --> 00:48:06.440]   in the past, and I saw it running before,
+[00:48:06.440 --> 00:48:08.240]   but I'm going to clear everything here
+[00:48:08.240 --> 00:48:11.120]   and just run it on the fly.
+[00:48:11.120 --> 00:48:17.400]   So let me clear the agent output here and run it again.
+[00:48:17.400 --> 00:48:23.440]   So the first hit to the model is to the completion endpoint,
+[00:48:23.440 --> 00:48:27.200]   and the request is the following one.
+[00:48:27.200 --> 00:48:28.720]   You are a helpful agent.
+[00:48:28.720 --> 00:48:29.800]   Use available tools.
+[00:48:29.800 --> 00:48:32.320]   These are the instructions, one of the few components
+[00:48:32.320 --> 00:48:34.960]   that David told you about before.
+[00:48:34.960 --> 00:48:36.400]   Then there is the user prompt.
+[00:48:36.400 --> 00:48:38.600]   How many times does the letter R occur
+[00:48:38.600 --> 00:48:42.120]   in the word strawberry, which is another one of the components.
+[00:48:42.120 --> 00:48:47.160]   Then there is the model that we chose, the 3.59 billion.
+[00:48:47.160 --> 00:48:49.720]   The tools, another component that David told you
+[00:48:49.720 --> 00:48:52.200]   about before, and each of the tools
+[00:48:52.200 --> 00:48:56.640]   is passed as JSON in the request that you're sending to the LLM.
+[00:48:56.640 --> 00:49:00.720]   So the LLM does not need to have any knowledge about the tools.
+[00:49:00.720 --> 00:49:02.960]   The tools are not implemented in the LLM.
+[00:49:02.960 --> 00:49:07.720]   There's something external that we are making available to it.
+[00:49:07.720 --> 00:49:10.040]   And there are a few tools.
+[00:49:10.040 --> 00:49:12.200]   One of them is count character occurrences,
+[00:49:12.200 --> 00:49:16.600]   which uses these parameters, in particular, the character,
+[00:49:16.600 --> 00:49:18.720]   the one that we want to look for,
+[00:49:18.720 --> 00:49:23.200]   and the word, the one we are looking into.
+[00:49:23.200 --> 00:49:24.920]   And then there is another function,
+[00:49:24.920 --> 00:49:26.920]   the one to visit web pages.
+[00:49:26.920 --> 00:49:28.560]   And then there is another function
+[00:49:28.560 --> 00:49:31.600]   to do the tabular web search.
+[00:49:31.600 --> 00:49:34.040]   And this is all our request.
+[00:49:34.040 --> 00:49:36.000]   So we're basically asking the LLM
+[00:49:36.000 --> 00:49:39.280]   that we specify to follow the instructions
+[00:49:39.280 --> 00:49:42.840]   by using all the tools that are available-- well, not all.
+[00:49:42.840 --> 00:49:45.400]   One, at least, of the tools that are available--
+[00:49:45.400 --> 00:49:47.400]   to answer the user prompt.
+[00:49:47.400 --> 00:49:49.680]   And the response we get from the model
+[00:49:49.680 --> 00:49:53.960]   is you should do a tool call.
+[00:49:53.960 --> 00:49:56.360]   And the tool call is to a function
+[00:49:56.360 --> 00:49:58.920]   that's called count character of currencies
+[00:49:58.920 --> 00:50:01.240]   to which we pass this string, which
+[00:50:01.240 --> 00:50:07.640]   is the misspelled strawberry, to look for the character r.
+[00:50:07.640 --> 00:50:08.680]   I just saw a question.
+[00:50:08.680 --> 00:50:10.840]   Thank you so much for trying Lambda File on the fly.
+[00:50:10.840 --> 00:50:14.640]   I really like that you're tinkering with this already.
+[00:50:14.640 --> 00:50:16.980]   I'm sorry I didn't show you it clearly enough,
+[00:50:16.980 --> 00:50:18.560]   because I just came through this.
+[00:50:18.560 --> 00:50:20.720]   You add the minus minus server.
+[00:50:20.720 --> 00:50:24.920]   And let me show that to you.
+[00:50:24.920 --> 00:50:27.240]   I can block this for now.
+[00:50:27.240 --> 00:50:30.480]   And I can just rerun it again.
+[00:50:30.480 --> 00:50:35.480]   You just add this minus minus server parameter to that.
+[00:50:35.480 --> 00:50:39.200]   So let me run it again, in case we want to see other stuff
+[00:50:39.200 --> 00:50:40.600]   running in real time.
+[00:50:40.600 --> 00:50:42.080]   Oh, yeah, sure, good idea.
+[00:50:42.080 --> 00:50:44.040]   I'm going to paste the command there.
+[00:50:44.040 --> 00:50:46.920]   So in this case, the command is for that specific model
+[00:50:46.920 --> 00:50:48.180]   the 9 billion model.
+[00:50:48.180 --> 00:50:50.420]   But don't worry, it's going to work for any of them.
+[00:50:50.420 --> 00:50:54.020]   If you don't, you just have what was pasted there
+[00:50:54.020 --> 00:50:57.020]   as a screenshot, so like a terminal user interface
+[00:50:57.020 --> 00:51:00.140]   chat that you can use.
+[00:51:00.140 --> 00:51:03.080]   Another thing I should tell you about knowing your tools,
+[00:51:03.080 --> 00:51:05.820]   unfortunately, the smallest models
+[00:51:05.820 --> 00:51:08.420]   are not working for tool calling.
+[00:51:08.420 --> 00:51:12.240]   The first model working for tool calling,
+[00:51:12.240 --> 00:51:14.320]   let's say, that has been trained to do
+[00:51:14.320 --> 00:51:17.480]   tool calling in this web page.
+[00:51:17.480 --> 00:51:18.760]   Let me check.
+[00:51:18.760 --> 00:51:22.480]   Is the QAN 3.5 0.8 billions?
+[00:51:22.480 --> 00:51:25.000]   It's this one over here.
+[00:51:25.000 --> 00:51:27.760]   Just so you know, if you run one of the Bonsai model,
+[00:51:27.760 --> 00:51:30.480]   you won't be able to do tool calling.
+[00:51:30.480 --> 00:51:32.000]   And oh, that's great.
+[00:51:32.000 --> 00:51:34.640]   You also opened the localhost 8080,
+[00:51:34.640 --> 00:51:37.040]   and you could directly connect to the llama CPP UI.
+[00:51:37.040 --> 00:51:37.760]   Perfect.
+[00:51:37.760 --> 00:51:40.560]   Great.
+[00:51:40.560 --> 00:51:41.220]   OK, cool.
+[00:51:41.220 --> 00:51:44.000]   So you saw how to run the model.
+[00:51:44.000 --> 00:51:44.880]   Please try.
+[00:51:44.880 --> 00:51:46.880]   Please tell us if it breaks because it's
+[00:51:46.880 --> 00:51:48.560]   very good feedback for us.
+[00:51:48.560 --> 00:51:51.600]   And I'm just going to keep this running and move back
+[00:51:51.600 --> 00:51:55.920]   to the examples that we have in the browser.
+[00:51:55.920 --> 00:51:57.920]   Oh, also, it runs on Windows out of the box.
+[00:51:57.920 --> 00:51:59.640]   That's great.
+[00:51:59.640 --> 00:52:03.720]   You know, I'm developing these for Windows too.
+[00:52:03.720 --> 00:52:06.440]   I have one Windows machine on which I tested.
+[00:52:06.440 --> 00:52:08.400]   We have different colleagues testing them
+[00:52:08.400 --> 00:52:10.900]   on different Windows machines with different GPUs.
+[00:52:10.900 --> 00:52:13.960]   But one of the biggest issues we have with llama files
+[00:52:13.960 --> 00:52:16.920]   is we just don't have all the hardware in the world.
+[00:52:16.920 --> 00:52:20.200]   So the more feedback we get from people both today
+[00:52:20.200 --> 00:52:22.600]   during the class and in general, if you
+[00:52:22.600 --> 00:52:24.480]   want to play with this in the future,
+[00:52:24.480 --> 00:52:26.720]   is getting to know more about how
+[00:52:26.720 --> 00:52:29.080]   it performs on your own systems.
+[00:52:29.080 --> 00:52:31.760]   Don't feel bad about giving us negative feedback.
+[00:52:31.760 --> 00:52:32.920]   Like we are super happy.
+[00:52:32.920 --> 00:52:35.520]   It's a win-win because it will work better for you
+[00:52:35.520 --> 00:52:38.320]   when we fix it, and we will have something which is more stable.
+[00:52:38.320 --> 00:52:41.200]   So thank you so much for the feedback that you're giving me.
+[00:52:41.200 --> 00:52:43.760]   And sorry if I turn on the other side when I say thank you,
+[00:52:43.760 --> 00:52:46.140]   but it's where the chat is, the select chat.
+[00:52:46.140 --> 00:52:49.000]   So I will face the monitor only when looking
+[00:52:49.000 --> 00:52:51.800]   at the slides and the pages.
+[00:52:51.800 --> 00:52:52.280]   OK.
+[00:52:52.280 --> 00:52:57.640]   So first call, it was getting how many characters we had,
+[00:52:57.640 --> 00:52:59.840]   how many occurrences of the R character
+[00:52:59.840 --> 00:53:02.760]   we had in the misspelled strawberry word.
+[00:53:02.760 --> 00:53:05.680]   And then you can see from the follow completions
+[00:53:05.680 --> 00:53:10.440]   that there is a new request that pastes everything we had back.
+[00:53:10.440 --> 00:53:15.360]   So the system instructions, the user query, the assistant.
+[00:53:15.360 --> 00:53:20.440]   Now there's a new section where the assistant, which
+[00:53:20.440 --> 00:53:25.840]   is basically your LLM when it's called the tool, that said,
+[00:53:25.840 --> 00:53:31.880]   I'm counting these occurrences of the character
+[00:53:31.880 --> 00:53:33.760]   are in the strawberry.
+[00:53:33.760 --> 00:53:36.040]   And the tool that you called--
+[00:53:36.040 --> 00:53:39.880]   the tool called that you made has a very specific ID.
+[00:53:39.880 --> 00:53:43.040]   And you also now have the answer from that tool called.
+[00:53:43.040 --> 00:53:45.600]   The tool called with that ID answered
+[00:53:45.600 --> 00:53:50.000]   that the result is 5, which also means
+[00:53:50.000 --> 00:53:53.160]   that you can take any word, not necessarily one word which
+[00:53:53.160 --> 00:53:57.280]   is in the vocabulary, not something which you can easily
+[00:53:57.280 --> 00:53:57.800]   tokenize.
+[00:53:57.800 --> 00:54:00.400]   You can just take something like this,
+[00:54:00.400 --> 00:54:04.240]   and you can still ask how many Rs appear there.
+[00:54:04.240 --> 00:54:06.380]   Honestly, I don't know.
+[00:54:06.380 --> 00:54:09.320]   If you want to check it live, I'm just going to trust it.
+[00:54:09.320 --> 00:54:11.760]   When I see that the output of the function
+[00:54:11.760 --> 00:54:13.640]   is the correct one.
+[00:54:13.640 --> 00:54:16.840]   And just think that we have moved
+[00:54:16.840 --> 00:54:22.440]   from trusting an LLM, which is a stochastic predictor
+[00:54:22.440 --> 00:54:26.080]   of the next token, to trusting a tool.
+[00:54:26.080 --> 00:54:29.200]   Because now we can check in our output
+[00:54:29.200 --> 00:54:33.440]   and see that after the assistant calls the tool,
+[00:54:33.440 --> 00:54:36.440]   it has this answer from the tool.
+[00:54:36.440 --> 00:54:39.880]   So it's not the LLM anymore which has generated
+[00:54:39.880 --> 00:54:44.040]   how many times these are occurred.
+[00:54:44.040 --> 00:54:47.360]   It's a tool that ran exactly how we expected because we
+[00:54:47.360 --> 00:54:49.040]   know the code that it ran.
+[00:54:49.040 --> 00:54:50.520]   And to me, this is a very good way
+[00:54:50.520 --> 00:54:52.960]   to be, again, more confident about what
+[00:54:52.960 --> 00:54:55.040]   the model answers us.
+[00:54:55.040 --> 00:54:57.040]   There was a short moment in time.
+[00:54:57.040 --> 00:54:59.040]   We're running a tiny nine--
+[00:54:59.040 --> 00:55:03.760]   well, not tiny-- everywhere, but a relatively small 9 billion
+[00:55:03.760 --> 00:55:07.080]   model on my laptop provided a result
+[00:55:07.080 --> 00:55:12.400]   that was more correct than GPT service online.
+[00:55:12.400 --> 00:55:15.280]   Because you know there was this moment in which GPT
+[00:55:15.280 --> 00:55:17.560]   was not very good at answering this kind of question.
+[00:55:17.560 --> 00:55:19.160]   Well, this tool did.
+[00:55:19.160 --> 00:55:22.200]   So this is what I mean when I say
+[00:55:22.200 --> 00:55:24.040]   when you have these kind of tools
+[00:55:24.040 --> 00:55:26.440]   and you are in complete control of them,
+[00:55:26.440 --> 00:55:29.360]   you can understand how they work, where they break,
+[00:55:29.360 --> 00:55:31.360]   and how to make them better.
+[00:55:31.360 --> 00:55:36.320]   So I hope you kind of have the same feeling,
+[00:55:36.320 --> 00:55:38.920]   will have the same feeling when playing with this,
+[00:55:38.920 --> 00:55:43.720]   that you are more in control of what is happening.
+[00:55:43.720 --> 00:55:46.560]   I think that was very helpful for us in this phase
+[00:55:46.560 --> 00:55:51.520]   was being able to check out these locks.
+[00:55:51.520 --> 00:55:53.800]   These locks, I didn't tell you.
+[00:55:53.800 --> 00:55:57.800]   If you, on Mac at least, hit Command-Option and I,
+[00:55:57.800 --> 00:55:59.760]   you can turn them on and off.
+[00:55:59.760 --> 00:56:04.200]   Or I think you can go on the menu, whatever your system is.
+[00:56:04.200 --> 00:56:06.560]   And oh, this is Search Tabs.
+[00:56:06.560 --> 00:56:10.200]   Sorry, this is the menu.
+[00:56:10.200 --> 00:56:11.520]   OK, menu.
+[00:56:11.520 --> 00:56:17.520]   And then you can go in, I think, More Tools and Web Developer
+[00:56:17.520 --> 00:56:18.240]   Tools.
+[00:56:18.240 --> 00:56:19.800]   OK, yes, that's it.
+[00:56:19.800 --> 00:56:24.360]   More Tools, Web Developer Tools, and you can enable this.
+[00:56:24.360 --> 00:56:26.400]   So I find this super convenient.
+[00:56:26.400 --> 00:56:29.520]   And I think this is still one of the components
+[00:56:29.520 --> 00:56:32.080]   that Dadit was talking about before,
+[00:56:32.080 --> 00:56:34.720]   that he's having callbacks which allow
+[00:56:34.720 --> 00:56:37.280]   you to get extra information.
+[00:56:37.280 --> 00:56:39.960]   In this case, we don't have an explicit callback
+[00:56:39.960 --> 00:56:43.080]   in the agent, but we have an extra way
+[00:56:43.080 --> 00:56:45.400]   of checking whatever passes through the network,
+[00:56:45.400 --> 00:56:47.720]   because it's every call that is sent to the LLM
+[00:56:47.720 --> 00:56:50.280]   and every response that the LLM gives us.
+[00:56:50.280 --> 00:56:52.560]   And we can take advantage of these
+[00:56:52.560 --> 00:56:55.800]   to get more information about that.
+[00:56:55.800 --> 00:56:59.760]   So let's go to the second example that was connecting
+[00:56:59.760 --> 00:57:01.800]   to a web page in this case.
+[00:57:01.800 --> 00:57:05.560]   So I will also try and rerun these on the fly.
+[00:57:05.560 --> 00:57:07.760]   So let me delete this.
+[00:57:07.760 --> 00:57:11.760]   And same setup, same model.
+[00:57:11.760 --> 00:57:13.520]   Let me just check that I left it running,
+[00:57:13.520 --> 00:57:14.600]   because I don't remember.
+[00:57:14.600 --> 00:57:15.880]   OK, yes.
+[00:57:15.880 --> 00:57:18.840]   And the question is, how many stars
+[00:57:18.840 --> 00:57:23.080]   does the Mozilla AI Any Agent project have on GitHub?
+[00:57:23.080 --> 00:57:25.960]   So in this case, the model wouldn't be able to answer
+[00:57:25.960 --> 00:57:28.640]   unless it had access to the web.
+[00:57:28.640 --> 00:57:31.080]   So let us try and run this agent.
+[00:57:31.080 --> 00:57:33.680]   We already have a response, which was the correct one,
+[00:57:33.680 --> 00:57:35.400]   but let me try and run it again.
+[00:57:35.400 --> 00:57:41.120]   So the first thing the agent does
+[00:57:41.120 --> 00:57:47.400]   is it tries to search Mozilla AI Any Agent GitHub stars using
+[00:57:47.400 --> 00:57:47.960]   Tableau.
+[00:57:47.960 --> 00:57:51.000]   So it uses an API to do a web search
+[00:57:51.000 --> 00:57:54.600]   and connect to get information about this project.
+[00:57:54.600 --> 00:57:58.320]   Then it probably doesn't find all the information it needs.
+[00:57:58.320 --> 00:58:01.760]   And then it goes on GitHub to get information
+[00:58:01.760 --> 00:58:03.520]   about the Any Agent project.
+[00:58:03.520 --> 00:58:08.400]   So in this case, it's the actual HTML page from GitHub.
+[00:58:08.400 --> 00:58:11.160]   Then it parses the output.
+[00:58:11.160 --> 00:58:14.200]   And then it gives you the information
+[00:58:14.200 --> 00:58:16.360]   that the project has 1,200 stars.
+[00:58:16.360 --> 00:58:18.000]   Let me just show it as markdown.
+[00:58:18.000 --> 00:58:21.440]   It's going to be more readable.
+[00:58:21.440 --> 00:58:25.240]   And if you go and check, I think I have it here.
+[00:58:25.240 --> 00:58:27.560]   The project actually has 1,200 stars.
+[00:58:27.560 --> 00:58:30.880]   So we are doing pretty good here.
+[00:58:30.880 --> 00:58:33.520]   Two examples, two running examples.
+[00:58:33.520 --> 00:58:36.880]   I think this is already pretty good.
+[00:58:36.880 --> 00:58:40.080]   OK, the third one is a bit more advanced.
+[00:58:40.080 --> 00:58:46.680]   Let me clear this and try and run it on the fly again.
+[00:58:46.680 --> 00:58:51.800]   So what is the title of the latest post on this website?
+[00:58:51.800 --> 00:58:53.880]   That is my personal blog post.
+[00:58:53.880 --> 00:58:55.560]   When was it published?
+[00:58:55.560 --> 00:58:57.000]   What is it about?
+[00:58:57.000 --> 00:58:59.960]   And what is the absolute URL of the image
+[00:58:59.960 --> 00:59:02.440]   at the beginning of the post?
+[00:59:02.440 --> 00:59:06.240]   So let me just show you the website before.
+[00:59:06.240 --> 00:59:08.200]   Let me just try and do this.
+[00:59:08.200 --> 00:59:13.480]   I think I have it here.
+[00:59:13.480 --> 00:59:17.760]   No, I don't have the full one, so this is the website.
+[00:59:17.760 --> 00:59:20.840]   The main page is just a list of posts.
+[00:59:20.840 --> 00:59:25.000]   You can see there is my Vive reversing post here.
+[00:59:25.000 --> 00:59:28.720]   And the latest one is this one from August last year.
+[00:59:28.720 --> 00:59:34.200]   I hate to see my blog posting, which I need to catch up with.
+[00:59:34.200 --> 00:59:35.720]   This is the post.
+[00:59:35.720 --> 00:59:38.240]   It's called Chest.
+[00:59:38.240 --> 00:59:42.880]   And this is the first image that you see in the blog post.
+[00:59:42.880 --> 00:59:44.640]   So let us get that here.
+[00:59:44.640 --> 00:59:47.640]   And what we're trying to do here is a tiny crawler,
+[00:59:47.640 --> 00:59:52.720]   a custom crawler, but we are not writing a line of code
+[00:59:52.720 --> 00:59:54.040]   to write this crawler.
+[00:59:54.040 --> 00:59:56.720]   What we do is we just take a 9 billion model, which is
+[00:59:56.720 --> 00:59:59.440]   something that runs on cheap hardware.
+[00:59:59.440 --> 01:00:04.000]   We are providing it with both a search engine and a visit
+[01:00:04.000 --> 01:00:05.480]   web page tool.
+[01:00:05.480 --> 01:00:07.880]   But in this case, you will see it will likely only
+[01:00:07.880 --> 01:00:10.400]   use the visit web page tool because we already
+[01:00:10.400 --> 01:00:12.040]   provided the URL.
+[01:00:12.040 --> 01:00:13.480]   And then we give a question.
+[01:00:13.480 --> 01:00:17.520]   So let's see how it works this time.
+[01:00:17.520 --> 01:00:19.880]   It does the first call.
+[01:00:19.880 --> 01:00:23.360]   The answer is you should try and connect
+[01:00:23.360 --> 01:00:26.640]   tool calls, function, visit web page,
+[01:00:26.640 --> 01:00:28.920]   and the URL that was provided.
+[01:00:28.920 --> 01:00:31.080]   Then it connects to the web page.
+[01:00:31.080 --> 01:00:33.240]   Then it follows the link to go to the post.
+[01:00:33.240 --> 01:00:34.880]   And then it provides this answer,
+[01:00:34.880 --> 01:00:37.440]   which I'm going to format as markdown,
+[01:00:37.440 --> 01:00:40.080]   which is this is the title of the post.
+[01:00:40.080 --> 01:00:41.880]   This was the date.
+[01:00:41.880 --> 01:00:43.760]   And this is what it is about.
+[01:00:43.760 --> 01:00:46.120]   And this is the link for the image.
+[01:00:46.120 --> 01:00:49.640]   And the link for the image is exactly this one,
+[01:00:49.640 --> 01:00:51.800]   which is the one I showed you before by mistake.
+[01:00:51.800 --> 01:00:59.920]   So what the tool did was find--
+[01:00:59.920 --> 01:01:00.680]   sorry, the tool.
+[01:01:00.680 --> 01:01:04.280]   What the LLM did was check out the list of tools,
+[01:01:04.280 --> 01:01:08.880]   find that the tool it had to call was the fetch web page,
+[01:01:08.880 --> 01:01:14.280]   connect to the main website, parse the list of posts,
+[01:01:14.280 --> 01:01:18.040]   understanding what was the first post out of all of them,
+[01:01:18.040 --> 01:01:21.600]   and then following that link, opening the web page,
+[01:01:21.600 --> 01:01:24.320]   parsing it, and getting all the information that
+[01:01:24.320 --> 01:01:27.200]   was related to that.
+[01:01:27.200 --> 01:01:31.360]   All of these in a few lines of code,
+[01:01:31.360 --> 01:01:36.720]   which I'm going to show you now, and a model that
+[01:01:36.720 --> 01:01:41.360]   runs on even small hardware.
+[01:01:41.360 --> 01:01:43.720]   So I was going to tell you, I'm going
+[01:01:43.720 --> 01:01:45.560]   to show you the code for this.
+[01:01:45.560 --> 01:01:48.240]   Let's just do that from within the browser.
+[01:01:48.240 --> 01:01:53.040]   This is mostly HTML, HTML, HTML, HTML.
+[01:01:53.040 --> 01:01:57.080]   Then we get to a point where--
+[01:01:57.080 --> 01:01:58.800]   this is still HTML, sorry.
+[01:01:58.800 --> 01:02:04.400]   OK, this part over here is the part that is going to start.
+[01:02:04.400 --> 01:02:11.160]   And decide when to call our Python code.
+[01:02:11.160 --> 01:02:13.880]   Here, we just install some Python dependencies,
+[01:02:13.880 --> 01:02:16.920]   which is whatever we need to install
+[01:02:16.920 --> 01:02:20.560]   before running our agents.
+[01:02:20.560 --> 01:02:23.120]   And then, I believe I left a comment.
+[01:02:23.120 --> 01:02:27.360]   Yes, your Python agent code goes here.
+[01:02:27.360 --> 01:02:33.200]   So this is agent code that uses the default OpenAI client
+[01:02:33.200 --> 01:02:37.560]   and the OpenAI agents library.
+[01:02:37.560 --> 01:02:39.480]   So in this case, we are not using any agent,
+[01:02:39.480 --> 01:02:42.280]   but the OpenAI-specific code.
+[01:02:42.280 --> 01:02:45.440]   The reason is that OpenAI-specific code
+[01:02:45.440 --> 01:02:47.800]   pinned to a very particular version that's
+[01:02:47.800 --> 01:02:48.680]   quite back in time--
+[01:02:48.680 --> 01:02:53.200]   I think I have not updated it in months, but it still works--
+[01:02:53.200 --> 01:02:57.240]   can be interpreted by PyOdide, which
+[01:02:57.240 --> 01:02:59.840]   is a WebAssembly interpreter.
+[01:02:59.840 --> 01:03:03.400]   And the reason I did this is that this way, you
+[01:03:03.400 --> 01:03:08.720]   can write your own Python agent with very simple tools.
+[01:03:08.720 --> 01:03:13.080]   This is the count character occurrences.
+[01:03:13.080 --> 01:03:19.880]   You just have a one line telling you word.count char.
+[01:03:19.880 --> 01:03:21.640]   And this is how you count occurrences
+[01:03:21.640 --> 01:03:22.680]   of a character in a word.
+[01:03:22.680 --> 01:03:25.280]   You don't need anything more complex than this.
+[01:03:25.280 --> 01:03:27.800]   And you're already better than last year's GPT,
+[01:03:27.800 --> 01:03:29.920]   just with a single function tool.
+[01:03:29.920 --> 01:03:32.960]   Visit Web page is this simple.
+[01:03:32.960 --> 01:03:35.200]   Search Stavily is probably a bit more complex,
+[01:03:35.200 --> 01:03:39.000]   but still is relatively few lines of code, you see?
+[01:03:39.000 --> 01:03:41.400]   And then that's it.
+[01:03:41.400 --> 01:03:44.760]   There's, of course, other functions that are called.
+[01:03:44.760 --> 01:03:48.400]   But think about having all your code, your agent,
+[01:03:48.400 --> 01:03:52.680]   stored into an HTML file that other people can take and just
+[01:03:52.680 --> 01:03:54.400]   run on their browsers.
+[01:03:54.400 --> 01:03:56.200]   This was the main reason why I decided
+[01:03:56.200 --> 01:04:01.480]   to build this Wasm agents blueprint, because I thought,
+[01:04:01.480 --> 01:04:04.280]   for me, it's important not just that I can run this agent,
+[01:04:04.280 --> 01:04:07.000]   but that other people can run this agent in an easy way.
+[01:04:07.000 --> 01:04:09.120]   I think a lot of stuff happened in the last year.
+[01:04:09.120 --> 01:04:13.040]   There are way better ways to run code and make it very portable.
+[01:04:13.040 --> 01:04:16.040]   But if you want to experiment, this is available.
+[01:04:16.040 --> 01:04:17.080]   It's open source code.
+[01:04:17.080 --> 01:04:20.920]   You can play, change it, create your own agents, and so on.
+[01:04:20.920 --> 01:04:22.800]   There's one last example, I think.
+[01:04:22.800 --> 01:04:23.440]   Let me see.
+[01:04:23.440 --> 01:04:24.400]   No, not here.
+[01:04:24.400 --> 01:04:26.360]   So I'm not going to show it to you right now.
+[01:04:26.360 --> 01:04:27.920]   I'm going to jump to another part,
+[01:04:27.920 --> 01:04:32.800]   still very much related to these tools,
+[01:04:32.800 --> 01:04:39.040]   like this Wasm agents tool, and in general,
+[01:04:39.040 --> 01:04:42.080]   a way of checking out from the logs
+[01:04:42.080 --> 01:04:45.600]   how a single tool among the ones you use is behaving.
+[01:04:45.600 --> 01:04:50.000]   So know your tools.
+[01:04:50.000 --> 01:04:51.440]   We have already started.
+[01:04:51.440 --> 01:04:53.680]   Oh, inspire me to revert code locally.
+[01:04:53.680 --> 01:04:55.480]   How good is this framework for coding,
+[01:04:55.480 --> 01:04:57.200]   and which model would you suggest?
+[01:04:57.200 --> 01:04:59.280]   Ooh, that's such a great question.
+[01:04:59.280 --> 01:05:00.960]   So before knowing your tools, I'm
+[01:05:00.960 --> 01:05:04.000]   going to tell you a bit more about that.
+[01:05:04.000 --> 01:05:06.360]   And also because it's very much related,
+[01:05:06.360 --> 01:05:09.720]   like which model is best for coding,
+[01:05:09.720 --> 01:05:12.400]   which agentic framework is best for coding.
+[01:05:12.400 --> 01:05:15.440]   And the idea to reinvent code locally
+[01:05:15.440 --> 01:05:19.200]   is so great because there is one project called TIE,
+[01:05:19.200 --> 01:05:21.720]   the one I told you I would have shown you later,
+[01:05:21.720 --> 01:05:24.280]   that's actually being built exactly with that purpose.
+[01:05:24.280 --> 01:05:27.720]   Like the developer of PIE was so frustrated
+[01:05:27.720 --> 01:05:30.120]   about using Cloud Code and having
+[01:05:30.120 --> 01:05:33.800]   to keep up with all the changes the user experience they had,
+[01:05:33.800 --> 01:05:38.120]   that he developed PIE, which is another agentic tool
+[01:05:38.120 --> 01:05:42.040]   for coding, but actually could be used for anything
+[01:05:42.040 --> 01:05:46.640]   that you can use with whatever model you want.
+[01:05:46.640 --> 01:05:47.840]   Yes, I agree.
+[01:05:47.840 --> 01:05:50.320]   Cloud Code gets very expensive fast.
+[01:05:50.320 --> 01:05:52.440]   In addition to that, and that becomes
+[01:05:52.440 --> 01:05:56.760]   part of like not being able to have full power of what you run
+[01:05:56.760 --> 01:05:59.160]   or not having control of what you run,
+[01:05:59.160 --> 01:06:01.880]   just think that recently--
+[01:06:01.880 --> 01:06:04.400]   oh, thanks a lot for sharing the link, David.
+[01:06:04.400 --> 01:06:07.880]   Recently, Cloud-- oh, well, Antropic
+[01:06:07.880 --> 01:06:12.840]   decided that if you are not using Cloud Code, the tool,
+[01:06:12.840 --> 01:06:16.640]   you cannot just use the subscriptions that you have,
+[01:06:16.640 --> 01:06:18.920]   but you have to pay per token.
+[01:06:18.920 --> 01:06:21.960]   So if you're using OpenClaw, if you're using PIE,
+[01:06:21.960 --> 01:06:27.200]   if you're using your own agent backed up by Antropic models,
+[01:06:27.200 --> 01:06:29.080]   you will have to pay them by token.
+[01:06:29.080 --> 01:06:31.360]   So you don't have this kind of flat rate
+[01:06:31.360 --> 01:06:33.520]   that the subscriptions give you.
+[01:06:33.520 --> 01:06:36.160]   And this is very frustrating, especially
+[01:06:36.160 --> 01:06:38.800]   if you have already started paying for a subscription
+[01:06:38.800 --> 01:06:41.400]   that you thought would have lasted for a while
+[01:06:41.400 --> 01:06:45.520]   and cover you for your usage.
+[01:06:45.520 --> 01:06:47.000]   So I agree with you.
+[01:06:47.000 --> 01:06:50.360]   Getting started with something custom is the best.
+[01:06:50.360 --> 01:06:51.960]   I can tell you already one thing.
+[01:06:51.960 --> 01:06:55.400]   The model I heard about that people said
+[01:06:55.400 --> 01:06:59.240]   was the best for relatively small hardware
+[01:06:59.240 --> 01:07:07.920]   is QAN 2.6, $27 billion--
+[01:07:07.920 --> 01:07:14.280]   3.6, sorry, QAN 3.6, $27 billion, which, by the way,
+[01:07:14.280 --> 01:07:16.760]   is available as a LAMA file, if I remember well.
+[01:07:16.760 --> 01:07:20.280]   Let me just double check.
+[01:07:20.280 --> 01:07:21.200]   Yes, this one.
+[01:07:21.200 --> 01:07:26.400]   If you look for this on LinkedIn,
+[01:07:26.400 --> 01:07:31.040]   you will see Hugging Face CTO showing
+[01:07:31.040 --> 01:07:33.560]   that it was using this model on a flight,
+[01:07:33.560 --> 01:07:36.160]   and he could code while on a flight.
+[01:07:36.160 --> 01:07:37.720]   I think he was using that, at least.
+[01:07:37.720 --> 01:07:43.360]   I'm not 100% sure now, because I saw Gemma also being shared.
+[01:07:43.360 --> 01:07:47.720]   So I would say these models over here, the ones above,
+[01:07:47.720 --> 01:07:52.480]   let's say, $20-something billions are kind of comparable.
+[01:07:52.480 --> 01:07:55.120]   I heard well about all of them.
+[01:07:55.120 --> 01:07:57.520]   I think it very much depends on which kind of code
+[01:07:57.520 --> 01:07:58.640]   you're developing.
+[01:07:58.640 --> 01:08:02.600]   So can we have a back of the envelope estimation
+[01:08:02.600 --> 01:08:06.760]   about how these things run, how fast they run,
+[01:08:06.760 --> 01:08:08.800]   how good they are?
+[01:08:08.800 --> 01:08:11.120]   I can give you some examples, and this
+[01:08:11.120 --> 01:08:13.120]   is part of knowing your tools.
+[01:08:13.120 --> 01:08:15.360]   So this is a super-silic sample.
+[01:08:15.360 --> 01:08:20.080]   Oh, before we have this one, I'm going to skip it.
+[01:08:20.080 --> 01:08:21.560]   I'm going to show it afterwards.
+[01:08:21.560 --> 01:08:23.160]   This is a super-silic sample.
+[01:08:23.160 --> 01:08:28.720]   I'm just asking different agents for my age.
+[01:08:28.720 --> 01:08:31.400]   So what I would expect is that they don't know,
+[01:08:31.400 --> 01:08:33.120]   because I'm not on Wikipedia.
+[01:08:33.120 --> 01:08:37.640]   My information is not available in large language models training
+[01:08:37.640 --> 01:08:38.720]   sets.
+[01:08:38.720 --> 01:08:41.560]   It's available somewhere on some PDF document online,
+[01:08:41.560 --> 01:08:44.960]   but probably nobody has used it, and definitely nobody cares.
+[01:08:44.960 --> 01:08:49.640]   So if you ask for my birth date, you will probably not find it.
+[01:08:49.640 --> 01:08:51.880]   And this is, for me, a very simple--
+[01:08:51.880 --> 01:08:53.560]   because I know the answer--
+[01:08:53.560 --> 01:08:58.160]   but a good example to show how different models, depending
+[01:08:58.160 --> 01:09:02.880]   on how large they are, tackle the same problem
+[01:09:02.880 --> 01:09:05.040]   in different ways.
+[01:09:05.040 --> 01:09:06.760]   One could say they're--
+[01:09:06.760 --> 01:09:08.880]   take what you say more literally,
+[01:09:08.880 --> 01:09:11.560]   or one could say they are dumb.
+[01:09:11.560 --> 01:09:13.480]   I don't want to humanize them.
+[01:09:13.480 --> 01:09:17.640]   I just think they have a different way of predicting
+[01:09:17.640 --> 01:09:19.520]   what the next token is, right?
+[01:09:19.520 --> 01:09:22.840]   And probably it's less precise than what you would expect.
+[01:09:22.840 --> 01:09:24.240]   So here's the example.
+[01:09:24.240 --> 01:09:25.960]   I'm going to show you the code first,
+[01:09:25.960 --> 01:09:27.640]   which is available online.
+[01:09:27.640 --> 01:09:30.040]   So let me do things in the right order.
+[01:09:30.040 --> 01:09:34.600]   First of all, where is the code?
+[01:09:34.600 --> 01:09:41.120]   This one, this is the repository where
+[01:09:41.120 --> 01:09:43.320]   I left some Python files with examples
+[01:09:43.320 --> 01:09:46.480]   of how to test these models.
+[01:09:46.480 --> 01:09:50.760]   And then I'm going to go here, and then I'm
+[01:09:50.760 --> 01:09:52.680]   going to share these two.
+[01:09:52.680 --> 01:09:54.720]   This is the code that we are running now,
+[01:09:54.720 --> 01:09:57.560]   which is called agent_birthday.
+[01:09:57.560 --> 01:09:59.160]   And this is another agent.
+[01:09:59.160 --> 01:10:01.040]   It's all Python.
+[01:10:01.040 --> 01:10:08.000]   And the agent code is this.
+[01:10:08.000 --> 01:10:09.400]   It uses any agent.
+[01:10:09.400 --> 01:10:11.680]   This is a library that we developed.
+[01:10:11.680 --> 01:10:14.400]   It uses tiny agent as the agentic framework,
+[01:10:14.400 --> 01:10:18.160]   let's say the code that implements the agentic loop.
+[01:10:18.160 --> 01:10:22.040]   It uses llama file with a given model.
+[01:10:22.040 --> 01:10:23.320]   This is just a string.
+[01:10:23.320 --> 01:10:26.000]   I left it here, but I have examples
+[01:10:26.000 --> 01:10:31.560]   running with all models from quen 3, 0, 6 billion to quen 3.5,
+[01:10:31.560 --> 01:10:32.680]   9 billion.
+[01:10:32.680 --> 01:10:35.440]   This is just the last name that I left.
+[01:10:35.440 --> 01:10:38.520]   As you can guess, it doesn't need an API key.
+[01:10:38.520 --> 01:10:40.960]   It runs locally, as you've already seen.
+[01:10:40.960 --> 01:10:42.760]   These are the instructions, and these
+[01:10:42.760 --> 01:10:45.680]   are the tools that are provided.
+[01:10:45.680 --> 01:10:48.120]   So there are two tools available to this agent.
+[01:10:48.120 --> 01:10:50.520]   One is scan the current directory.
+[01:10:50.520 --> 01:10:56.440]   And what it does is exactly-- not read file, this.
+[01:10:56.440 --> 01:10:59.720]   So it looks for the current path, so the directory
+[01:10:59.720 --> 01:11:02.600]   where these source files are to.
+[01:11:02.600 --> 01:11:08.080]   And it returns a list of files that satisfy
+[01:11:08.080 --> 01:11:10.120]   the pattern that is provided.
+[01:11:10.120 --> 01:11:13.600]   So you can search for everything, everything.txt,
+[01:11:13.600 --> 01:11:14.960]   everything.py.
+[01:11:14.960 --> 01:11:17.480]   These are just some examples.
+[01:11:17.480 --> 01:11:22.600]   And instead, read file, opens a file, and reads the content
+[01:11:22.600 --> 01:11:24.320]   and returns it to the LLM.
+[01:11:24.320 --> 01:11:25.640]   So it's super simple.
+[01:11:25.640 --> 01:11:29.800]   There's way more documentation of your code
+[01:11:29.800 --> 01:11:31.120]   than the code itself.
+[01:11:31.120 --> 01:11:34.200]   And this is required because all of these docs
+[01:11:34.200 --> 01:11:37.720]   are going to the LLM as instructions
+[01:11:37.720 --> 01:11:41.080]   on how to run these tools.
+[01:11:41.080 --> 01:11:44.160]   And the final code is agent run prompt.
+[01:11:44.160 --> 01:11:45.880]   When was Davidei not born?
+[01:11:45.880 --> 01:11:48.440]   And I can also provide different prompts on the command line,
+[01:11:48.440 --> 01:11:54.600]   and you will see them shown in the slides afterwards.
+[01:11:54.600 --> 01:12:02.240]   So first experiment, quad3-06-pilion is quite fast.
+[01:12:02.240 --> 01:12:04.320]   To give you an idea about how fast this is,
+[01:12:04.320 --> 01:12:07.320]   I'm not sure I have it, but let me quickly check.
+[01:12:13.560 --> 01:12:17.640]   So I'm connecting to this computer.
+[01:12:17.640 --> 01:12:22.600]   If it's available, it should be.
+[01:12:22.600 --> 01:12:25.440]   Otherwise, it's offline right now.
+[01:12:25.440 --> 01:12:28.080]   OK, I'm not connecting to this computer.
+[01:12:28.080 --> 01:12:29.200]   I will run this locally.
+[01:12:29.200 --> 01:12:34.760]   Let me see if I can zip align our files.
+[01:12:34.760 --> 01:12:39.960]   OK, I have it here, 06 billion.
+[01:12:39.960 --> 01:12:45.280]   I already have another model running on the same.
+[01:12:45.280 --> 01:12:46.560]   So let me just run here.
+[01:12:46.560 --> 01:12:49.080]   OK.
+[01:12:49.080 --> 01:12:51.600]   Tell me everything you know about Palanturi.
+[01:12:51.600 --> 01:12:57.080]   This is how fast it goes on this hardware.
+[01:12:57.080 --> 01:12:59.440]   So it's very, very fast.
+[01:12:59.440 --> 01:13:02.400]   It's a very, very tiny model.
+[01:13:02.400 --> 01:13:05.160]   We are not 100% sure that all the information
+[01:13:05.160 --> 01:13:07.920]   it knows is correct, but it's definitely
+[01:13:07.920 --> 01:13:10.560]   something super responsive.
+[01:13:10.560 --> 01:13:13.000]   And I can tell you, the experiment I wanted to show you
+[01:13:13.000 --> 01:13:15.520]   was trying to connect to my Raspberry Pi file
+[01:13:15.520 --> 01:13:18.680]   and show you that it actually runs on a Raspberry Pi.
+[01:13:18.680 --> 01:13:21.160]   The fact that I cannot connect there is kind of concerning,
+[01:13:21.160 --> 01:13:23.200]   because then Raspberry Pi is in Italy,
+[01:13:23.200 --> 01:13:25.360]   and I cannot easily turn it off and on.
+[01:13:25.360 --> 01:13:26.200]   But that's all right.
+[01:13:26.200 --> 01:13:28.400]   Let's not worry about this right now.
+[01:13:28.400 --> 01:13:30.680]   Let's get back here and see what happens.
+[01:13:30.680 --> 01:13:33.560]   So when was David ANR born?
+[01:13:33.560 --> 01:13:37.440]   All that you see here are the different calls
+[01:13:37.440 --> 01:13:39.560]   that are shared.
+[01:13:39.560 --> 01:13:43.360]   And they appear as callbacks that have
+[01:13:43.360 --> 01:13:45.600]   been implemented in any agent.
+[01:13:45.600 --> 01:13:48.920]   So whenever you run those few lines of code
+[01:13:48.920 --> 01:13:57.000]   in your Python file, like these few lines of code, by default,
+[01:13:57.000 --> 01:14:00.920]   you also have all of these logging available.
+[01:14:00.920 --> 01:14:01.640]   OK.
+[01:14:01.640 --> 01:14:03.600]   So you know the system prompt.
+[01:14:03.600 --> 01:14:05.320]   You know the user prompt.
+[01:14:05.320 --> 01:14:06.840]   And you know the final answer.
+[01:14:06.840 --> 01:14:08.920]   So the model didn't do anything here.
+[01:14:08.920 --> 01:14:09.880]   It had the tools.
+[01:14:09.880 --> 01:14:12.600]   It just ignored them and said, I don't have access
+[01:14:12.600 --> 01:14:15.200]   to David ANR's birth date information, which
+[01:14:15.200 --> 01:14:18.400]   to some extent is not a bad answer,
+[01:14:18.400 --> 01:14:20.440]   because it actually doesn't know.
+[01:14:20.440 --> 01:14:23.160]   But it completely ignored my tools.
+[01:14:23.160 --> 01:14:25.560]   So I tried to run it again.
+[01:14:25.560 --> 01:14:29.520]   And this time, it hallucinates.
+[01:14:29.520 --> 01:14:31.880]   So it still doesn't run any tool.
+[01:14:31.880 --> 01:14:34.960]   And it tells I run way later than I am.
+[01:14:34.960 --> 01:14:37.000]   So I'm very happy that it made me younger.
+[01:14:37.000 --> 01:14:44.040]   But I was not very happy that it just made up an answer.
+[01:14:44.040 --> 01:14:47.120]   I run it again saying, look for the birthdays file
+[01:14:47.120 --> 01:14:50.800]   to find out, just to make it a bit more clear that there
+[01:14:50.800 --> 01:14:53.840]   is a connection between what I ask and the tools that
+[01:14:53.840 --> 01:14:55.480]   are made available.
+[01:14:55.480 --> 01:14:58.280]   And it kind of gets the hint.
+[01:14:58.280 --> 01:15:04.160]   And it looks for David_ANR_Birthdate.txt,
+[01:15:04.160 --> 01:15:06.120]   which kind of makes sense, because there's
+[01:15:06.120 --> 01:15:09.720]   no instructions given to it about what it has to search.
+[01:15:09.720 --> 01:15:10.840]   So it looks for it.
+[01:15:10.840 --> 01:15:12.720]   It has an empty output.
+[01:15:12.720 --> 01:15:17.880]   And after that, it just says, I don't have this information.
+[01:15:17.880 --> 01:15:22.040]   Sorry, I skipped that part, because it's redundant.
+[01:15:22.040 --> 01:15:25.720]   Next one, look for the birthdays CSV file to find out.
+[01:15:25.720 --> 01:15:27.920]   At that point, it understands that it
+[01:15:27.920 --> 01:15:31.640]   has to open a birthdays.csv file.
+[01:15:31.640 --> 01:15:34.640]   It gets the information that was saved in this file,
+[01:15:34.640 --> 01:15:39.400]   as you see all very popular computer engineers.
+[01:15:39.400 --> 01:15:42.320]   And there's me too, of course, among them.
+[01:15:42.320 --> 01:15:46.120]   And then it provides me with the right answer.
+[01:15:46.120 --> 01:15:47.520]   It took a while.
+[01:15:47.520 --> 01:15:49.400]   So do you want an agent that is not
+[01:15:49.400 --> 01:15:53.560]   even able to understand which tools it has to call
+[01:15:53.560 --> 01:15:55.920]   until you tell it exactly?
+[01:15:55.920 --> 01:15:57.800]   Probably not.
+[01:15:57.800 --> 01:16:01.680]   So we can say QAN306 billion, perhaps, is not
+[01:16:01.680 --> 01:16:04.080]   the ideal choice for this kind of agent.
+[01:16:04.080 --> 01:16:06.360]   It might be good for other things.
+[01:16:06.360 --> 01:16:09.240]   I don't know, summarize some text
+[01:16:09.240 --> 01:16:12.480]   or translate some text in relatively small amount
+[01:16:12.480 --> 01:16:13.360]   of languages.
+[01:16:13.360 --> 01:16:16.160]   But probably it's not ideal to do tool calling,
+[01:16:16.160 --> 01:16:20.520]   even if it has been trained to do tool calling.
+[01:16:20.520 --> 01:16:24.400]   I decided to then move to another tool, another model,
+[01:16:24.400 --> 01:16:27.560]   QAN3.5, 0.8 billion.
+[01:16:27.560 --> 01:16:29.680]   It came out months later.
+[01:16:29.680 --> 01:16:32.840]   It's just slightly larger, but you can already
+[01:16:32.840 --> 01:16:34.520]   see it's a bit more verbose.
+[01:16:34.520 --> 01:16:36.400]   The first time it didn't find information,
+[01:16:36.400 --> 01:16:40.400]   it said, well, you might want to search by keywords like these
+[01:16:40.400 --> 01:16:41.620]   if you want to see.
+[01:16:41.620 --> 01:16:43.240]   And of course, some of them are made up
+[01:16:43.240 --> 01:16:45.240]   because history and biology are not really
+[01:16:45.240 --> 01:16:47.360]   something that concerns me.
+[01:16:47.360 --> 01:16:49.240]   But it's interesting.
+[01:16:49.240 --> 01:16:54.840]   You see, kind of has a different way of talking to the user.
+[01:16:54.840 --> 01:16:59.160]   And when I asked again, saying, look for birthdays on disk,
+[01:16:59.160 --> 01:17:04.120]   it started looking for txt first, found nothing.
+[01:17:04.120 --> 01:17:08.220]   And then it moved to everything, birthday, everything.
+[01:17:08.220 --> 01:17:13.320]   And then eventually found CSV files,
+[01:17:13.320 --> 01:17:15.980]   in addition to agent birthday, py.
+[01:17:15.980 --> 01:17:18.920]   But it decided that CSV was probably
+[01:17:18.920 --> 01:17:23.120]   a better source of information rather than .py,
+[01:17:23.120 --> 01:17:25.600]   and then provided the correct information
+[01:17:25.600 --> 01:17:30.040]   after getting the actual content of the file.
+[01:17:30.040 --> 01:17:31.720]   So this is a bit better.
+[01:17:31.720 --> 01:17:33.000]   It's still not perfect.
+[01:17:33.000 --> 01:17:34.920]   You see, there are some attempts.
+[01:17:34.920 --> 01:17:37.320]   It kind of recovered from these attempts,
+[01:17:37.320 --> 01:17:40.840]   which is still part of the agentic loop and the fact
+[01:17:40.840 --> 01:17:43.640]   that the errors themselves are fed back to the LLM
+[01:17:43.640 --> 01:17:49.480]   and not used as a way to break the loop itself.
+[01:17:49.480 --> 01:17:51.920]   This is the 9 billion model instead.
+[01:17:51.920 --> 01:17:54.120]   Well, it was Davide and Acorn.
+[01:17:54.120 --> 01:17:56.120]   It looks for MD files first.
+[01:17:56.120 --> 01:17:57.360]   It doesn't find anything.
+[01:17:57.360 --> 01:18:00.360]   And then it just looks for everything.
+[01:18:00.360 --> 01:18:07.280]   Without being even asked, look on the disk, open this file,
+[01:18:07.280 --> 01:18:10.160]   it automatically decides that searching
+[01:18:10.160 --> 01:18:14.620]   for the most general substring and then looking
+[01:18:14.620 --> 01:18:16.760]   for something that was called birthdays
+[01:18:16.760 --> 01:18:22.720]   was the best path to answer this kind of question.
+[01:18:22.720 --> 01:18:24.000]   Sorry.
+[01:18:24.000 --> 01:18:30.800]   Yes, but I also provided with wrong data,
+[01:18:30.800 --> 01:18:32.880]   earned a guess to the right file,
+[01:18:32.880 --> 01:18:35.240]   and shows you the right answer.
+[01:18:35.240 --> 01:18:42.600]   And then I tried to challenge it with wrong data.
+[01:18:42.600 --> 01:18:45.400]   So I asked, when was Alan Turing born?
+[01:18:45.400 --> 01:18:47.880]   And here, I'm not sure you noticed,
+[01:18:47.880 --> 01:18:51.600]   I didn't because I realized I did a mistake by pasting
+[01:18:51.600 --> 01:18:56.520]   the death date and not the birth date of Alan Turing here.
+[01:18:56.520 --> 01:19:01.400]   And I realized that only when 23.59 billion
+[01:19:01.400 --> 01:19:05.000]   refused to answer with the date that was
+[01:19:05.000 --> 01:19:07.200]   coming from the CSV file.
+[01:19:07.200 --> 01:19:11.640]   And then I said, trust the tools answers.
+[01:19:11.640 --> 01:19:15.640]   And once I said that, it provided the date that I had
+[01:19:15.640 --> 01:19:20.200]   in there, but decided to add according to the birthdays CSV
+[01:19:20.200 --> 01:19:25.320]   file because for the tool itself, for the LLM itself,
+[01:19:25.320 --> 01:19:27.440]   it kind of felt weird.
+[01:19:27.440 --> 01:19:29.840]   So there was a very low probability
+[01:19:29.840 --> 01:19:34.440]   that that date was associated to Alan Turing birth
+[01:19:34.440 --> 01:19:36.720]   and not Alan Turing death.
+[01:19:36.720 --> 01:19:39.280]   So I found this interesting because it's not just
+[01:19:39.280 --> 01:19:42.720]   the model that is more general, more expressive
+[01:19:42.720 --> 01:19:44.480]   than the smaller ones.
+[01:19:44.480 --> 01:19:49.160]   It's also a model that has some knowledge
+[01:19:49.160 --> 01:19:52.200]   and will fight to continue providing you
+[01:19:52.200 --> 01:19:55.280]   that knowledge, which can be a pro or a con
+[01:19:55.280 --> 01:19:57.320]   if that knowledge is not the correct one.
+[01:19:57.320 --> 01:20:00.560]   Assume you wanted to know when Alan Turing was born,
+[01:20:00.560 --> 01:20:04.080]   but the Alan Turing you referred to is not the Alan Turing
+[01:20:04.080 --> 01:20:05.040]   that everyone knows.
+[01:20:05.040 --> 01:20:07.120]   It's just the harmony.
+[01:20:07.120 --> 01:20:10.520]   In that case, you really want to get it from the CSV file
+[01:20:10.520 --> 01:20:13.480]   and the model will insist to always provide you
+[01:20:13.480 --> 01:20:15.600]   with other information.
+[01:20:15.600 --> 01:20:21.040]   So what does it mean to have a nine billion parameter model
+[01:20:21.040 --> 01:20:22.440]   running on your hardware?
+[01:20:22.440 --> 01:20:25.480]   So nine billion parameters are something
+[01:20:25.480 --> 01:20:31.560]   that runs on as few as, I would say, 16 gigabytes of RAM
+[01:20:31.560 --> 01:20:34.240]   relatively easily.
+[01:20:34.240 --> 01:20:39.120]   So one thing you can play with is the context size.
+[01:20:39.120 --> 01:20:41.200]   So you can make it larger or smaller
+[01:20:41.200 --> 01:20:43.280]   as a parameter when you run llama file
+[01:20:43.280 --> 01:20:48.040]   or any other of these local inference servers.
+[01:20:48.040 --> 01:20:51.400]   And I think by playing with these,
+[01:20:51.400 --> 01:20:53.920]   you will also realize how much you
+[01:20:53.920 --> 01:20:57.640]   can push a system to use a more advanced with more parameters
+[01:20:57.640 --> 01:21:00.760]   model rather than one that is way slower.
+[01:21:00.760 --> 01:21:03.120]   Before going here, I want to show you
+[01:21:03.120 --> 01:21:08.400]   one of the limits that is exactly the context size.
+[01:21:08.400 --> 01:21:13.080]   So at least until some time ago, the default context size
+[01:21:13.080 --> 01:21:16.400]   on tools such as llama, for instance,
+[01:21:16.400 --> 01:21:21.760]   was 4K tokens for 1,096 tokens.
+[01:21:21.760 --> 01:21:25.840]   And the outcome was that even with simple questions
+[01:21:25.840 --> 01:21:27.600]   such as this, like how many stars
+[01:21:27.600 --> 01:21:30.720]   does Mozilla AI any agent have on GitHub,
+[01:21:30.720 --> 01:21:33.440]   the result you had was completely gibberish just
+[01:21:33.440 --> 01:21:36.200]   because everything went out of the context.
+[01:21:36.200 --> 01:21:40.040]   Imagine the agent downloading a web page,
+[01:21:40.040 --> 01:21:43.240]   not being able to store all of that web
+[01:21:43.240 --> 01:21:45.280]   page inside its own context.
+[01:21:45.280 --> 01:21:49.120]   So dropping part of this, maybe dropping the question itself,
+[01:21:49.120 --> 01:21:50.720]   and then the agent says like, yeah, I
+[01:21:50.720 --> 01:21:52.600]   should answer something about this web page.
+[01:21:52.600 --> 01:21:54.760]   But I don't really remember what exactly.
+[01:21:54.760 --> 01:21:56.320]   And the first thing it comes out with
+[01:21:56.320 --> 01:21:59.480]   is, OK, I'm just going to talk about the installation
+[01:21:59.480 --> 01:22:00.240]   of any agent.
+[01:22:00.240 --> 01:22:02.840]   But the question was completely different.
+[01:22:02.840 --> 01:22:06.800]   So this, to me, is still part of knowing the tools
+[01:22:06.800 --> 01:22:07.840]   that you are using, right?
+[01:22:07.840 --> 01:22:10.560]   So whenever you use an inference engine,
+[01:22:10.560 --> 01:22:16.800]   whether it's llama file or llama or llama CPP or LM Studio,
+[01:22:16.800 --> 01:22:21.800]   always look for the context size because if that's too small,
+[01:22:21.800 --> 01:22:24.000]   your agent is just not going to work.
+[01:22:24.000 --> 01:22:27.040]   For some tools, it's going to crash because it just goes,
+[01:22:27.040 --> 01:22:30.000]   let's say, out of memory or out of context.
+[01:22:30.000 --> 01:22:32.480]   It doesn't break in a bad way.
+[01:22:32.480 --> 01:22:34.400]   It will just tell you, no, no, no, no.
+[01:22:34.400 --> 01:22:36.480]   I just went over the context size.
+[01:22:36.480 --> 01:22:38.920]   I'm not going to add new stuff to the context.
+[01:22:38.920 --> 01:22:40.760]   In other cases, it will tell you nothing
+[01:22:40.760 --> 01:22:43.320]   like what happened here with llama.
+[01:22:43.320 --> 01:22:48.480]   And it will just go on simply working worse than it could.
+[01:22:48.480 --> 01:22:51.760]   And this, again, is not fair when you compare it
+[01:22:51.760 --> 01:22:54.480]   to a commercial service because in that case,
+[01:22:54.480 --> 01:22:57.080]   they already have all the engineering made
+[01:22:57.080 --> 01:23:00.040]   to work with these things properly.
+[01:23:00.040 --> 01:23:01.920]   So we did the context.
+[01:23:01.920 --> 01:23:04.160]   We did the model expressiveness.
+[01:23:04.160 --> 01:23:06.880]   Next step is strawberry fields forever.
+[01:23:06.880 --> 01:23:11.680]   This is something that happens in the background when
+[01:23:11.680 --> 01:23:15.400]   you run the same question we ran before about how many
+[01:23:15.400 --> 01:23:19.360]   hours are in strawberries with the older Q3 8 billion
+[01:23:19.360 --> 01:23:21.280]   with think mode activated.
+[01:23:21.280 --> 01:23:25.400]   So some models are set to overthink.
+[01:23:25.400 --> 01:23:27.960]   This is one example of what it means to overthink.
+[01:23:27.960 --> 01:23:31.040]   So if you ever read about a model that thinks a lot,
+[01:23:31.040 --> 01:23:33.000]   this is what happens in the background.
+[01:23:33.000 --> 01:23:34.640]   And it's terrible.
+[01:23:34.640 --> 01:23:37.800]   This is one example that I highlighted.
+[01:23:37.800 --> 01:23:40.880]   So strawberry breaks down as ba, ba, ba, ba.
+[01:23:40.880 --> 01:23:45.480]   So that's one R in straw and one R in arbery.
+[01:23:45.480 --> 01:23:48.200]   And wait, maybe I should split it properly.
+[01:23:48.200 --> 01:23:51.400]   And the only reason why we got the right answer
+[01:23:51.400 --> 01:23:54.640]   was that at some point, the think mode ended
+[01:23:54.640 --> 01:23:57.000]   and the tool decided to call the tool
+[01:23:57.000 --> 01:24:01.080]   and agreed that it had to trust the tool answer and return 5.
+[01:24:01.080 --> 01:24:03.920]   Otherwise, the answer would have been bad again.
+[01:24:03.920 --> 01:24:06.440]   So the tools are a good kind of guardrail
+[01:24:06.440 --> 01:24:11.880]   to allow you to get better results whenever you are asking
+[01:24:11.880 --> 01:24:13.040]   a question to your agent.
+[01:24:13.040 --> 01:24:17.480]   These tools can also be used to get
+[01:24:17.480 --> 01:24:20.680]   better model-specific insights.
+[01:24:20.680 --> 01:24:23.240]   I told you about Q3, the small Q3s.
+[01:24:23.240 --> 01:24:24.520]   They're a bit dumb.
+[01:24:24.520 --> 01:24:28.720]   I told you about the bigger countries overthink.
+[01:24:28.720 --> 01:24:30.760]   This one is on GPT-OSS.
+[01:24:30.760 --> 01:24:32.720]   It always searches on the web.
+[01:24:32.720 --> 01:24:36.640]   So if GPT-OSS, which is a pretty powerful model, especially
+[01:24:36.640 --> 01:24:41.480]   for the time when it came out, it was about one year ago,
+[01:24:41.480 --> 01:24:44.840]   it always searches for information on the web.
+[01:24:44.840 --> 01:24:47.080]   It feels like it has been trained
+[01:24:47.080 --> 01:24:50.800]   to use search as much as possible
+[01:24:50.800 --> 01:24:53.120]   to make sure that the information it gives you
+[01:24:53.120 --> 01:24:56.240]   is always up to date and not hallucinated.
+[01:24:56.240 --> 01:24:58.360]   So first of all, it needs context,
+[01:24:58.360 --> 01:25:01.960]   because everything it gets from a search,
+[01:25:01.960 --> 01:25:04.360]   it has to be put back into its outputs,
+[01:25:04.360 --> 01:25:06.600]   and so it has to pass through the context.
+[01:25:06.600 --> 01:25:09.400]   But also, even for simple information,
+[01:25:09.400 --> 01:25:14.720]   like here we were asking for TV shows and the exact release
+[01:25:14.720 --> 01:25:17.080]   date, genre, and so on.
+[01:25:17.080 --> 01:25:19.720]   So the first query was training TV shows.
+[01:25:19.720 --> 01:25:22.520]   And then once it got a list of TV shows, one of them
+[01:25:22.520 --> 01:25:25.120]   was "The Last of Us" season 2, it
+[01:25:25.120 --> 01:25:28.720]   looked for the release date of that specific show.
+[01:25:28.720 --> 01:25:32.360]   Then probably not finding it or willing to look for the others,
+[01:25:32.360 --> 01:25:35.880]   it was searching for training TV shows list release date.
+[01:25:35.880 --> 01:25:39.360]   So you can see how much that model depended on search
+[01:25:39.360 --> 01:25:40.480]   for every single thing.
+[01:25:40.480 --> 01:25:43.120]   Everything it didn't find explicitly,
+[01:25:43.120 --> 01:25:46.280]   it was searching for this, and again and again.
+[01:25:46.280 --> 01:25:49.840]   What happens if you take away the search tool?
+[01:25:49.840 --> 01:25:51.720]   This is the result.
+[01:25:51.720 --> 01:25:54.240]   It hits Wikipedia like crazy.
+[01:25:54.240 --> 01:25:56.320]   So it could still access websites
+[01:25:56.320 --> 01:25:58.480]   by doing fetch web page.
+[01:25:58.480 --> 01:26:01.160]   It couldn't search, so it just made up
+[01:26:01.160 --> 01:26:03.360]   a lot of Wikipedia page titles.
+[01:26:03.360 --> 01:26:05.800]   Some of them were valid, some others weren't.
+[01:26:05.800 --> 01:26:08.720]   Like these 404s are made up Wikipedia page
+[01:26:08.720 --> 01:26:10.760]   that are not existing.
+[01:26:10.760 --> 01:26:12.760]   And for each of them, it was just
+[01:26:12.760 --> 01:26:17.040]   trying to get release date or extra information.
+[01:26:17.040 --> 01:26:20.280]   This is kind of important, right?
+[01:26:20.280 --> 01:26:22.880]   You have an agent that runs stuff for you automatically,
+[01:26:22.880 --> 01:26:25.560]   and for one question you ask, it's
+[01:26:25.560 --> 01:26:29.960]   hitting Wikipedia like 20 something times.
+[01:26:29.960 --> 01:26:31.600]   Is Wikipedia happy about this?
+[01:26:31.600 --> 01:26:32.680]   Of course not.
+[01:26:32.680 --> 01:26:34.640]   Like about one year ago, Wikipedia
+[01:26:34.640 --> 01:26:38.600]   decided to close its access to user agents that were not
+[01:26:38.600 --> 01:26:40.160]   the browser, basically.
+[01:26:40.160 --> 01:26:44.240]   So if you have an agent that tries to directly hit Wikipedia,
+[01:26:44.240 --> 01:26:47.520]   you're going to have a hard time making it work.
+[01:26:47.520 --> 01:26:50.320]   And there's an extra information, which is--
+[01:26:50.320 --> 01:26:53.880]   not information, but thought you should think about,
+[01:26:53.880 --> 01:26:57.760]   which is who owns these search tools.
+[01:26:57.760 --> 01:27:00.080]   In this case, it was Ollama.
+[01:27:00.080 --> 01:27:03.520]   So when OpenAI and Ollama made a deal
+[01:27:03.520 --> 01:27:10.680]   to release GPT-OSS as at last an OpenAI, open-weights model that
+[01:27:10.680 --> 01:27:14.800]   runs locally, well, the thing stopped to be local.
+[01:27:14.800 --> 01:27:17.760]   So Ollama added an extra parameter
+[01:27:17.760 --> 01:27:21.120]   in its configuration that was called the airplane mode that
+[01:27:21.120 --> 01:27:24.720]   was off by default. So the offline inference server
+[01:27:24.720 --> 01:27:28.800]   was not offline anymore, was online by default all the time.
+[01:27:28.800 --> 01:27:32.120]   And it offered a built-in web search
+[01:27:32.120 --> 01:27:34.480]   that, in that case, can be optionally enabled
+[01:27:34.480 --> 01:27:37.200]   to augment the model with the latest information that
+[01:27:37.200 --> 01:27:41.920]   was functional to making GPT-OSS work because they themselves
+[01:27:41.920 --> 01:27:47.280]   knew that GPT-OSS hit search engines like crazy.
+[01:27:47.280 --> 01:27:51.440]   At that point, though, you might wonder,
+[01:27:51.440 --> 01:27:53.960]   where does my information go?
+[01:27:53.960 --> 01:27:55.760]   Where do my queries end up?
+[01:27:55.760 --> 01:27:57.760]   And then you have to look into the code.
+[01:27:57.760 --> 01:28:01.400]   And sadly, the Ollama part of the code
+[01:28:01.400 --> 01:28:03.960]   that dealt with these things was not open source.
+[01:28:03.960 --> 01:28:07.080]   So you couldn't really know where your information went.
+[01:28:09.840 --> 01:28:13.200]   OK, I don't have conclusions yet.
+[01:28:13.200 --> 01:28:15.880]   Meaning, yes, I want to leave you some time for questions.
+[01:28:15.880 --> 01:28:18.680]   But I want to show you a couple of things more.
+[01:28:18.680 --> 01:28:22.360]   It's like, what else can I do with these tools, right?
+[01:28:22.360 --> 01:28:25.640]   I told you I would have shown you a couple more things.
+[01:28:25.640 --> 01:28:30.240]   One thing I did--
+[01:28:30.240 --> 01:28:35.200]   and this is kind of related to hitting Wikipedia like crazy--
+[01:28:35.200 --> 01:28:38.320]   was I checked out a file format called Zim.
+[01:28:38.320 --> 01:28:39.880]   I don't know if you know that.
+[01:28:39.880 --> 01:28:42.280]   If you connect to the Wikix.
+[01:28:42.280 --> 01:28:46.560]   Oh, Kiwix.
+[01:28:46.560 --> 01:28:49.160]   OK, I was misspelling it, sorry.
+[01:28:49.160 --> 01:28:52.280]   Kiwix is an application and a format
+[01:28:52.280 --> 01:28:58.360]   that allows you to access Wikipedia offline.
+[01:28:58.360 --> 01:29:01.280]   And there's a no-profit working on this.
+[01:29:01.280 --> 01:29:04.320]   And it basically allows you-- let
+[01:29:04.320 --> 01:29:06.920]   me just check if I can find more information about the Zim
+[01:29:06.920 --> 01:29:10.520]   format itself on the fly.
+[01:29:10.520 --> 01:29:12.960]   And you can download--
+[01:29:12.960 --> 01:29:15.440]   of course, not right now.
+[01:29:15.440 --> 01:29:19.160]   And oh, this time at least it managed to hit Wikipedia.
+[01:29:19.160 --> 01:29:20.600]   I'm going to just tell you.
+[01:29:20.600 --> 01:29:25.400]   So you can download the whole dump of Wikipedia.
+[01:29:25.400 --> 01:29:26.800]   If you take the full version, it's
+[01:29:26.800 --> 01:29:29.200]   like 50-something gigabytes.
+[01:29:29.200 --> 01:29:30.720]   But you can have a smaller version
+[01:29:30.720 --> 01:29:33.600]   of that with just the text and no images, for instance,
+[01:29:33.600 --> 01:29:37.600]   for, I would say, a dozen gigabytes probably.
+[01:29:37.600 --> 01:29:40.680]   And you can make it available locally on your disk.
+[01:29:40.680 --> 01:29:47.120]   And there's an MCP tool that's called Zim MCP Server that
+[01:29:47.120 --> 01:29:49.640]   looks for Zim files in the directory
+[01:29:49.640 --> 01:29:51.880]   and that can give you information that's
+[01:29:51.880 --> 01:30:03.080]   taken live from [INAUDIBLE] on your disk to [INAUDIBLE]
+[01:30:03.080 --> 01:30:05.640]   This is a friend of mine who's on Wikipedia
+[01:30:05.640 --> 01:30:09.520]   and whose birthdate is not known by models usually
+[01:30:09.520 --> 01:30:12.720]   because it's not as famous as Alan Turing, I would say.
+[01:30:12.720 --> 01:30:14.680]   But at the same time, whenever you
+[01:30:14.680 --> 01:30:17.760]   make this agent available with access to Wikipedia,
+[01:30:17.760 --> 01:30:20.360]   it will find the right answer.
+[01:30:20.360 --> 01:30:22.120]   So this is one example of things that you
+[01:30:22.120 --> 01:30:25.240]   can run offline even with a small model
+[01:30:25.240 --> 01:30:27.840]   with a pretty good performance.
+[01:30:27.840 --> 01:30:31.200]   Another thing is an agent that I built on my note-taking tool,
+[01:30:31.200 --> 01:30:32.360]   which is called Joplin.
+[01:30:32.360 --> 01:30:34.400]   I don't know if you know that.
+[01:30:34.400 --> 01:30:37.040]   It's not important that you use Joplin specifically.
+[01:30:37.040 --> 01:30:41.720]   I just wanted you to show what happens when you run this
+[01:30:41.720 --> 01:30:43.400]   together with some information that's
+[01:30:43.400 --> 01:30:49.360]   been nurtured and collected to provide a good knowledge base.
+[01:30:49.360 --> 01:30:52.200]   So this is Joplin, the note-taking tool.
+[01:30:52.200 --> 01:30:57.720]   And I built a tiny wiki inside it all speaking about--
+[01:30:57.720 --> 01:31:01.040]   not all, mostly speaking about the LLama file project.
+[01:31:01.040 --> 01:31:04.360]   So I can go on the LLama file section,
+[01:31:04.360 --> 01:31:08.080]   check information about the GPU backends or the features
+[01:31:08.080 --> 01:31:10.440]   that I'm implementing and everything.
+[01:31:10.440 --> 01:31:14.720]   All of this has been built using a pattern that has been shared
+[01:31:14.720 --> 01:31:17.000]   recently by Andrej Karpathy.
+[01:31:17.000 --> 01:31:20.360]   And I think I have the actual link for that, which I think
+[01:31:20.360 --> 01:31:21.680]   is super interesting.
+[01:31:21.680 --> 01:31:25.800]   And I'm going to paste it in the chat.
+[01:31:25.800 --> 01:31:28.440]   This is just a gist.
+[01:31:28.440 --> 01:31:32.080]   And you can copy-paste this into Cloud, for instance,
+[01:31:32.080 --> 01:31:35.880]   and ask Cloud to help you to build this LLM wiki, which
+[01:31:35.880 --> 01:31:40.960]   is a wiki populated by LLMs accessing your notes
+[01:31:40.960 --> 01:31:43.760]   and information and restructuring knowledge
+[01:31:43.760 --> 01:31:47.600]   in a way that makes it more easily accessible to an agent.
+[01:31:47.600 --> 01:31:49.120]   So I took this.
+[01:31:49.120 --> 01:31:51.560]   I created a wiki about my project LLama file
+[01:31:51.560 --> 01:31:53.960]   just by collecting all the notes that I had previously.
+[01:31:53.960 --> 01:31:55.480]   And this is the wiki.
+[01:31:55.480 --> 01:32:00.200]   And then I asked an agent to connect to Joplin,
+[01:32:00.200 --> 01:32:02.320]   looking into the wiki, and tell which
+[01:32:02.320 --> 01:32:06.320]   are the main issues that I fixed that relate to LLama file GPU
+[01:32:06.320 --> 01:32:07.800]   acceleration.
+[01:32:07.800 --> 01:32:10.440]   And the result is this one, which
+[01:32:10.440 --> 01:32:14.920]   I believe is a pretty good summary of what I worked on
+[01:32:14.920 --> 01:32:19.600]   with the sections that relate to the part of the documentation
+[01:32:19.600 --> 01:32:20.920]   that I wrote.
+[01:32:20.920 --> 01:32:24.320]   And all of this is stuff that you can run locally.
+[01:32:24.320 --> 01:32:30.240]   In this case, I think I still use the LLama file QEM 3.59
+[01:32:30.240 --> 01:32:31.000]   billion model.
+[01:32:31.000 --> 01:32:32.280]   So it's a tiny model.
+[01:32:32.280 --> 01:32:36.920]   You don't need a 30 billion parameter model for that.
+[01:32:36.920 --> 01:32:40.240]   And I think this is a pretty decent result.
+[01:32:40.240 --> 01:32:41.840]   Last but not least, because I don't
+[01:32:41.840 --> 01:32:46.120]   want to keep you more than allowed or required,
+[01:32:46.120 --> 01:32:47.600]   this is Spike.
+[01:32:47.600 --> 01:32:51.000]   And I added it just one single extension,
+[01:32:51.000 --> 01:32:53.960]   which is the CirX-NG extension.
+[01:32:53.960 --> 01:32:56.600]   And I really wanted you to know about this,
+[01:32:56.600 --> 01:33:00.360]   because before I told you who is owning your CirX engine.
+[01:33:00.360 --> 01:33:02.720]   And I showed you the example with LLama,
+[01:33:02.720 --> 01:33:05.160]   where you don't really know anything about that.
+[01:33:05.160 --> 01:33:07.120]   I showed you another example, which
+[01:33:07.120 --> 01:33:10.080]   is the Tabili example, where you know it's an API,
+[01:33:10.080 --> 01:33:12.640]   but still you have to pay for that.
+[01:33:12.640 --> 01:33:15.200]   And still, it's something you don't
+[01:33:15.200 --> 01:33:17.760]   know how open or closed it is.
+[01:33:17.760 --> 01:33:21.080]   There is this project called CirX-NG,
+[01:33:21.080 --> 01:33:30.680]   which is CirX-NG, and it's on a GitHub repo.
+[01:33:30.680 --> 01:33:34.400]   I'm going to paste this in the Slack channel too.
+[01:33:34.400 --> 01:33:37.920]   And it's a free internet meta search engine,
+[01:33:37.920 --> 01:33:41.600]   which aggregates results from various services and databases.
+[01:33:41.600 --> 01:33:44.000]   Exactly my default search engine here,
+[01:33:44.000 --> 01:33:48.880]   if I write David Einard, all this information
+[01:33:48.880 --> 01:33:53.000]   is hitting one Raspberry Pi, another one, not the one
+[01:33:53.000 --> 01:33:55.000]   that I couldn't access before.
+[01:33:55.000 --> 01:34:01.440]   And these are the services that have been called right now.
+[01:34:01.440 --> 01:34:03.560]   Right now, I have ran too many requests
+[01:34:03.560 --> 01:34:05.760]   in the last short amount of time.
+[01:34:05.760 --> 01:34:07.800]   So these two are suspended, but I
+[01:34:07.800 --> 01:34:11.320]   hit .taco, Wikipedia, Startpage, and Google,
+[01:34:11.320 --> 01:34:14.040]   got mixed information, aggregated all of them,
+[01:34:14.040 --> 01:34:15.520]   and have them available.
+[01:34:15.520 --> 01:34:18.520]   All of these runs even in a Docker image, if you want.
+[01:34:18.520 --> 01:34:23.480]   And you can use an extension that runs in Pi, which
+[01:34:23.480 --> 01:34:24.960]   you run from your terminal.
+[01:34:24.960 --> 01:34:29.640]   And then you can say, OK, I'm going to spin up a model.
+[01:34:29.640 --> 01:34:31.320]   Let me see what I'm running right now.
+[01:34:31.320 --> 01:34:32.840]   This-- oh, nothing.
+[01:34:32.840 --> 01:34:39.200]   So let's start Q3 9 billion again, 3.5 9 billion,
+[01:34:39.200 --> 01:34:42.440]   which should be fast enough for us to do this thing.
+[01:34:42.440 --> 01:34:45.800]   And then I'm asking, what are five qubit receivers
+[01:34:45.800 --> 01:34:48.880]   to watch in the second half of 2026,
+[01:34:48.880 --> 01:34:50.800]   just to make sure this is not part
+[01:34:50.800 --> 01:34:55.080]   of any pre-trained data of the model?
+[01:34:55.080 --> 01:34:58.400]   And these are searches it is running.
+[01:34:58.400 --> 01:35:00.720]   It actually seems like it's not connecting
+[01:35:00.720 --> 01:35:06.280]   to SuxNG at the moment.
+[01:35:06.280 --> 01:35:09.000]   This is interesting.
+[01:35:09.000 --> 01:35:11.640]   OK, let's drop it for now.
+[01:35:11.640 --> 01:35:13.800]   The good thing is that it provides
+[01:35:13.800 --> 01:35:16.640]   some interesting information about where to get it.
+[01:35:16.640 --> 01:35:19.320]   Otherwise, I think it's mostly due to how
+[01:35:19.320 --> 01:35:21.400]   I configure SuxNG in Pi.
+[01:35:21.400 --> 01:35:23.560]   And so I don't want to mess with this now.
+[01:35:23.560 --> 01:35:26.160]   But if you have any questions or follow-ups to this,
+[01:35:26.160 --> 01:35:28.240]   please let me know in Slack.
+[01:35:28.240 --> 01:35:30.760]   And I can provide you a working configuration for this,
+[01:35:30.760 --> 01:35:31.920]   because I tested it before.
+[01:35:31.920 --> 01:35:34.600]   And of course, before it was working.
+[01:35:34.600 --> 01:35:36.080]   Let me go to the conclusions now.
+[01:35:39.520 --> 01:35:45.600]   So we saw a variety of different approaches to creating agents.
+[01:35:45.600 --> 01:35:48.480]   It's not just building agents from scratch with code.
+[01:35:48.480 --> 01:35:51.760]   It's also using tools that rely on a genetic code.
+[01:35:51.760 --> 01:35:53.760]   But the most important thing is that we
+[01:35:53.760 --> 01:35:56.680]   knew some of the common characteristics
+[01:35:56.680 --> 01:35:59.360]   between these different agents.
+[01:35:59.360 --> 01:36:03.040]   So the callbacks, the logging, the choice
+[01:36:03.040 --> 01:36:07.360]   of the model, the agentic loop, how the agent deals with errors
+[01:36:07.360 --> 01:36:11.800]   by never breaking but providing the error back, and so on.
+[01:36:11.800 --> 01:36:15.240]   So I think there's tinkering with AI.
+[01:36:15.240 --> 01:36:17.880]   That is, tinkering by using AI, which
+[01:36:17.880 --> 01:36:20.880]   is very similar to what I did before at the very beginning
+[01:36:20.880 --> 01:36:23.680]   by trying to use Cloud to do reverse engineering
+[01:36:23.680 --> 01:36:26.640]   of that Dremitalia API.
+[01:36:26.640 --> 01:36:30.040]   And there's tinkering with AI, which is AI
+[01:36:30.040 --> 01:36:32.200]   is the object of your tinkering.
+[01:36:32.200 --> 01:36:35.600]   And while I haven't provided you with a one-size-fits-all
+[01:36:35.600 --> 01:36:39.560]   solution for coding or writing any kind of agent,
+[01:36:39.560 --> 01:36:43.280]   I think at least the approach of using the tools that you have,
+[01:36:43.280 --> 01:36:46.640]   trying to know them better, to learn more
+[01:36:46.640 --> 01:36:50.160]   is definitely the one that pays off in the longer term.
+[01:36:50.160 --> 01:36:53.000]   And my comment here is you can solve things very quickly
+[01:36:53.000 --> 01:36:54.040]   with a former.
+[01:36:54.040 --> 01:36:55.800]   Just open Cloud, ask a question.
+[01:36:55.800 --> 01:36:58.640]   It will very likely help you.
+[01:36:58.640 --> 01:37:01.600]   It will very likely be very happy to help you,
+[01:37:01.600 --> 01:37:02.960]   even for free right now.
+[01:37:02.960 --> 01:37:06.440]   But at some point, you will hit a wall where it costs too much,
+[01:37:06.440 --> 01:37:08.960]   or you depend on it too much, and so on.
+[01:37:08.960 --> 01:37:11.800]   While with a later approach, you will learn more,
+[01:37:11.800 --> 01:37:14.200]   and you will be more free in terms of the choices
+[01:37:14.200 --> 01:37:17.280]   that you can make it at a later stage.
+[01:37:17.280 --> 01:37:20.160]   Also, you have seen there's no one-size-fits-all solution.
+[01:37:20.160 --> 01:37:24.160]   Depending on your task, the compute you have available,
+[01:37:24.160 --> 01:37:26.920]   how the model was trained, whether it has tool support
+[01:37:26.920 --> 01:37:30.320]   or not, you will see that choosing one model or another
+[01:37:30.320 --> 01:37:32.760]   might be better.
+[01:37:32.760 --> 01:37:35.440]   Easy-shmeasy, meaning very often you
+[01:37:35.440 --> 01:37:38.120]   find tools which are friendly, but maybe they
+[01:37:38.120 --> 01:37:40.440]   are not actually useful to you.
+[01:37:40.440 --> 01:37:42.360]   Their UX might evolve too fast.
+[01:37:42.360 --> 01:37:44.680]   Things might break.
+[01:37:44.680 --> 01:37:47.640]   The defaults you have in the tool are not the best ones.
+[01:37:47.640 --> 01:37:50.760]   Sometimes, not always, but at least sometimes,
+[01:37:50.760 --> 01:37:53.280]   especially if you want to use this as a learning tool
+[01:37:53.280 --> 01:37:56.120]   and not just as a tool that brings you the solution out
+[01:37:56.120 --> 01:38:00.280]   of the box, devoting some time into setting things up
+[01:38:00.280 --> 01:38:03.720]   from the bottom up or from scratch,
+[01:38:03.720 --> 01:38:07.960]   even if it sounds a bit drastic, but let's say bottom up,
+[01:38:07.960 --> 01:38:11.280]   is probably the approach that pays
+[01:38:11.280 --> 01:38:14.200]   the most in the longer term.
+[01:38:14.200 --> 01:38:19.040]   Think small, which means limit the growth of your contacts,
+[01:38:19.040 --> 01:38:22.040]   having some memories that you can pick up at the later stage,
+[01:38:22.040 --> 01:38:27.400]   having a compaction of your context might help.
+[01:38:27.400 --> 01:38:30.720]   Starting with few tools brings you a very, very long way.
+[01:38:30.720 --> 01:38:32.160]   Just think about how many things I
+[01:38:32.160 --> 01:38:36.880]   showed you with just having a search and a fetch web page.
+[01:38:36.880 --> 01:38:40.040]   This already does a lot.
+[01:38:40.040 --> 01:38:44.840]   And there was a post by Corey Doctorow about the fact
+[01:38:44.840 --> 01:38:47.120]   that LLMs are slot machines.
+[01:38:47.120 --> 01:38:50.200]   And the main idea is that, as with slot machines,
+[01:38:50.200 --> 01:38:52.360]   very often you remember the success,
+[01:38:52.360 --> 01:38:54.760]   but you tend to forget the failures.
+[01:38:54.760 --> 01:38:57.200]   So we are super excited about the things that work.
+[01:38:57.200 --> 01:39:00.960]   And try and forget about the times it didn't work.
+[01:39:00.960 --> 01:39:02.600]   I would extend these to agents.
+[01:39:02.600 --> 01:39:04.240]   So it's not just about LLMs.
+[01:39:04.240 --> 01:39:07.440]   Agents can make things a bit more reliable,
+[01:39:07.440 --> 01:39:09.920]   but they are definitely relying so much on LLMs
+[01:39:09.920 --> 01:39:14.080]   that we cannot consider them always fully reliable.
+[01:39:14.080 --> 01:39:18.320]   So my suggestion here is to try and make them a little bit less
+[01:39:18.320 --> 01:39:19.320]   like slot machines.
+[01:39:19.320 --> 01:39:22.840]   So the successes you get are more frequent.
+[01:39:22.840 --> 01:39:25.520]   So try and tune them with respect
+[01:39:25.520 --> 01:39:29.160]   to the kind of problem you have so that it's not
+[01:39:29.160 --> 01:39:32.160]   like every time you run them, they behave differently,
+[01:39:32.160 --> 01:39:34.960]   but you have some baseline or some grounding
+[01:39:34.960 --> 01:39:38.960]   you can use to make them behave more predictably.
+[01:39:38.960 --> 01:39:41.760]   And last but not least, prevent ancientification.
+[01:39:41.760 --> 01:39:44.320]   I know it's not a great term to use in talks,
+[01:39:44.320 --> 01:39:47.280]   but I think it's probably now in everyone's vocabulary.
+[01:39:47.280 --> 01:39:50.080]   Still by Corey Doctorow, if you haven't heard it before,
+[01:39:50.080 --> 01:39:50.840]   just look for it.
+[01:39:50.840 --> 01:39:53.040]   There's plenty of material about that.
+[01:39:53.040 --> 01:39:58.040]   But in general, the approach is, which kind of data or freedoms
+[01:39:58.040 --> 01:40:01.920]   or control are you giving away with each choice you make?
+[01:40:01.920 --> 01:40:03.920]   And the choice could be the tools
+[01:40:03.920 --> 01:40:09.760]   you're adding to your agents, like the search engine tool,
+[01:40:09.760 --> 01:40:13.640]   or the model that you're using, or the code, the libraries
+[01:40:13.640 --> 01:40:15.200]   that you're relying on.
+[01:40:15.200 --> 01:40:17.200]   Try and understand whether at some point
+[01:40:17.200 --> 01:40:20.160]   somebody will just turn that tab off
+[01:40:20.160 --> 01:40:22.960]   and will make you unable to continue running your tools
+[01:40:22.960 --> 01:40:25.680]   or not.
+[01:40:25.680 --> 01:40:28.960]   Then this is just for you to think about in the longer term.
+[01:40:28.960 --> 01:40:34.160]   What happens when you have an agent that just,
+[01:40:34.160 --> 01:40:37.760]   without the need of REST, can go on the web
+[01:40:37.760 --> 01:40:41.440]   and search for information until it finds it?
+[01:40:41.440 --> 01:40:42.960]   This was one of the many examples
+[01:40:42.960 --> 01:40:46.320]   I tried to run about getting somebody's birthdate.
+[01:40:46.320 --> 01:40:49.440]   Sometimes I didn't give it my birthdate in a CSV file.
+[01:40:49.440 --> 01:40:52.400]   I just said, go on the web and look for it.
+[01:40:52.400 --> 01:40:55.040]   And I'm perfectly fine with this being around
+[01:40:55.040 --> 01:40:57.680]   because I put it in my CD, which is online.
+[01:40:57.680 --> 01:40:59.920]   But how much information can someone
+[01:40:59.920 --> 01:41:03.600]   get with a tool that never gets tired and just goes on the web
+[01:41:03.600 --> 01:41:06.000]   and looks for something?
+[01:41:06.000 --> 01:41:08.720]   So I leave it to you as an open question.
+[01:41:08.720 --> 01:41:10.720]   And I try to conclude with this.
+[01:41:10.720 --> 01:41:14.800]   This is a choose your own adventure book-like choice.
+[01:41:14.800 --> 01:41:22.160]   So I wanted to cite this power law of engagement
+[01:41:22.160 --> 01:41:25.360]   that I found exactly 20 years ago on a book.
+[01:41:25.360 --> 01:41:29.120]   Power law of participation, sorry.
+[01:41:29.120 --> 01:41:33.920]   The idea is you can start with--
+[01:41:33.920 --> 01:41:36.480]   and this was related especially to Wikipedia.
+[01:41:36.480 --> 01:41:38.480]   You can read and you're already contributing
+[01:41:38.480 --> 01:41:39.920]   because you are one of the many users.
+[01:41:39.920 --> 01:41:42.800]   You can favorite something, tag, comment, subscribe,
+[01:41:42.800 --> 01:41:45.600]   and so on until you go and lead projects.
+[01:41:45.600 --> 01:41:49.840]   So I would say following this idea,
+[01:41:49.840 --> 01:41:53.840]   you can just check out what we do at Mozilla AI GitHub org.
+[01:41:53.840 --> 01:41:55.520]   You can play with different agents,
+[01:41:55.520 --> 01:41:57.840]   even tools that we don't own.
+[01:41:57.840 --> 01:42:00.320]   It's perfectly fine as long as they're open source.
+[01:42:00.320 --> 01:42:01.280]   We're happy about that.
+[01:42:01.280 --> 01:42:05.760]   Write your own any agent, test different models,
+[01:42:05.760 --> 01:42:08.240]   try different tools and MCP servers,
+[01:42:08.240 --> 01:42:11.680]   and finally host tools or services for your community.
+[01:42:11.680 --> 01:42:12.800]   Anything works.
+[01:42:12.800 --> 01:42:14.640]   Of course, you can also do none of those.
+[01:42:14.640 --> 01:42:18.160]   Already being here has been a great experience for me,
+[01:42:18.160 --> 01:42:20.400]   and I'm very happy that you joined this class.
+[01:42:20.400 --> 01:42:24.080]   And these are some of the tools that we make available
+[01:42:24.080 --> 01:42:28.240]   to allow people to tackle agentic coding
+[01:42:28.240 --> 01:42:30.480]   at different levels of abstraction
+[01:42:30.480 --> 01:42:33.680]   from agentic frameworks to choosing LLMs
+[01:42:33.680 --> 01:42:36.960]   to hosting MCP tools, adding guardrails,
+[01:42:36.960 --> 01:42:38.800]   or just run encoder models.
+[01:42:39.360 --> 01:42:42.480]   And the last message I will give you all is like,
+[01:42:42.480 --> 01:42:45.360]   be like Ada and tinker with stuff.
+[01:42:45.360 --> 01:42:48.720]   Let us know how it works and have fun with this.
+[01:42:48.720 --> 01:42:50.720]   And thanks a lot.
+[01:42:50.720 --> 01:42:52.320]   I'm leaving the word to David,
+[01:42:52.320 --> 01:42:55.360]   which maybe wants to greet you too.
+[01:42:55.360 --> 01:42:57.120]   And thanks again for being here.
+[01:42:57.120 --> 01:43:00.560]   I have nothing more to add.
+[01:43:00.560 --> 01:43:03.280]   I am surprised by how long you can talk without drinking.
+[01:43:06.400 --> 01:43:11.440]   Thanks, David. Now I will.
+[01:43:11.440 --> 01:43:13.120]   I know we don't have a lot of time,
+[01:43:13.120 --> 01:43:15.840]   but if you have any questions, we still have a few minutes.
+[01:43:15.840 --> 01:43:22.480]   Sounds good.
+[01:43:22.480 --> 01:43:28.880]   Sorry, just to check if there are any remaining questions from Slack.
+[01:43:28.880 --> 01:43:43.040]   Okay, yes, I think your questions have been answered by David as well.
+[01:43:43.040 --> 01:43:48.560]   So feel free to raise your hand and ask questions
+[01:43:48.560 --> 01:43:50.480]   during before the end of the session.
+[01:43:50.480 --> 01:43:56.400]   And just a reminder that we will have another office hour next week.
+[01:43:56.400 --> 01:44:00.320]   So please feel free to practice through these tutorials
+[01:44:00.320 --> 01:44:04.240]   and come back with more in-depth questions.
+[01:44:04.240 --> 01:44:08.480]   I think there is one raised the hand by everyone.
+[01:44:08.480 --> 01:44:11.920]   So please unmute to talk us through your questions.
+[01:44:11.920 --> 01:44:12.560]   Hi David, can you hear me?
+[01:44:12.560 --> 01:44:13.860]   Yeah.
+[01:44:13.860 --> 01:44:17.120]   Well, first of all, thank you for the very great presentation.
+[01:44:17.120 --> 01:44:23.680]   I have a question regarding memory as I'm finding it now kind of confusing.
+[01:44:23.680 --> 01:44:26.160]   There are way too many options.
+[01:44:26.160 --> 01:44:28.240]   I saw Karbati's wiki.
+[01:44:28.240 --> 01:44:31.280]   I saw there are people using knowledge graphs.
+[01:44:31.280 --> 01:44:34.640]   There are some people who don't use specialized tools
+[01:44:34.640 --> 01:44:36.160]   and just leave everything in the context.
+[01:44:36.160 --> 01:44:38.320]   So like, can you comment on this?
+[01:44:38.320 --> 01:44:40.240]   Which tools do you think are better?
+[01:44:40.240 --> 01:44:44.640]   Like what's the most efficient way to store memory in Asians?
+[01:44:44.640 --> 01:44:48.240]   Really hard question.
+[01:44:48.240 --> 01:44:54.560]   I guess the best answer that is not very helpful is you need to try it.
+[01:44:54.560 --> 01:44:58.400]   That's why I like about building from scratch.
+[01:44:58.400 --> 01:45:01.920]   Because in many times someone might recommend something
+[01:45:01.920 --> 01:45:05.040]   that works great for the use case and you adopt it.
+[01:45:05.040 --> 01:45:09.760]   But that system might be over complicated for your use case.
+[01:45:09.760 --> 01:45:14.800]   So my personal approach is to start from the most simple approach.
+[01:45:14.800 --> 01:45:17.280]   Like what I show, just tools.
+[01:45:17.280 --> 01:45:19.760]   And then as I discover where are the gaps,
+[01:45:19.760 --> 01:45:22.560]   where are the things that I need to improve, I improve that.
+[01:45:22.560 --> 01:45:25.920]   And if I reach the point where I need a knowledge graph,
+[01:45:25.920 --> 01:45:28.800]   then I will reach it and I will discover it.
+[01:45:28.800 --> 01:45:32.480]   But I think probably the worst thing that you can do
+[01:45:32.480 --> 01:45:34.400]   is to start with the most complex system.
+[01:45:34.400 --> 01:45:38.480]   Yeah, sorry, I don't know if that helps.
+[01:45:38.480 --> 01:45:39.920]   It helps a lot.
+[01:45:39.920 --> 01:45:41.440]   Okay, I got you what you mean.
+[01:45:41.440 --> 01:45:45.200]   I have one more small question.
+[01:45:45.200 --> 01:45:46.480]   It's about costs.
+[01:45:46.480 --> 01:45:48.560]   Like if I'm working with an element system,
+[01:45:48.560 --> 01:45:53.280]   I'm always afraid that the users might abuse the system
+[01:45:53.280 --> 01:45:56.960]   and I will have very high costs that I wouldn't expect.
+[01:45:56.960 --> 01:45:58.960]   So what are some ways that I can limit this
+[01:45:58.960 --> 01:46:00.640]   or control the cost of the system?
+[01:46:00.640 --> 01:46:11.040]   So one way is depending on how much you want to invest
+[01:46:11.040 --> 01:46:14.800]   in your own infrastructure, you can host your own models, right?
+[01:46:14.800 --> 01:46:19.360]   So you fully own the infrastructure
+[01:46:19.360 --> 01:46:20.960]   and you can optimize that.
+[01:46:20.960 --> 01:46:24.640]   And then I guess depending on the use case,
+[01:46:24.640 --> 01:46:27.600]   for example, now in one of the products that I am working,
+[01:46:27.600 --> 01:46:31.040]   one way that we are figuring out how to reduce cost
+[01:46:31.040 --> 01:46:34.480]   is actually use more specialized sub-agents.
+[01:46:34.480 --> 01:46:39.680]   So give the user a really good default powerful agent
+[01:46:39.680 --> 01:46:40.800]   that is the main driver.
+[01:46:41.360 --> 01:46:46.160]   But then for a specialized task, like, I don't know, do stuff on a Slack,
+[01:46:46.160 --> 01:46:50.960]   for example, we have a specialized agent that uses a much smaller model.
+[01:46:50.960 --> 01:46:55.520]   And this is, I know, I don't know, this is one way of reducing cost,
+[01:46:55.520 --> 01:46:58.560]   but it's an open problem.
+[01:46:58.560 --> 01:47:03.120]   And this is also one of the reasons why we advocate for open source models,
+[01:47:03.120 --> 01:47:09.920]   because the costs of today LLM providers like Anthropic and OpenAI
+[01:47:09.920 --> 01:47:15.840]   can rise tomorrow because they are the ones fully owning it.
+[01:47:15.840 --> 01:47:19.280]   And then if you are too attached to that, you have no alternative, right?
+[01:47:19.280 --> 01:47:22.640]   If Anthropic starts charging whatever they want tomorrow,
+[01:47:22.640 --> 01:47:24.560]   a lot of people will struggle.
+[01:47:24.560 --> 01:47:29.200]   So the best option is to not be attached to any specific provider.
+[01:47:29.200 --> 01:47:33.680]   Yeah, I don't have more advice.
+[01:47:33.680 --> 01:47:36.800]   Okay, thank you very much. That was very helpful.
+[01:47:39.360 --> 01:47:46.640]   And just to add one thing on this, I think that David raised something in both answers
+[01:47:46.640 --> 01:47:48.480]   that, in my opinion, is quite important.
+[01:47:48.480 --> 01:47:56.080]   Like, look and see what's best for you is, to me, is not an empty answer or too general.
+[01:47:56.080 --> 01:47:59.120]   Like, it's really where it boils down to.
+[01:47:59.120 --> 01:48:05.280]   And a process that's often taken by companies, especially startups,
+[01:48:05.280 --> 01:48:10.080]   is let's apply the 80/20 rule, so let's try and find a solution
+[01:48:10.080 --> 01:48:16.160]   that gets us there as soon as possible, and then try and reduce the costs, right?
+[01:48:16.160 --> 01:48:22.800]   But one of the issues we have now is that when we do that with the current AI systems,
+[01:48:22.800 --> 01:48:30.560]   it will work, but eventually it's going to be very hard to avoid being locked in
+[01:48:30.560 --> 01:48:34.160]   unless you know very well exactly what you need.
+[01:48:34.880 --> 01:48:40.800]   And by delving deeper and doing more about your use cases, what you need,
+[01:48:40.800 --> 01:48:45.280]   what is the best model for that specific task that you need to do
+[01:48:45.280 --> 01:48:47.360]   is going to be a good solution for you.
+[01:48:47.360 --> 01:48:50.080]   And to some extent, Cloud itself is applying that.
+[01:48:50.080 --> 01:48:56.800]   I have one example, which is if you look at the Cloud skill for code reviewing,
+[01:48:56.800 --> 01:48:59.760]   you go and just look at the source code of it.
+[01:48:59.760 --> 01:49:02.720]   It's going to be downloaded when you activate the plugin.
+[01:49:02.720 --> 01:49:05.920]   And in the instructions, you will see that
+[01:49:05.920 --> 01:49:09.520]   not all the tasks are assigned to the most powerful models.
+[01:49:09.520 --> 01:49:16.000]   Like very often Haiku, which is much less powerful, is used to perform some of the tasks.
+[01:49:16.000 --> 01:49:22.800]   So I think that is telling about the fact that even they try to customize models for the tasks.
+[01:49:22.800 --> 01:49:26.880]   That's a brilliant idea.
+[01:49:26.880 --> 01:49:28.160]   Thank you a lot.
+[01:49:28.160 --> 01:49:29.120]   Thanks a lot for your session.
+[01:49:29.120 --> 01:49:31.120]   Thank you very much.
+[01:49:31.120 --> 01:49:44.640]   Can you hear me?
+[01:49:44.640 --> 01:49:46.400]   Yes, I can.
+[01:49:46.400 --> 01:49:49.680]   Hey, guys.
+[01:49:49.680 --> 01:49:50.800]   Thank you for the session.
+[01:49:50.800 --> 01:49:54.080]   Just one question or a thought that I thought to discuss.
+[01:49:54.080 --> 01:49:57.440]   So we discussed certain tools and implementing like memory and other things.
+[01:49:58.080 --> 01:50:02.640]   What we kind of think about the new SDKs or libraries that are in market as an open source
+[01:50:02.640 --> 01:50:06.640]   core where these all things, specifically the contextual data, all your custom workflows
+[01:50:06.640 --> 01:50:09.440]   can be implemented using those libraries or SDKs.
+[01:50:09.440 --> 01:50:14.320]   So you don't have to take care about all the implementation of an orchestrator or your
+[01:50:14.320 --> 01:50:14.800]   workflows.
+[01:50:14.800 --> 01:50:22.560]   And so, for example, I'm talking about like recently taken or taken a line by line graph
+[01:50:22.560 --> 01:50:27.120]   where you can have an orchestrator and multiple workflows that can act as your tools and the
+[01:50:27.120 --> 01:50:32.080]   orchestrator can decide what workflow to follow with respect of maintaining all the audit
+[01:50:32.080 --> 01:50:34.800]   frames and even the history, even retry mechanisms.
+[01:50:34.800 --> 01:50:36.320]   So what do you think about all these tools?
+[01:50:36.320 --> 01:50:42.800]   Like are they sufficient enough to include them when working on systems like this?
+[01:50:42.800 --> 01:50:43.200]   Thank you.
+[01:50:43.200 --> 01:50:46.640]   Thanks a lot for the question.
+[01:50:46.640 --> 01:50:51.840]   I think it's very much everyone's choice, right?
+[01:50:51.840 --> 01:50:57.520]   So I'm not against using tools that make your life easier, and I'm perfectly fine using
+[01:50:57.520 --> 01:50:58.020]   any.
+[01:50:58.020 --> 01:51:05.600]   I think the main reason for us for like really trying to do things from scratch in this class
+[01:51:05.600 --> 01:51:09.520]   is because otherwise you probably wouldn't have many chances to do that on your own,
+[01:51:09.520 --> 01:51:10.080]   right?
+[01:51:10.080 --> 01:51:11.920]   And I understand that it's perfectly fine.
+[01:51:11.920 --> 01:51:18.720]   Like to me, it makes a lot of sense, especially in your work, not to have to record everything
+[01:51:18.720 --> 01:51:20.880]   from scratch, but to know like how things work.
+[01:51:21.600 --> 01:51:31.600]   So I would say just go ahead with this and just keep an eye on whether making those decisions
+[01:51:31.600 --> 01:51:37.520]   is kind of locking you into any particular decision or solution in the longer term.
+[01:51:37.520 --> 01:51:40.880]   This is the general approach that I would apply.
+[01:51:40.880 --> 01:51:48.720]   Otherwise, just go with it and from time to time review your decision, check if anything
+[01:51:48.720 --> 01:51:54.560]   changed, check if anything is working better, or maybe if you see any pattern emerging that
+[01:51:54.560 --> 01:51:55.920]   doesn't really work well for you.
+[01:51:55.920 --> 01:52:00.640]   Especially if there are libraries which are open source libraries, you can be a part of
+[01:52:00.640 --> 01:52:05.200]   the community and try and give your feedback, and so you can even make sure that whatever
+[01:52:05.200 --> 01:52:07.760]   you use is improving together with how you use it.
+[01:52:07.760 --> 01:52:16.000]   But again, it very much depends on your use case, so I would summarize it with no judgment.
+[01:52:16.000 --> 01:52:22.080]   I use whatever works for you, and just try and apply the more general approach of checking
+[01:52:22.080 --> 01:52:26.640]   out from time to time and being mindful about the choices that you're making, how they
+[01:52:26.640 --> 01:52:30.880]   power you, and how they lock you somehow.
+[01:52:30.880 --> 01:52:36.720]   Thanks John.
+[01:52:36.720 --> 01:52:54.700]   [ Silence ]
+
