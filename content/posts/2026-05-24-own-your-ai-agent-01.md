@@ -14,7 +14,7 @@ Given the length of the lecture I decided to split this post in three parts. The
 
 #### AI Disclaimer
 I used AI to help me write this post as follows:
-- I used whisperfile to transcribe the audio of our talk to a [text file](/data/transcript.txt)
+- I used [whisperfile](https://mozilla-ai.github.io/llamafile/whisperfile/) to transcribe the audio of our talk to a [text file](/data/transcript.txt)
 - I used Claude Opus 4.7 with the following prompt to draft a blog post from the transcript and the [slides](/data/20260508%20-%20Own%20your%20AI%20Agent%20@%20OxML%202026.pdf):
 
 ```
@@ -27,7 +27,7 @@ I have both the transcription and the slides. The former has timestamps too so i
 Can you produce a markdown file we will iterate on?
 ```
 
-- (... yeah, I am a bad prompter :sweat_smile:). After I got [this markdown file](/data/own-your-ai-agent_draft.md), I worked on it to get the final result you are reading here.
+- (... yeah, I am a bad prompter 😅). After I got [this markdown file](/data/own-your-ai-agent_draft.md), I worked on it to get the final result you are reading here.
 
 That's it. I wanted the process to be 100% transparent to you, so you can make an informed choice whether you want to continue reading this or not. 
 
@@ -50,7 +50,7 @@ I strongly identify with Ada. Around her age I printed, with my dot matrix print
 
 In 2005 I gave a series of talks about something I called [PowerBrowsing](http://davide.eynard.it/malawiki/PowerBrowsing.html). I started those talks with a very simple metaphor: we see reality through our eyes, but our eyes can be helped. If we have myopia, glasses correct what we see back to what's really there. And using colored sunglasses we can also customize how we see things, bending reality to our preferences.
 
-I wanted to apply the same idea to the web. In the early 2000s, websites were drowning in pop-ups and ads (we have, in some ways, returned to that). My "eye with bad eyesight" was... Internet Explorer :grimacing:. The "corrected eye" was Firefox with an ad blocker. And the "sunglasses" were custom bots that would crawl a site, extract the actual content I cared about, and serve it to me cleanly. Just the information I wanted, even if it was not readily available in reality.
+I wanted to apply the same idea to the web. In the early 2000s, websites were drowning in pop-ups and ads (we have, in some ways, returned to that). My "eye with bad eyesight" was... Internet Explorer 😬. The "corrected eye" was Firefox with an ad blocker. And the "sunglasses" were custom bots that would crawl a site, extract the actual content I cared about, and serve it to me cleanly. Just the information I wanted, even if it was not readily available in reality.
 
 ![Slide 6: The actual setup, a laptop in a drawer](/images/own-your-ai-agent/slide-06.jpg)
 
@@ -60,7 +60,7 @@ I built these tools in Perl, running on an old Compaq Armada that lived in a dra
 
 ![Slide 8: Vibe reversing with Claude](/images/own-your-ai-agent/slide-08.jpg)
 
-Last year I tried the same exercise again, but with Claude. The target was *Viaggiatreno*, the Italian railway website, which holds train timetables for every station in Italy. The purpose was getting the timetables without clicking through the website's menus and ads, or installing yet another ad-hoc app. Not a very useful goal per se (I do not live in Italy anymore), but a useful task nonetheless as I had already successfully completed it twenty years earlier, so I could make a fair comparison.
+Last year I [tried the same exercise again]({{< ref "2025-06-17-vibe-reversing.md" >}}), but with Claude. The target was *Viaggiatreno*, the Italian railway website, which holds train timetables for every station in Italy. The purpose was getting the timetables without clicking through the website's menus and ads, or installing yet another ad-hoc app. Not a very useful goal per se (I do not live in Italy anymore), but a useful task nonetheless as I had already successfully completed it twenty years earlier, so I could make a fair comparison.
 
 The [solution](http://davide.eynard.it/cgi-bin/perlcode.pl?file=treni.pl) I implemented in 2005 was simple and compact, still it took me days to develop: I had to learn the site, practice Perl and regular expressions, write the crawler from scratch. This time I opened Claude, described the problem, and pasted a screenshot of the network tab. Claude found the JSON endpoints, suggested how to call them, and even built me a small UI. It worked basically out of the box.
 
@@ -75,7 +75,7 @@ My experiment worked. But four things bothered me, leaving me uneasy:
 - **Claude gave me excellent learning references.** Which, if I had only wanted the quick answer, I would have skipped entirely.
 - **I wrote zero lines of code, and I learned nothing.** Twenty years ago I came out the other side with knowledge of HTTP, of curl, of regular expressions — knowledge I have reused for two decades. This time I came out with basically nothing, except the precise answer to my questions.
 
-On top of this, when I wrote a [blog post](https://aittalam.github.io/posts/2025-06-17-vibe-reversing/) about this and asked Claude to give the strongest possible criticism of my position, the reply was: *"You're a technical person telling non-technical people to make their lives harder to solve problems that mostly exist in your head."*
+On top of this, when I wrote a [blog post](https://aittalam.github.io/posts/2025-06-17-vibe-reversing/) about this and asked Claude to give the strongest possible criticism of my position, the reply was: *"You're a technical person telling non-technical people to make their lives harder to solve problems that mostly exist in your head."* 😅
 
 That stung. So let me ask: are these problems just in my head?
 
