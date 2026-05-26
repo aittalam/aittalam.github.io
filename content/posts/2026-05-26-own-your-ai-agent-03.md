@@ -147,7 +147,7 @@ The [Kiwix](https://kiwix.org/) project distributes the entire Wikipedia in a si
 
 ### Building a small knowledge base
 
-The other extreme is your own data. I keep notes in [Joplin](https://joplinapp.org/) — not because Joplin is special, but because it has an API. I built a small wiki about the [llamafile](https://github.com/mozilla-ai/llamafile) project I work on, then asked a 9B local model with read access to those notes to summarize the main GPU-acceleration issues I'd worked on. The output was a good summary, with sections matching the documentation I'd actually written.
+The other extreme is your own data. I keep notes in [Joplin](https://joplinapp.org/), because it is an amazing, open source note taking tool that resisted enshittification and just works. In addition to that, it also has an API to access it programmatically. I built a small wiki about the [llamafile](https://github.com/mozilla-ai/llamafile) project I work on, then asked a 9B local model with read access to those notes to summarize the main GPU-acceleration issues I'd worked on. The output was a good summary, with sections matching the documentation I'd actually written.
 
 The idea of building a personal "wiki" populated by an LLM reading and restructuring your existing notes comes from a [recent gist by Andrej Karpathy](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f). The point is that, while building from scratch or maintaining such a wiki might require some level of expressiveness, you do not need a state-of-the-art model to do useful retrieval over a few hundred of your own notes. A small local model and a few tools can often be enough.
 
