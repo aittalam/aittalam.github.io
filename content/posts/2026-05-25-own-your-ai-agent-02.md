@@ -9,7 +9,7 @@ date: 2026-05-25
 
 What you are reading is the written version of a lecture David and I gave on building and running AI agents that you own completely. It starts from the assumption that even if a commercial AI service is not inherently bad, depending on one for everything definitely is. After providing a way to compare commercial and open source AI systems more fairly, we walk through the primitives that every modern agent is built from. With a series of concrete experiments with local models and tools, we explain how open source agents work and where they fail. The argument throughout is that you don't have to depend on closed, rented systems for everything — and that you learn a lot more when you don't.
 
-Given the length of the lecture I decided to split this post in three parts. You are currently reading the second one. [Part 1]({{< ref "2026-05-24-own-your-ai-agent-01.md" >}}) provides an introduction with motivations and background, this post walks you through the five primitives that most modern agents are built from, and part 3 (coming tomorrow) presents a series of concrete experiments with local models and tools.
+Given the length of the lecture I decided to split this post in three parts. You are currently reading the second one. [Part 1]({{< ref "2026-05-24-own-your-ai-agent-01.md" >}}) provides an introduction with motivations and background, this post walks you through the five primitives that most modern agents are built from, and [part 3]({{< ref "2026-05-26-own-your-ai-agent-03.md" >}}) presents a series of concrete experiments with local models and tools.
 
 
 ## Every agent is the same five things
