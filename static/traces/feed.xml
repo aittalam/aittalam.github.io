@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:pit="https://pi-traces.dev/ns/1">
+  <title>+mala's Pi traces</title>
+  <id>https://aittalam.github.io/static/traces/feed.xml</id>
+  <updated>2026-07-16T22:14:00.257Z</updated>
+  <author><name>+mala</name></author>
+  <link rel="self" type="application/atom+xml" href="https://aittalam.github.io/static/traces/feed.xml"/>
+  <link rel="alternate" type="text/html" href="https://aittalam.github.io/static/traces/"/>
+  <generator uri="https://github.com/mozilla-ai/pi-traces">pi-traces</generator>
+  <pit:catalog complete="true"/>
+  <entry>
+    <title>Can you get the transcript for the YT video that plays at URL https://www.youtube.com/watc</title>
+    <id>urn:uuid:019eebc0-252c-7694-9ffa-25d45562e726</id>
+    <published>2026-07-16T22:14:00.257Z</published>
+    <updated>2026-07-16T22:14:00.257Z</updated>
+    <summary type="text">Can you get the transcript for the YT video that plays at URL https://www.youtube.com/watch?v=Mx9UIwU5F7c and tell me where Bill Gates talks about China and says &quot;Although about three million computers get sold every year in China, people don't pay for the software&quot;?</summary>
+    <link rel="alternate" type="text/html" href="https://pi.dev/session/#7f9b07485392d01476c7a201525e8071"/>
+    <link rel="enclosure" type="application/base64" length="194872" href="https://aittalam.github.io/static/traces/traces/019eebc0-252c-7694-9ffa-25d45562e726.b64"/>
+    <pit:session version="3" entries="23" messages="21" cwd="/Users/mala"/>
+    <pit:gist id="7f9b07485392d01476c7a201525e8071"/>
+  </entry>
+  <entry>
+    <title>I am looking for the following article: &quot;The Bill and Warren Show&quot; — Fortune Magazine, Jul</title>
+    <id>urn:uuid:019eeb9d-8522-7ec7-8a46-31cfde09d827</id>
+    <published>2026-07-16T22:13:52.916Z</published>
+    <updated>2026-07-16T22:13:52.916Z</updated>
+    <summary type="text">I am looking for the following article: &quot;The Bill and Warren Show&quot; — Fortune Magazine, July 20, 1998 Author: Brent Schlender Pages: 48–64 Please help me find it on the Web. Look for magazine archives, images collections, torrent engines, everything you think might be a good sourc</summary>
+    <link rel="alternate" type="text/html" href="https://pi.dev/session/#ca434f97d50d82aafaff8b06226b0f52"/>
+    <link rel="enclosure" type="application/base64" length="347412" href="https://aittalam.github.io/static/traces/traces/019eeb9d-8522-7ec7-8a46-31cfde09d827.b64"/>
+    <pit:session version="3" entries="85" messages="83" cwd="/Users/mala"/>
+    <pit:gist id="ca434f97d50d82aafaff8b06226b0f52"/>
+  </entry>
+  <entry>
+    <title>can you find bill gates quote about him not caring that his products were copied, he just </title>
+    <id>urn:uuid:019e5913-5dde-7294-8b69-98e57fff61af</id>
+    <published>2026-07-16T22:13:33.885Z</published>
+    <updated>2026-07-16T22:13:33.885Z</updated>
+    <summary type="text">can you find bill gates quote about him not caring that his products were copied, he just wanted them to be the most copied in the world?</summary>
+    <link rel="alternate" type="text/html" href="https://pi.dev/session/#d95381689e49b49681abb2f11573003e"/>
+    <link rel="enclosure" type="application/base64" length="169272" href="https://aittalam.github.io/static/traces/traces/019e5913-5dde-7294-8b69-98e57fff61af.b64"/>
+    <pit:session version="3" entries="58" messages="56" cwd="/Users/mala"/>
+    <pit:gist id="d95381689e49b49681abb2f11573003e"/>
+  </entry>
+</feed>
